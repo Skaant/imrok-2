@@ -1,0 +1,27 @@
+{
+  "name": "imrok-2",
+  "version": "0.1.0",
+  "description": "IMROK's source code (built on kami.js)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js --experimental-modules",
+    "test": "test"
+  },
+  "keywords": [
+    "site",
+    "creative",
+    "web",
+    "art",
+    "abstract",
+    "writings",
+    "poems",
+    "articles",
+    "thoughts"
+  ],
+  "author": "imrok",
+  "license": "ISC",
+  "devDependencies": {
+    "showdown": "^1.9.1"
+  }
+}

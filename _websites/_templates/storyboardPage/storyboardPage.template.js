@@ -6,7 +6,7 @@ export default data => {
   const prevNextRow = `
 <div class="row justify-content-between my-3">
   ${
-    data.page.index > 0
+    data.page.index > 1
       ? 
 `           <a href="/storyboards/${
             data.storyboard.id }/${ data.page.index - 1 }">
@@ -41,7 +41,15 @@ export default data => {
         </h1>
         ${ prevNextRow }
         <div class="row justify-content-center">
-          <img src="./original.jpg"/>
+          ${
+            data.page.index < data.storyboard.pages.length
+              ? 
+`         <a href="/storyboards/${
+              data.storyboard.id }/${ data.page.index + 1 }">
+            <img src="./original.jpg"/></a>`
+
+              : '<img src="./original.jpg"/>'
+          }
         </div>
         ${ prevNextRow }
         ${
@@ -70,16 +78,16 @@ export default data => {
           
             : ''
         }
-        <h2>
+        <h3>
           Retour
           <a href="/storyboards/${ data.storyboard.id }">
-            Retour ${ data.storyboard.title }</a>
+            ${ data.storyboard.title }</a>
           /
           <a href="/storyboards">
-            Retour STORYBOARDS</a>
+            STORYBOARDS</a>
           /
           <a href="/">
-            Retour HUB (accueil)</a>
-        </h2>`
+            HUB (accueil)</a>
+        </h3>`
     })
 }

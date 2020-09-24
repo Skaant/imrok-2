@@ -1,6 +1,7 @@
 export default {
   title: 'projet HOL',
   date: '17/02/2020',
+  tags: [ 'tout-un', 'abs' ],
   content: `
 le projet HOL n'a pas de début ni de fin
 

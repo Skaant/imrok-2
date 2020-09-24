@@ -1,6 +1,7 @@
 export default {
   title: 'Dérivation des motifs',
   date: '07/09/2020',
+  tags: [ 'patterns', 'dev', 'abs' ],
   content: `
 ## Mise en garde sur l'utilisation des motifs
 

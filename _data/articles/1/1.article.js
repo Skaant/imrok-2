@@ -1,6 +1,7 @@
 export default {
   title: "j'ai mis des règles sur ce site",
   date: "07/12/2019",
+  tags: [ 'edito', 'abs', 'imrok.fr' ],
   content: `
 j'ai mis des règles pour structurer ma donnée et mon code
 j'ai mis des règles dans mon code pour vérifier la structure de mes données

@@ -1,6 +1,7 @@
 export default {
   title: 'POKÉ TEAM - UX design et release',
   date: '29/05/2020',
+  tags: [ 'ux', 'design', 'poke-team.net' ],
   content: `
 ## Un projet de recherche
 

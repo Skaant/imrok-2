@@ -10,25 +10,34 @@ export default data => layoutFragment(
     content: `<div class="container">
       <h1 class="main">
         ${ data.storyboard.title }</h1>
-      <ul>
+      <ul class="list-unstyled">
+        <li class="d-inline-block mt-2 mr-2">
+          <a class="btn btn-warning rounded-pill px-4"
+              href="/storyboards/${ data.storyboard.id }/1">
+            <b>Commencer la lecture !
+              <span class="badge badge-pill badge-light mt-1">
+                1</span></b></a>
+          </a>
         ${
-          data.storyboard.pages.map((page, index) =>
-`       <li>
-          <a href="/storyboards/${
-              data.storyboard.id }/${ index + 1 }">
-            Page ${ index + 1}
+          data.storyboard.pages.slice(1)
+            .map((page, index) =>
+`       <li class="d-inline-block mt-2">
+          <a class="btn btn-light rounded-pill"
+              href="/storyboards/${
+                data.storyboard.id }/${ index + 2 }">
+            ${ index + 2 }
           </a>
         </li>`)
             .join('\n')
         }
       </ul>
-      <h2>
+      <h3>
         Retour
         <a href="/storyboards">
           STORYBOARDS</a>
         /
         <a href="/">
           Retour HUB (accueil)</a>
-      </h2>
+      </h3>
     </div>`
   })

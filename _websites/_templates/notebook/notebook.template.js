@@ -22,14 +22,14 @@ export default data => layoutFragment(
             .join('\n')
         }
       </ul>
-      <h2>
+      <h3
         Retour
         <a href="/carnets">
           Retour CARNETS</a>
         /
         <a href="/">
           Retour HUB (accueil)</a>
-      </h2>
+      </h3>
   </body>
 </html>`
   })

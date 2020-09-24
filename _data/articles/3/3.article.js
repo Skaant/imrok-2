@@ -1,13 +1,14 @@
 export default {
   title: 'je mets à jour mon site',
   date: '07/04/2020',
+  tags: [ 'edito', 'web', 'imrok.fr' ],
   content: `
 je travaille beaucoup sur [PERMA-DATA](www.permadata.net),
 en plus de mon activité professionnelle, mais
 des fois
 j'en ai marre, je piétine
 
-imrok.fr a beau être mon site internet,
+[imrok.fr](/) a beau être mon site internet,
 c'est un projet secondaire derrière l'argent et la permaculture
 
 pourtant il y a là le plus important
@@ -22,8 +23,9 @@ et pourquoi je mettais pas de CSS
 moi ça m'a dit :
 quelqu'un a cliqué sur le lien en description
 
-d'une certaine manière, cela a
-justifié l'existence de ce site
+d'une certaine manière,
+même un seul visiteur
+justifie l'existence de ce site
 
 depuis que les idées s'agrègent autour du papier
 que mon esprit digère puis regurgite

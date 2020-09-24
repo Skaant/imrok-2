@@ -1,6 +1,7 @@
 export default {
   id: 'pensees-7',
   title: 'Pensées 7',
-  subtitle: 'dank reprogramming koans & principles',
+  subtitle: 'Dank reprogramming koans & principles',
+  date: '2017/04/01',
   period: 'deuxième trimestre 2017'
 }

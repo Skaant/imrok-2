@@ -1,4 +1,5 @@
 import layoutFragment from "../_fragments/layout/layout.fragment.js";
+import articlesListItemFragment from "../_fragments/articlesListItem/articlesListItem.fragment.js";
 
 export default data => layoutFragment(
   data,
@@ -15,22 +16,23 @@ export default data => layoutFragment(
         <br>
         C'est pour notifier d'une mise-à-jour,<br>
         D'un site, d'un projet, d'une idée.</p>
-      <ul style="list-style: none">
+        <ul class="list-unstyled">
         ${
           data.articles.slice()
             .reverse()
-            .map((article, index) => `
-        <li>
-          <span>${ data.articles.length - index }. </span>
-          <a href="/articles/${ data.articles.length - index }">
-            ${ article.title } (${ article.date })</a>
-        </li>`)
-            .join('\n')
+            .map((article, index) =>
+            
+              articlesListItemFragment({
+                article,
+                articles: data.articles,
+                index
+              }))
+            .join('')
         }
       </ul>
-      <h2>
+      <h3>
         Retour 
         <a href="/">
           HUB (accueil)</a>
-      </h2>`
+      </h3>`
       })

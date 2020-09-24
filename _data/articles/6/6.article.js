@@ -1,6 +1,7 @@
 export default {
   title: "Mise-en-ligne de l'HIGHBS-BOK, désactivation de PERMA-DATA",
   date: '21/06/2020',
+  tags: [ 'livre', 'art', 'abs', 'highbs-bok.art', 'permadata.net' ],
   content: `
 ## L'[HIGHBS-BOK](https://highbs-bok.art)
 

@@ -1,6 +1,7 @@
 export default {
   title: "L'exponentialité dans le développement informatique",
   date: '15/07/2020',
+  tags: [ 'dev', 'abs' ],
   content: `
 ## La source de l'exponentialité
 

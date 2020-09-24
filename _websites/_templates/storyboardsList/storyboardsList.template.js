@@ -1,4 +1,5 @@
 import layoutFragment from "../_fragments/layout/layout.fragment.js";
+import storyboardsListItemFragment from "../_fragments/storyboardsListItem/storyboardsListItem.fragment.js";
 
 export default data => layoutFragment(
   data,
@@ -12,20 +13,21 @@ export default data => layoutFragment(
         Ou ébauches de soutras ...<br/
         <br/>
         Images et images d'images.</p>
-      <ul style="list-style: none">
+      
+        <ul class="list-unstyled">
         ${
           data.storyboards
-            .map(storyboard => `
-        <li>
-          <a href="/storyboards/${ storyboard.id }">
-            ${ storyboard.title } (${
-              storyboard.pages.length } pages)</a>
-        </li>`)
-            .join('\n')
+            .sort((a, b) => 
+            
+            new Date(b.date) - new Date(a.date))
+            .map(storyboard =>
+              
+              storyboardsListItemFragment({ storyboard }))
+            .join('')
         }
       </ul>
-      <h2>
+      <h3>
         <a href="/">
           Retour HUB (accueil)</a>
-      </h2>`
+      </h3>`
       })

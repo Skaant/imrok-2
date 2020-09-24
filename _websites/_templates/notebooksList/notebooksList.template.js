@@ -1,4 +1,5 @@
 import layoutFragment from "../_fragments/layout/layout.fragment.js";
+import notebooksListItemFragment from "../_fragments/notebooksListItem/notebooksListItem.fragment.js";
 
 export default data => layoutFragment(
   data,
@@ -18,21 +19,21 @@ export default data => layoutFragment(
         <br/>
         Non je dois les fixer<br/>
         Voir les matérialiser.</p>
-      <ul style="list-style: none">
+        <ul class="list-unstyled">
         ${
           data.notebooks
-            .map(notebook => `
-        <li>
-          <a href="/carnets/${ notebook.id }">
-            ${ notebook.title } (${
-              notebook.extracts.length } extraits)</a>
-        </li>`)
-            .join('\n')
+            .sort((a, b) => 
+            
+            new Date(b.date) - new Date(a.date))
+            .map(notebook =>
+              
+              notebooksListItemFragment({ notebook }))
+            .join('')
         }
       </ul>
-      <h2>
+      <h3>
         Retour 
         <a href="/">HUB (accueil)</a>
-      </h2>
+      </h3>
     </div>`
       })

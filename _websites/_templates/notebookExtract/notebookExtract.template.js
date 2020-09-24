@@ -43,7 +43,16 @@ export default data => {
         </h1>
         ${ prevNextRow }
         <div class="row justify-content-center">
-          <img src="./original.png"/>
+          ${
+            data.extract.index < (data.notebook.extracts.length - 1)
+              ? 
+`         <a href="/carnets/${
+              data.notebook.id }/${
+              data.notebook.extracts[data.extract.index + 1].id }">
+            <img src="./original.png"/></a>`
+              
+              : '<img src="./original.png"/>'
+          }
         </div>
         ${ prevNextRow }
         ${
@@ -72,7 +81,7 @@ export default data => {
           
             : ''
         }
-        <h2>
+        <h3>
           Retour <a href="/carnets/${ data.notebook.id }">
             ${ data.notebook.title }</a>
           /
@@ -81,7 +90,7 @@ export default data => {
           /
           <a href="/">
             Retour HUB (accueil)</a>
-        </h2>
+        </h3>
     </body>
   </html>`
     })

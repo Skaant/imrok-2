@@ -1,6 +1,7 @@
 export default {
   title: "Tout converge (le un)",
   date: '16/08/2020',
+  tags: [ 'tout-un', 'abs' ],
   content: `
 Tout converge car
 Dans les deux sens

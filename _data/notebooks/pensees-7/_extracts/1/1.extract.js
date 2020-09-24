@@ -1,7 +1,7 @@
 export default {
   id: 'des-prophetes',
   title: "Des prophètes",
-  content:
+  shaped:
 `je ne peux rien affirmer
 quoi que ce soit sauf
 

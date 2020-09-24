@@ -9,17 +9,17 @@ export default data => {
     data.page.index > 0
       ? 
 `           <a href="/storyboards/${
-            data.storyboard.id }/${ data.page.index }">
+            data.storyboard.id }/${ data.page.index - 1 }">
         Précédent</a>`
       : ''
   }
-  <span>${ data.page.index + 1 } / ${
+  <span>${ data.page.index } / ${
     data.storyboard.pages.length }</span>
   ${
-    data.page.index < (data.storyboard.pages.length - 1)
+    data.page.index < data.storyboard.pages.length
       ? 
 `           <a href="/storyboards/${
-            data.storyboard.id }/${ data.page.index + 2 }">
+            data.storyboard.id }/${ data.page.index + 1 }">
         Suivant</a>`
       : ''
   }
@@ -28,14 +28,14 @@ export default data => {
   return layoutFragment(
     data,
     {
-      title: 'PAGE ' + (data.page.index + 1)
+      title: 'PAGE ' + data.page.index
         + ' | ' + data.storyboard.title
         + ' | STORYBOARDS | '
         + data.title,
       content: `<div class="container">
         <h1 class="main mb-5"
             style="text-align: center">
-          PAGE ${ data.page.index + 1 } |
+          PAGE ${ data.page.index } |
           <a href="/storyboards/${ data.storyboard.id }">
             ${ data.storyboard.title }</a>
         </h1>
@@ -58,7 +58,7 @@ export default data => {
             : ''
         }
         ${
-          data.page.shaped
+          data.page.transcript
             ? `<h2>Transcription</h2>
           ${ 
             (new showdown.Converter({

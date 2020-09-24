@@ -1,7 +1,7 @@
 export default {
   id: 'jeunes-spontanes',
   title: "À propos des jeunes spontanés",
-  content:
+  shaped:
 `aux jeunes spontanés,
 il a [été] dit :
 

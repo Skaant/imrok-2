@@ -1,6 +1,6 @@
 export default {
   id: 'exprimer-message-divin',
   title: "Exprimer le message divin",
-  content: ``,
+  shaped: ``,
   transcript: ``
 }

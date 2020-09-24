@@ -87,11 +87,15 @@ export default (
               options
             ),
             /** /storyboards/:id/:page */
-            ...storyboard.pages.map((page, index) =>
+            ...storyboard.pages.map(page => {
+
+              const index = parseInt(page.filePath
+                .split('/').pop()
+                .split('.').shift())
               
-              FOLDER.create(
+              return FOLDER.create(
                 folderScope,
-                index + 1,
+                index,
                 folderScope => ([
                   PAGE.create(
                     storyboardPageTemplate,
@@ -110,10 +114,11 @@ export default (
                   FILE.copy(
                     '/_data/storyboards/'
                       + storyboard.id + '/_pages/'
-                      + (index + 1) + '/original.jpg',
+                      + index + '/original.jpg',
                     folderScope + '/original.jpg'
                   )
-                ])))
+                ]))
+              })
           ])
         ))
     ])

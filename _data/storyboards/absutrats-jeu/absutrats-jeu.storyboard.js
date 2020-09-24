@@ -1,5 +1,5 @@
 export default {
-  id: 'absutrat-jeu',
+  id: 'absutrats-jeu',
   title: 'Absoutrate "du jeu"',
   period: 'milieu 2018'
 }

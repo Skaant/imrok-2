@@ -7,6 +7,9 @@ import storyboardsListTemplate from '../../../_templates/storyboardsList/storybo
 import storyboardTemplate from '../../../_templates/storyboard/storyboard.template.js'
 import storyboardPageTemplate from '../../../_templates/storyboardPage/storyboardPage.template.js'
 import FILE from '../../../../kami.js/_shrine/file/file.kami.js'
+import notebooksListTemplate from '../../../_templates/notebooksList/notebooksList.template.js'
+import notebookTemplate from '../../../_templates/notebook/notebook.template.js'
+import notebookExtractTemplate from '../../../_templates/notebookExtract/notebookExtract.template.js'
 
 export default (
   scope,
@@ -103,11 +106,72 @@ export default (
                     folderScope,
                     options
                   ),
+                  /** /storyboards/:id/:page/original.jpg */
                   FILE.copy(
                     '/_data/storyboards/'
                       + storyboard.id + '/_pages/'
                       + (index + 1) + '/original.jpg',
                     folderScope + '/original.jpg'
+                  )
+                ])))
+          ])
+        ))
+    ])
+  ),
+  /** /carnets */
+  FOLDER.create(
+    scope,
+    'carnets',
+    folderScope => ([
+      /** /carnets/ */
+      PAGE.create(
+        notebooksListTemplate,
+        data,
+        folderScope,
+        options
+      ),
+      /** /carnets/:id */
+      ...data.notebooks.map(notebook =>
+        
+        FOLDER.create(
+          folderScope,
+          notebook.id,
+          folderScope => ([
+            PAGE.create(
+              notebookTemplate,
+              {
+                ...data,
+                notebook
+              },
+              folderScope,
+              options
+            ),
+            /** /carnets/:id/:extract */
+            ...notebook.extracts.map((extract, index) =>
+              
+              FOLDER.create(
+                folderScope,
+                extract.id,
+                folderScope => ([
+                  PAGE.create(
+                    notebookExtractTemplate,
+                    {
+                      ...data,
+                      notebook,
+                      extract: {
+                        ...extract,
+                        index
+                      }
+                    },
+                    folderScope,
+                    options
+                  ),
+                  /** /carnets/:id/:extract/original.png */
+                  FILE.copy(
+                    '/_data/notebooks/'
+                      + notebook.id + '/_extracts/'
+                      + (index + 1) + '/original.png',
+                    folderScope + '/original.png'
                   )
                 ])))
           ])

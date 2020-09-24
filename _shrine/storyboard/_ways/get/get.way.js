@@ -7,4 +7,4 @@ export default options =>
     
     BOOK.get(STORYBOARD, false, options)
 
-      .then(drafts => resolve(drafts)))
+      .then(storyboards => resolve(storyboards)))

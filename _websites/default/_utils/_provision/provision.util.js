@@ -1,5 +1,6 @@
 import ARTICLE from "../../../../_shrine/article/article.kami.js";
 import STORYBOARD from "../../../../_shrine/storyboard/storyboard.kami.js";
+import NOTEBOOK from "../../../../_shrine/notebook/notebook.kami.js";
 
 export default () =>
 
@@ -7,11 +8,17 @@ export default () =>
     
     Promise.all([
       ARTICLE.get(),
-      STORYBOARD.get()
+      STORYBOARD.get(),
+      NOTEBOOK.get()
     ])
-    .then(([ articles, storyboards ]) =>
+    .then(([
+      articles,
+      storyboards,
+      notebooks
+    ]) =>
     
       resolve({
         articles,
-        storyboards
+        storyboards,
+        notebooks
       })))

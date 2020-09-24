@@ -54,5 +54,22 @@ export default data => layoutFragment(
             .join('')
         }
       </ul>
+
+      <h2>
+        <a href="/carnets">
+          Carnets</a>
+      </h2>
+      <ul style="list-style: none">
+        ${
+          data.notebooks
+            .map((notebook, index) => `
+        <li>
+          <a href="/carnets/${ notebook.id }">
+            ${ notebook.title } (${
+              notebook.extracts.length } extraits)</a>
+        </li>`)
+            .join('')
+        }
+      </ul>
     </div>`
   })

@@ -23,5 +23,9 @@ export default data => layoutFragment(
         </li>`)
             .join('\n')
         }
-      </ul>`
+      </ul>
+      <h2>
+        <a href="/">
+          Retour HUB (accueil)</a>
+      </h2>`
       })

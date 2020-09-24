@@ -16,9 +16,13 @@ export default data => layoutFragment(
         }))
           .makeHtml(data.article.content)
       }
-      <h2 class="lead">
+      <h2>
+        Retour
         <a href="/articles">
-          Retour ARTICLES</a></h2>
-  </body>
-</html>`
+          Retour ARTICLES</a>
+        /
+        <a href="/">
+          Retour HUB (accueil)</a>
+      </h2>
+    </div>`
   })

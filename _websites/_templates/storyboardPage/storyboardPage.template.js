@@ -70,10 +70,16 @@ export default data => {
           
             : ''
         }
-        <h2 class="lead">
+        <h2>
+          Retour
+          <a href="/storyboards/${ data.storyboard.id }">
+            Retour ${ data.storyboard.title }</a>
+          /
           <a href="/storyboards">
-            Retour STORYBOARDS</a></h2>
-    </body>
-  </html>`
+            Retour STORYBOARDS</a>
+          /
+          <a href="/">
+            Retour HUB (accueil)</a>
+        </h2>`
     })
 }

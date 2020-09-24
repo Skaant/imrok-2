@@ -22,9 +22,13 @@ export default data => layoutFragment(
             .join('\n')
         }
       </ul>
-      <h2 class="lead">
+      <h2>
+        Retour
         <a href="/storyboards">
-          Retour STORYBOARDS</a></h2>
-  </body>
-</html>`
+          STORYBOARDS</a>
+        /
+        <a href="/">
+          Retour HUB (accueil)</a>
+      </h2>
+    </div>`
   })

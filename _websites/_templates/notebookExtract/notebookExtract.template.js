@@ -72,9 +72,16 @@ export default data => {
           
             : ''
         }
-        <h2 class="lead">
+        <h2>
+          Retour <a href="/carnets/${ data.notebook.id }">
+            ${ data.notebook.title }</a>
+          /
           <a href="/carnets">
-            Retour CARNETS</a></h2>
+            CARNETS</a>
+          /
+          <a href="/">
+            Retour HUB (accueil)</a>
+        </h2>
     </body>
   </html>`
     })

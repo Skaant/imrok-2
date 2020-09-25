@@ -1,6 +1,6 @@
 import KAMI from './kami.js/index.js'
 import fileKami from './kami.js/_shrine/file/file.kami.js'
-import formatEnum from './kami.js/_shrine/file/_ways/get/_enums/format/format.enum.js'
+import formatEnum from './kami.js/_shrine/get/_enums/format/format.enum.js'
 import { promises as fs } from 'fs'
 
 KAMI.ave(

@@ -16,11 +16,8 @@
         "--",
         "-log",
         "-k",
-        "website",
-        "-force",
-        "build",
-        "",
-        "default"
+        "readme",
+        "build"
       ]
     }
   ]

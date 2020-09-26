@@ -1,5 +1,5 @@
 *[27 KAMIS](#kamis-glossary)
-on 9/26/2020, 4:22:15 AM*
+on 9/26/2020, 4:30:30 AM*
 
 # imrok-2
 
@@ -49,6 +49,8 @@ on 9/26/2020, 4:22:15 AM*
 
 ## `article`
 
+[*Return to KAMIS' glossary.*](#kamis-glossary)
+
 **ARTICLE** is a project specific KAMI.
 
 It is known as :
@@ -94,6 +96,8 @@ Matching regular expression :
 
 ## `*-book`
 
+[*Return to KAMIS' glossary.*](#kamis-glossary)
+
 **PANTHEON-BOOK** belongs to the PANTHEON of KAMIS.
 
 It is known as :
@@ -120,8 +124,20 @@ A BOOK content is made of smaller [KAMIS](#kami)/bricks :
 **Note that BOOK is a top-level section
 with just some specific meta-data.**
 
+### Properties
+
+**Count: 5.**
+
+* `id`
+* `names`
+* `description`
+* `get`
+* `provision`
+
 
 ## `*-book-extract`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **PANTHEON-BOOK-EXTRACT** belongs to the PANTHEON of KAMIS.
 
@@ -168,6 +184,8 @@ Matching regular expression :
 
 
 ## `*-book-image`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **PANTHEON-BOOK-IMAGE** belongs to the PANTHEON of KAMIS.
 
@@ -679,6 +697,8 @@ Matching regular expression :
 
 ## `*-book-page`
 
+[*Return to KAMIS' glossary.*](#kamis-glossary)
+
 **PANTHEON-BOOK-PAGE** belongs to the PANTHEON of KAMIS.
 
 It is known as :
@@ -939,6 +959,8 @@ Matching regular expression :
 
 ## `*-book-section`
 
+[*Return to KAMIS' glossary.*](#kamis-glossary)
+
 **PANTHEON-BOOK-SECTION** belongs to the PANTHEON of KAMIS.
 
 It is known as :
@@ -971,6 +993,8 @@ Matching regular expression :
 
 
 ## `*-command`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **PANTHEON-COMMAND** belongs to the PANTHEON of KAMIS.
 
@@ -1011,6 +1035,8 @@ Matching regular expression :
 
 ## `*-doc`
 
+[*Return to KAMIS' glossary.*](#kamis-glossary)
+
 **PANTHEON-DOC** belongs to the PANTHEON of KAMIS.
 
 It is known as :
@@ -1027,8 +1053,18 @@ DOC is composed of few sub-KAMIS :
 * [WIKI](#wiki),
 * [WEBSITE](#website).
 
+### Properties
+
+**Count: 3.**
+
+* `id`
+* `names`
+* `description`
+
 
 ## `*-file`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **PANTHEON-FILE** belongs to the PANTHEON of KAMIS.
 
@@ -1044,8 +1080,21 @@ It is known as :
 *Pattern should later be extended depending on
 the file extension.*
 
+### Properties
+
+**Count: 6.**
+
+* `id`
+* `names`
+* `description`
+* `create`
+* `get`
+* `copy`
+
 
 ## `*-folder`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **PANTHEON-FOLDER** belongs to the PANTHEON of KAMIS.
 
@@ -1067,8 +1116,20 @@ Folder is represented by :
   (a complex concept to define).
 
 
+### Properties
+
+**Count: 5.**
+
+* `id`
+* `names`
+* `description`
+* `create`
+* `copy`
+
 
 ## `*-get`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **PANTHEON-GET** belongs to the PANTHEON of KAMIS.
 
@@ -1126,6 +1187,8 @@ Matching regular expression :
 
 ## `*-instance`
 
+[*Return to KAMIS' glossary.*](#kamis-glossary)
+
 **PANTHEON-INSTANCE** belongs to the PANTHEON of KAMIS.
 
 It is known as :
@@ -1149,8 +1212,19 @@ They usually :
 
 **KAMI-KAMI is an instance of itself !**
 
+### Properties
+
+**Count: 4.**
+
+* `id`
+* `names`
+* `description`
+* `get`
+
 
 ## `*-kami`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **PANTHEON-KAMI** belongs to the PANTHEON of KAMIS.
 
@@ -1252,6 +1326,8 @@ highly abstract powers.
 
 ## `*-lang`
 
+[*Return to KAMIS' glossary.*](#kamis-glossary)
+
 **PANTHEON-LANG** belongs to the PANTHEON of KAMIS.
 
 It is known as :
@@ -1259,8 +1335,17 @@ It is known as :
 * [en] Language,
 * [fr] Langage.
 
+### Properties
+
+**Count: 2.**
+
+* `id`
+* `names`
+
 
 ## `notebook`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **NOTEBOOK** is a project specific KAMI.
 
@@ -1306,6 +1391,8 @@ Matching regular expression :
 
 ## `*-pantheon`
 
+[*Return to KAMIS' glossary.*](#kamis-glossary)
+
 **PANTHEON-PANTHEON** belongs to the PANTHEON of KAMIS.
 
 It is known as :
@@ -1342,6 +1429,8 @@ Matching regular expression :
 
 ## `*-prop`
 
+[*Return to KAMIS' glossary.*](#kamis-glossary)
+
 **PANTHEON-PROP** belongs to the PANTHEON of KAMIS.
 
 It is known as :
@@ -1354,8 +1443,18 @@ It is known as :
 `_props` folders contains
 [kami](#kami)'s properties content.
 
+### Properties
+
+**Count: 3.**
+
+* `id`
+* `names`
+* `description`
+
 
 ## `*-readme`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **PANTHEON-README** belongs to the PANTHEON of KAMIS.
 
@@ -1377,8 +1476,21 @@ genercis are located in `/kami.js/_shrine/readme/_sections`.
 
 README is a component of [DOC](#-doc).
 
+### Properties
+
+**Count: 6.**
+
+* `id`
+* `names`
+* `description`
+* `get`
+* `build`
+* `_commands`
+
 
 ## `*-readme-section`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **PANTHEON-README-SECTION** belongs to the PANTHEON of KAMIS.
 
@@ -1423,6 +1535,8 @@ Matching regular expression :
 
 ## `*-shrine`
 
+[*Return to KAMIS' glossary.*](#kamis-glossary)
+
 **PANTHEON-ШRᛏGHN** belongs to the PANTHEON of KAMIS.
 
 It is known as :
@@ -1455,6 +1569,8 @@ Matching regular expression :
 
 
 ## `*-spec`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **PANTHEON-SPEC** belongs to the PANTHEON of KAMIS.
 
@@ -1497,6 +1613,8 @@ Matching regular expression :
 
 
 ## `storyboard`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **STORYBOARD** is a project specific KAMI.
 
@@ -1549,6 +1667,8 @@ Matching regular expression :
 
 ## `*-util`
 
+[*Return to KAMIS' glossary.*](#kamis-glossary)
+
 **PANTHEON-UTIL** belongs to the PANTHEON of KAMIS.
 
 It is known as :
@@ -1563,8 +1683,18 @@ the place very specific snippets of code are put.
 
 Utility are usually consumed by same scope-level modules.
 
+### Properties
+
+**Count: 3.**
+
+* `id`
+* `names`
+* `description`
+
 
 ## `*-way`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **PANTHEON-WAY** belongs to the PANTHEON of KAMIS.
 
@@ -1583,8 +1713,18 @@ Ways are KAMI's methods
 It differs with [prop](#prop) in its type,
 which is necessarely `function`.
 
+### Properties
+
+**Count: 3.**
+
+* `id`
+* `names`
+* `description`
+
 
 ## `*-website`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **PANTHEON-WEBSITE** belongs to the PANTHEON of KAMIS.
 
@@ -1625,6 +1765,8 @@ Matching regular expression :
 
 ## `*-website-page`
 
+[*Return to KAMIS' glossary.*](#kamis-glossary)
+
 **PANTHEON-WEBSITE-PAGE** belongs to the PANTHEON of KAMIS.
 
 It is known as :
@@ -1644,8 +1786,19 @@ A page binds the following three elements :
   (which will in time be used as its url).
 
 
+### Properties
+
+**Count: 4.**
+
+* `id`
+* `names`
+* `description`
+* `create`
+
 
 ## `*-wiki`
+
+[*Return to KAMIS' glossary.*](#kamis-glossary)
 
 **PANTHEON-WIKI** belongs to the PANTHEON of KAMIS.
 
@@ -1659,3 +1812,11 @@ It is known as :
 **KAMI.JS' GITHUB WIKI**
 
 WIKI is a component of [DOC](#doc).
+
+### Properties
+
+**Count: 3.**
+
+* `id`
+* `names`
+* `description`

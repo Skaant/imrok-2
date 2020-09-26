@@ -1,5 +1,5 @@
 *[27 KAMIS](#kamis-glossary)
-on 9/25/2020, 6:52:44 PM*
+on 9/26/2020, 4:22:15 AM*
 
 # imrok-2
 
@@ -29,10 +29,10 @@ on 9/25/2020, 6:52:44 PM*
 * [*-FOLDER](#-folder) : Folder
 * [*-GET](#-get) : Accesser, Obtain, Hydrater
 * [*-INSTANCE](#-instance) : Instance
-* [*-KAMI](#-kami) : Concept, Idea, Word, Pattern, Spirit, God
+* [*-KAMI](#-kami) : Concept, Idea, Word, Pattern, Spirit, God, Angel, Deva
 * [*-LANG](#-lang) : Language
 * [NOTEBOOK](#notebook) : Notebook
-* [*-PANTHEON](#-pantheon) : Pantheon, Primordial shrine
+* [*-PANTHEON](#-pantheon) : Pantheon, Primordial shrine, Valhalla, Mount Olympus, Acropolis, Heaven
 * [*-PROP](#-prop) : Property, Characteristics, Attribute
 * [*-README](#-readme) : README
 
@@ -63,7 +63,19 @@ It is known as :
 An article is a titled and dated content,
 with optional tags and meta-data.
 
-## Occurences
+### Properties
+
+**Count: 5.**
+
+* `id`
+* `names`
+* `description`
+* `regExp`
+* `get`
+
+### Occurences
+
+**Count : 9.**
 
 Matching regular expression :
 
@@ -82,7 +94,7 @@ Matching regular expression :
 
 ## `*-book`
 
-**PANTHEON-BOOK** is a PANTHEON KAMI.
+**PANTHEON-BOOK** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -111,7 +123,7 @@ with just some specific meta-data.**
 
 ## `*-book-extract`
 
-**PANTHEON-BOOK-EXTRACT** is a PANTHEON KAMI.
+**PANTHEON-BOOK-EXTRACT** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -127,7 +139,18 @@ A FRAGMENT is the smallest unit of [BOOK](#book) content.
 It can be included inside a [SECTION](#section),
 a [PAGE](#page) or directly on the BOOK root.
 
-## Occurences
+### Properties
+
+**Count: 4.**
+
+* `id`
+* `names`
+* `description`
+* `regExp`
+
+### Occurences
+
+**Count : 9.**
 
 Matching regular expression :
 
@@ -146,7 +169,7 @@ Matching regular expression :
 
 ## `*-book-image`
 
-**PANTHEON-BOOK-IMAGE** is a PANTHEON KAMI.
+**PANTHEON-BOOK-IMAGE** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -157,7 +180,18 @@ It is known as :
 
 **VISUAL CONTENT**
 
-## Occurences
+### Properties
+
+**Count: 4.**
+
+* `id`
+* `names`
+* `description`
+* `regExp`
+
+### Occurences
+
+**Count : 478.**
 
 Matching regular expression :
 
@@ -645,7 +679,7 @@ Matching regular expression :
 
 ## `*-book-page`
 
-**PANTHEON-BOOK-PAGE** is a PANTHEON KAMI.
+**PANTHEON-BOOK-PAGE** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -659,7 +693,18 @@ It is known as :
 PAGE can hold [SECTIONS](#section)
 and [EXTRACTS](#extracts).
 
-## Occurences
+### Properties
+
+**Count: 4.**
+
+* `id`
+* `names`
+* `description`
+* `regExp`
+
+### Occurences
+
+**Count : 225.**
 
 Matching regular expression :
 
@@ -894,7 +939,7 @@ Matching regular expression :
 
 ## `*-book-section`
 
-**PANTHEON-BOOK-SECTION** is a PANTHEON KAMI.
+**PANTHEON-BOOK-SECTION** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -905,7 +950,18 @@ It is known as :
 
 **BOOK SUB-DIVISION**
 
-## Occurences
+### Properties
+
+**Count: 4.**
+
+* `id`
+* `names`
+* `description`
+* `regExp`
+
+### Occurences
+
+**Count : 0.**
 
 Matching regular expression :
 
@@ -916,7 +972,7 @@ Matching regular expression :
 
 ## `*-command`
 
-**PANTHEON-COMMAND** is a PANTHEON KAMI.
+**PANTHEON-COMMAND** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -930,7 +986,18 @@ It is known as :
 Basically, a command bind a [`way`](#way) method
 to match [`KAMI`](#kami) CLI entrypoint syntax.
 
-## Occurences
+### Properties
+
+**Count: 4.**
+
+* `id`
+* `names`
+* `description`
+* `regExp`
+
+### Occurences
+
+**Count : 4.**
 
 Matching regular expression :
 
@@ -944,7 +1011,7 @@ Matching regular expression :
 
 ## `*-doc`
 
-**PANTHEON-DOC** is a PANTHEON KAMI.
+**PANTHEON-DOC** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -963,7 +1030,7 @@ DOC is composed of few sub-KAMIS :
 
 ## `*-file`
 
-**PANTHEON-FILE** is a PANTHEON KAMI.
+**PANTHEON-FILE** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -980,7 +1047,7 @@ the file extension.*
 
 ## `*-folder`
 
-**PANTHEON-FOLDER** is a PANTHEON KAMI.
+**PANTHEON-FOLDER** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -1003,7 +1070,7 @@ Folder is represented by :
 
 ## `*-get`
 
-**PANTHEON-GET** is a PANTHEON KAMI.
+**PANTHEON-GET** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -1030,7 +1097,18 @@ In the case of folders and files,
 a regular expression is used for matching.
 
 
-## Occurences
+### Properties
+
+**Count: 4.**
+
+* `id`
+* `names`
+* `description`
+* `regExp`
+
+### Occurences
+
+**Count : 8.**
 
 Matching regular expression :
 
@@ -1048,7 +1126,7 @@ Matching regular expression :
 
 ## `*-instance`
 
-**PANTHEON-INSTANCE** is a PANTHEON KAMI.
+**PANTHEON-INSTANCE** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -1074,12 +1152,12 @@ They usually :
 
 ## `*-kami`
 
-**PANTHEON-KAMI** is a PANTHEON KAMI.
+**PANTHEON-KAMI** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
-* [en] Concept, Idea, Word, Pattern, Spirit, God,
-* [fr] Concept, Idée, Mot, Motif, Esprit, Dieu.
+* [en] Concept, Idea, Word, Pattern, Spirit, God, Angel, Deva,
+* [fr] Concept, Idée, Mot, Motif, Esprit, Dieu, Ange, Deva.
 
 ### Description
 
@@ -1089,7 +1167,26 @@ Kami are "enlived" patterns, making them
 not only **generative** but also **evolutive**
 in a similar way classes and objects are.
 
-## Occurences
+### Properties
+
+**Count: 12.**
+
+* `id`
+* `names`
+* `description`
+* `regExp`
+* `flavour`
+* `_commands`
+* `create`
+* `get`
+* `cli`
+* `test`
+* `specs`
+* `ave`
+
+### Occurences
+
+**Count : 27.**
 
 Matching regular expression :
 
@@ -1155,7 +1252,7 @@ highly abstract powers.
 
 ## `*-lang`
 
-**PANTHEON-LANG** is a PANTHEON KAMI.
+**PANTHEON-LANG** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -1182,7 +1279,19 @@ eventually [BOOK-SECTIONS](#book-section),
 instead of [BOOK-PAGES](#book-pages)
 like [STORYBOARD](#storyboard).
 
-## Occurences
+### Properties
+
+**Count: 5.**
+
+* `id`
+* `names`
+* `description`
+* `regExp`
+* `get`
+
+### Occurences
+
+**Count : 5.**
 
 Matching regular expression :
 
@@ -1197,21 +1306,43 @@ Matching regular expression :
 
 ## `*-pantheon`
 
-**PANTHEON-PANTHEON** is a PANTHEON KAMI.
+**PANTHEON-PANTHEON** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
-* [en] Pantheon, Primordial shrine,
-* [fr] Panthéon, Sanctuaire primordial.
+* [en] Pantheon, Primordial shrine, Valhalla, Mount Olympus, Acropolis, Heaven,
+* [fr] Panthéon, Sanctuaire primordial, Valhalla, Mont Olympe, Acropole, Paradis.
 
 ### Description
 
 **SHRINE OF PRIMORDIAL KAMIS**
 
+There lies the most abstract and/or transverse [KAMIS](#kami),
+the angels and last steps upon the One.
+
+### Properties
+
+**Count: 4.**
+
+* `id`
+* `names`
+* `description`
+* `regExp`
+
+### Occurences
+
+**Count : 1.**
+
+Matching regular expression :
+
+`/kami.js\/_shrine$/`.
+
+* [`/kami.js/_shrine`](/kami.js/_shrine)
+
 
 ## `*-prop`
 
-**PANTHEON-PROP** is a PANTHEON KAMI.
+**PANTHEON-PROP** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -1226,7 +1357,7 @@ It is known as :
 
 ## `*-readme`
 
-**PANTHEON-README** is a PANTHEON KAMI.
+**PANTHEON-README** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -1235,14 +1366,21 @@ It is known as :
 
 ### Description
 
-**KAMI.JS' GITHUB README**
+**GITHUB README**
 
-README is a component of [DOC](#doc).
+README instance occurs once by [PROJECT](#project),
+in the `/_readme folder`.
+
+Specific PROJECT's README [SECTIONS](#sections) are
+located in `/_readme/_sections`,
+genercis are located in `/kami.js/_shrine/readme/_sections`.
+
+README is a component of [DOC](#-doc).
 
 
 ## `*-readme-section`
 
-**PANTHEON-README-SECTION** is a PANTHEON KAMI.
+**PANTHEON-README-SECTION** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -1259,11 +1397,24 @@ SECTIONS are made of :
 
 In fact, README is the top-level SECTION.
 
-## Occurences
+### Properties
+
+**Count: 5.**
+
+* `id`
+* `names`
+* `description`
+* `regExp`
+* `create`
+
+### Occurences
+
+**Count : 3.**
 
 Matching regular expression :
 
-`/^\/_readme\/_sections\/(.*)\/(.*)\.section.js/,/\/_shrine\/readme\/_sections\/(.*)\/(.*)\.section.js/`.
+* `/^\/_readme\/_sections\/(.*)\/(.*)\.section.js/`,
+* `/\/_shrine\/readme\/_sections\/(.*)\/(.*)\.section.js/`.
 
 * [`/kami.js/_shrine/readme/_sections/kami/kami.section.js`](/kami.js/_shrine/readme/_sections/kami/kami.section.js)
 * [`/kami.js/_shrine/readme/_sections/kamis_glossary/kamis_glossary.section.js`](/kami.js/_shrine/readme/_sections/kamis_glossary/kamis_glossary.section.js)
@@ -1272,14 +1423,25 @@ Matching regular expression :
 
 ## `*-shrine`
 
-**PANTHEON-ШRᛏGHN** is a PANTHEON KAMI.
+**PANTHEON-ШRᛏGHN** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
 * [en] Shrine,
 * [fr] Sanctuaire.
 
-## Occurences
+### Properties
+
+**Count: 4.**
+
+* `id`
+* `names`
+* `create`
+* `regExp`
+
+### Occurences
+
+**Count : 5.**
 
 Matching regular expression :
 
@@ -1294,7 +1456,7 @@ Matching regular expression :
 
 ## `*-spec`
 
-**PANTHEON-SPEC** is a PANTHEON KAMI.
+**PANTHEON-SPEC** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -1313,7 +1475,18 @@ categories of specifications :
 * **Specific SPECS**, which target a single
   instance of a KAMI (hold by the instance).
 
-## Occurences
+### Properties
+
+**Count: 4.**
+
+* `id`
+* `names`
+* `description`
+* `regExp`
+
+### Occurences
+
+**Count : 2.**
 
 Matching regular expression :
 
@@ -1348,7 +1521,19 @@ and [BOOK-PAGES](#book-page),
 instead of directly [BOOK-EXTRACTS](#book-extract)
 like [NOTEBOOK](#notebook).
 
-## Occurences
+### Properties
+
+**Count: 5.**
+
+* `id`
+* `names`
+* `description`
+* `regExp`
+* `get`
+
+### Occurences
+
+**Count : 6.**
 
 Matching regular expression :
 
@@ -1364,7 +1549,7 @@ Matching regular expression :
 
 ## `*-util`
 
-**PANTHEON-UTIL** is a PANTHEON KAMI.
+**PANTHEON-UTIL** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -1381,7 +1566,7 @@ Utility are usually consumed by same scope-level modules.
 
 ## `*-way`
 
-**PANTHEON-WAY** is a PANTHEON KAMI.
+**PANTHEON-WAY** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -1401,7 +1586,7 @@ which is necessarely `function`.
 
 ## `*-website`
 
-**PANTHEON-WEBSITE** is a PANTHEON KAMI.
+**PANTHEON-WEBSITE** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -1414,7 +1599,22 @@ It is known as :
 
 WEBSITE is a [DOC](#doc) component.
 
-## Occurences
+### Properties
+
+**Count: 8.**
+
+* `id`
+* `names`
+* `regExp`
+* `regExpMapping`
+* `description`
+* `build`
+* `_commands`
+* `_specs`
+
+### Occurences
+
+**Count : 1.**
 
 Matching regular expression :
 
@@ -1425,7 +1625,7 @@ Matching regular expression :
 
 ## `*-website-page`
 
-**PANTHEON-WEBSITE-PAGE** is a PANTHEON KAMI.
+**PANTHEON-WEBSITE-PAGE** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 
@@ -1447,7 +1647,7 @@ A page binds the following three elements :
 
 ## `*-wiki`
 
-**PANTHEON-WIKI** is a PANTHEON KAMI.
+**PANTHEON-WIKI** belongs to the PANTHEON of KAMIS.
 
 It is known as :
 

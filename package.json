@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js --experimental-modules",
-    "test": "test"
+    "test": "npm start -- test"
   },
   "keywords": [
     "site",

@@ -1,5 +1,5 @@
 *[27 KAMIS](#kamis-glossary)
-on 10/7/2020, 9:51:08 AM*
+on 10/7/2020, 7:03:22 PM*
 
 # imrok-2
 
@@ -209,20 +209,28 @@ It is known as :
 
 ### Description
 
-**VISUAL CONTENT**
+**BOOK VISUAL CONTENT**
+
+Usually bound to a [WEBSITE-PAGE](#website-page) page,
+BOOK-IMAGES are given in a [BOOK-SECTION](#book-section),
+a [BOOK-EXTRACT](#book-extract) or in a [BOOK-PAGE](#book-page).
+
+When the BOOK-PAGE, BOOK-EXTRACT or BOOK-SECTION is retrieved,
+scoped BOOK-IMAGES are copied to the destination WEBSITE-PAGE folder.
 
 ### Properties
 
-**Count: 4.**
+**Count: 5.**
 
 * `id`
 * `names`
 * `description`
 * `regExp`
+* `copy`
 
 ### Occurences
 
-**Count : 478.**
+**Count : 255.**
 
 Matching regular expression :
 
@@ -235,242 +243,6 @@ Matching regular expression :
 * [`/kami.js/_shrine/readme/readme.picto.svg`](/kami.js/_shrine/readme/readme.picto.svg)
 * [`/kami.js/_shrine/shrine/shrine.picto.svg`](/kami.js/_shrine/shrine/shrine.picto.svg)
 * [`/kami.js/_shrine/util/util.picto.svg`](/kami.js/_shrine/util/util.picto.svg)
-* [`/_build/assets/star-logo.svg`](/_build/assets/star-logo.svg)
-* [`/_build/carnets/pensees-1/sens-observateurs/original.png`](/_build/carnets/pensees-1/sens-observateurs/original.png)
-* [`/_build/carnets/pensees-1/violence-des-pensees/original.png`](/_build/carnets/pensees-1/violence-des-pensees/original.png)
-* [`/_build/carnets/pensees-12/comment-bien-tousser/original.png`](/_build/carnets/pensees-12/comment-bien-tousser/original.png)
-* [`/_build/carnets/pensees-12/le-confort-vallee-lac/original.png`](/_build/carnets/pensees-12/le-confort-vallee-lac/original.png)
-* [`/_build/carnets/pensees-2/exprimer-message-divin/original.png`](/_build/carnets/pensees-2/exprimer-message-divin/original.png)
-* [`/_build/carnets/pensees-2/illumination-se-dessine/original.jpg`](/_build/carnets/pensees-2/illumination-se-dessine/original.jpg)
-* [`/_build/carnets/pensees-2/illumination-se-dessine/original.png`](/_build/carnets/pensees-2/illumination-se-dessine/original.png)
-* [`/_build/carnets/pensees-7/corps-toute-conscience/original.png`](/_build/carnets/pensees-7/corps-toute-conscience/original.png)
-* [`/_build/carnets/pensees-7/des-prophetes/original.png`](/_build/carnets/pensees-7/des-prophetes/original.png)
-* [`/_build/carnets/pensees-9/jeunes-spontanes/original.png`](/_build/carnets/pensees-9/jeunes-spontanes/original.png)
-* [`/_build/storyboards/absutrats-6-18/1/original.jpg`](/_build/storyboards/absutrats-6-18/1/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/10/original.jpg`](/_build/storyboards/absutrats-6-18/10/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/11/original.jpg`](/_build/storyboards/absutrats-6-18/11/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/12/original.jpg`](/_build/storyboards/absutrats-6-18/12/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/13/original.jpg`](/_build/storyboards/absutrats-6-18/13/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/14/original.jpg`](/_build/storyboards/absutrats-6-18/14/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/15/original.jpg`](/_build/storyboards/absutrats-6-18/15/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/2/original.jpg`](/_build/storyboards/absutrats-6-18/2/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/3/original.jpg`](/_build/storyboards/absutrats-6-18/3/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/4/original.jpg`](/_build/storyboards/absutrats-6-18/4/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/5/original.jpg`](/_build/storyboards/absutrats-6-18/5/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/6/original.jpg`](/_build/storyboards/absutrats-6-18/6/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/7/original.jpg`](/_build/storyboards/absutrats-6-18/7/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/8/original.jpg`](/_build/storyboards/absutrats-6-18/8/original.jpg)
-* [`/_build/storyboards/absutrats-6-18/9/original.jpg`](/_build/storyboards/absutrats-6-18/9/original.jpg)
-* [`/_build/storyboards/absutrats-jeu/1/original.jpg`](/_build/storyboards/absutrats-jeu/1/original.jpg)
-* [`/_build/storyboards/absutrats-jeu/10/original.jpg`](/_build/storyboards/absutrats-jeu/10/original.jpg)
-* [`/_build/storyboards/absutrats-jeu/11/original.jpg`](/_build/storyboards/absutrats-jeu/11/original.jpg)
-* [`/_build/storyboards/absutrats-jeu/12/original.jpg`](/_build/storyboards/absutrats-jeu/12/original.jpg)
-* [`/_build/storyboards/absutrats-jeu/2/original.jpg`](/_build/storyboards/absutrats-jeu/2/original.jpg)
-* [`/_build/storyboards/absutrats-jeu/3/original.jpg`](/_build/storyboards/absutrats-jeu/3/original.jpg)
-* [`/_build/storyboards/absutrats-jeu/4/original.jpg`](/_build/storyboards/absutrats-jeu/4/original.jpg)
-* [`/_build/storyboards/absutrats-jeu/5/original.jpg`](/_build/storyboards/absutrats-jeu/5/original.jpg)
-* [`/_build/storyboards/absutrats-jeu/6/original.jpg`](/_build/storyboards/absutrats-jeu/6/original.jpg)
-* [`/_build/storyboards/absutrats-jeu/7/original.jpg`](/_build/storyboards/absutrats-jeu/7/original.jpg)
-* [`/_build/storyboards/absutrats-jeu/8/original.jpg`](/_build/storyboards/absutrats-jeu/8/original.jpg)
-* [`/_build/storyboards/absutrats-jeu/9/original.jpg`](/_build/storyboards/absutrats-jeu/9/original.jpg)
-* [`/_build/storyboards/absutrats-vol1-v2/1/original.jpg`](/_build/storyboards/absutrats-vol1-v2/1/original.jpg)
-* [`/_build/storyboards/absutrats-vol1-v2/10/original.jpg`](/_build/storyboards/absutrats-vol1-v2/10/original.jpg)
-* [`/_build/storyboards/absutrats-vol1-v2/11/original.jpg`](/_build/storyboards/absutrats-vol1-v2/11/original.jpg)
-* [`/_build/storyboards/absutrats-vol1-v2/12/original.jpg`](/_build/storyboards/absutrats-vol1-v2/12/original.jpg)
-* [`/_build/storyboards/absutrats-vol1-v2/13/original.jpg`](/_build/storyboards/absutrats-vol1-v2/13/original.jpg)
-* [`/_build/storyboards/absutrats-vol1-v2/2/original.jpg`](/_build/storyboards/absutrats-vol1-v2/2/original.jpg)
-* [`/_build/storyboards/absutrats-vol1-v2/3/original.jpg`](/_build/storyboards/absutrats-vol1-v2/3/original.jpg)
-* [`/_build/storyboards/absutrats-vol1-v2/4/original.jpg`](/_build/storyboards/absutrats-vol1-v2/4/original.jpg)
-* [`/_build/storyboards/absutrats-vol1-v2/5/original.jpg`](/_build/storyboards/absutrats-vol1-v2/5/original.jpg)
-* [`/_build/storyboards/absutrats-vol1-v2/6/original.jpg`](/_build/storyboards/absutrats-vol1-v2/6/original.jpg)
-* [`/_build/storyboards/absutrats-vol1-v2/7/original.jpg`](/_build/storyboards/absutrats-vol1-v2/7/original.jpg)
-* [`/_build/storyboards/absutrats-vol1-v2/8/original.jpg`](/_build/storyboards/absutrats-vol1-v2/8/original.jpg)
-* [`/_build/storyboards/absutrats-vol1-v2/9/original.jpg`](/_build/storyboards/absutrats-vol1-v2/9/original.jpg)
-* [`/_build/storyboards/highbs-bok/1/original.jpg`](/_build/storyboards/highbs-bok/1/original.jpg)
-* [`/_build/storyboards/highbs-bok/10/original.jpg`](/_build/storyboards/highbs-bok/10/original.jpg)
-* [`/_build/storyboards/highbs-bok/11/original.jpg`](/_build/storyboards/highbs-bok/11/original.jpg)
-* [`/_build/storyboards/highbs-bok/12/original.jpg`](/_build/storyboards/highbs-bok/12/original.jpg)
-* [`/_build/storyboards/highbs-bok/13/original.jpg`](/_build/storyboards/highbs-bok/13/original.jpg)
-* [`/_build/storyboards/highbs-bok/14/original.jpg`](/_build/storyboards/highbs-bok/14/original.jpg)
-* [`/_build/storyboards/highbs-bok/15/original.jpg`](/_build/storyboards/highbs-bok/15/original.jpg)
-* [`/_build/storyboards/highbs-bok/16/original.jpg`](/_build/storyboards/highbs-bok/16/original.jpg)
-* [`/_build/storyboards/highbs-bok/17/original.jpg`](/_build/storyboards/highbs-bok/17/original.jpg)
-* [`/_build/storyboards/highbs-bok/18/original.jpg`](/_build/storyboards/highbs-bok/18/original.jpg)
-* [`/_build/storyboards/highbs-bok/19/original.jpg`](/_build/storyboards/highbs-bok/19/original.jpg)
-* [`/_build/storyboards/highbs-bok/2/original.jpg`](/_build/storyboards/highbs-bok/2/original.jpg)
-* [`/_build/storyboards/highbs-bok/20/original.jpg`](/_build/storyboards/highbs-bok/20/original.jpg)
-* [`/_build/storyboards/highbs-bok/21/original.jpg`](/_build/storyboards/highbs-bok/21/original.jpg)
-* [`/_build/storyboards/highbs-bok/22/original.jpg`](/_build/storyboards/highbs-bok/22/original.jpg)
-* [`/_build/storyboards/highbs-bok/23/original.jpg`](/_build/storyboards/highbs-bok/23/original.jpg)
-* [`/_build/storyboards/highbs-bok/24/original.jpg`](/_build/storyboards/highbs-bok/24/original.jpg)
-* [`/_build/storyboards/highbs-bok/25/original.jpg`](/_build/storyboards/highbs-bok/25/original.jpg)
-* [`/_build/storyboards/highbs-bok/26/original.jpg`](/_build/storyboards/highbs-bok/26/original.jpg)
-* [`/_build/storyboards/highbs-bok/27/original.jpg`](/_build/storyboards/highbs-bok/27/original.jpg)
-* [`/_build/storyboards/highbs-bok/28/original.jpg`](/_build/storyboards/highbs-bok/28/original.jpg)
-* [`/_build/storyboards/highbs-bok/29/original.jpg`](/_build/storyboards/highbs-bok/29/original.jpg)
-* [`/_build/storyboards/highbs-bok/3/original.jpg`](/_build/storyboards/highbs-bok/3/original.jpg)
-* [`/_build/storyboards/highbs-bok/30/original.jpg`](/_build/storyboards/highbs-bok/30/original.jpg)
-* [`/_build/storyboards/highbs-bok/31/original.jpg`](/_build/storyboards/highbs-bok/31/original.jpg)
-* [`/_build/storyboards/highbs-bok/32/original.jpg`](/_build/storyboards/highbs-bok/32/original.jpg)
-* [`/_build/storyboards/highbs-bok/33/original.jpg`](/_build/storyboards/highbs-bok/33/original.jpg)
-* [`/_build/storyboards/highbs-bok/34/original.jpg`](/_build/storyboards/highbs-bok/34/original.jpg)
-* [`/_build/storyboards/highbs-bok/35/original.jpg`](/_build/storyboards/highbs-bok/35/original.jpg)
-* [`/_build/storyboards/highbs-bok/36/original.jpg`](/_build/storyboards/highbs-bok/36/original.jpg)
-* [`/_build/storyboards/highbs-bok/37/original.jpg`](/_build/storyboards/highbs-bok/37/original.jpg)
-* [`/_build/storyboards/highbs-bok/38/original.jpg`](/_build/storyboards/highbs-bok/38/original.jpg)
-* [`/_build/storyboards/highbs-bok/39/original.jpg`](/_build/storyboards/highbs-bok/39/original.jpg)
-* [`/_build/storyboards/highbs-bok/4/original.jpg`](/_build/storyboards/highbs-bok/4/original.jpg)
-* [`/_build/storyboards/highbs-bok/40/original.jpg`](/_build/storyboards/highbs-bok/40/original.jpg)
-* [`/_build/storyboards/highbs-bok/41/original.jpg`](/_build/storyboards/highbs-bok/41/original.jpg)
-* [`/_build/storyboards/highbs-bok/42/original.jpg`](/_build/storyboards/highbs-bok/42/original.jpg)
-* [`/_build/storyboards/highbs-bok/5/original.jpg`](/_build/storyboards/highbs-bok/5/original.jpg)
-* [`/_build/storyboards/highbs-bok/6/original.jpg`](/_build/storyboards/highbs-bok/6/original.jpg)
-* [`/_build/storyboards/highbs-bok/7/original.jpg`](/_build/storyboards/highbs-bok/7/original.jpg)
-* [`/_build/storyboards/highbs-bok/8/original.jpg`](/_build/storyboards/highbs-bok/8/original.jpg)
-* [`/_build/storyboards/highbs-bok/9/original.jpg`](/_build/storyboards/highbs-bok/9/original.jpg)
-* [`/_build/storyboards/psybok-vol0/1/original.jpg`](/_build/storyboards/psybok-vol0/1/original.jpg)
-* [`/_build/storyboards/psybok-vol0/10/original.jpg`](/_build/storyboards/psybok-vol0/10/original.jpg)
-* [`/_build/storyboards/psybok-vol0/11/original.jpg`](/_build/storyboards/psybok-vol0/11/original.jpg)
-* [`/_build/storyboards/psybok-vol0/12/original.jpg`](/_build/storyboards/psybok-vol0/12/original.jpg)
-* [`/_build/storyboards/psybok-vol0/13/original.jpg`](/_build/storyboards/psybok-vol0/13/original.jpg)
-* [`/_build/storyboards/psybok-vol0/14/original.jpg`](/_build/storyboards/psybok-vol0/14/original.jpg)
-* [`/_build/storyboards/psybok-vol0/15/original.jpg`](/_build/storyboards/psybok-vol0/15/original.jpg)
-* [`/_build/storyboards/psybok-vol0/16/original.jpg`](/_build/storyboards/psybok-vol0/16/original.jpg)
-* [`/_build/storyboards/psybok-vol0/17/original.jpg`](/_build/storyboards/psybok-vol0/17/original.jpg)
-* [`/_build/storyboards/psybok-vol0/18/original.jpg`](/_build/storyboards/psybok-vol0/18/original.jpg)
-* [`/_build/storyboards/psybok-vol0/19/original.jpg`](/_build/storyboards/psybok-vol0/19/original.jpg)
-* [`/_build/storyboards/psybok-vol0/2/original.jpg`](/_build/storyboards/psybok-vol0/2/original.jpg)
-* [`/_build/storyboards/psybok-vol0/20/original.jpg`](/_build/storyboards/psybok-vol0/20/original.jpg)
-* [`/_build/storyboards/psybok-vol0/21/original.jpg`](/_build/storyboards/psybok-vol0/21/original.jpg)
-* [`/_build/storyboards/psybok-vol0/22/original.jpg`](/_build/storyboards/psybok-vol0/22/original.jpg)
-* [`/_build/storyboards/psybok-vol0/23/original.jpg`](/_build/storyboards/psybok-vol0/23/original.jpg)
-* [`/_build/storyboards/psybok-vol0/24/original.jpg`](/_build/storyboards/psybok-vol0/24/original.jpg)
-* [`/_build/storyboards/psybok-vol0/25/original.jpg`](/_build/storyboards/psybok-vol0/25/original.jpg)
-* [`/_build/storyboards/psybok-vol0/26/original.jpg`](/_build/storyboards/psybok-vol0/26/original.jpg)
-* [`/_build/storyboards/psybok-vol0/27/original.jpg`](/_build/storyboards/psybok-vol0/27/original.jpg)
-* [`/_build/storyboards/psybok-vol0/28/original.jpg`](/_build/storyboards/psybok-vol0/28/original.jpg)
-* [`/_build/storyboards/psybok-vol0/29/original.jpg`](/_build/storyboards/psybok-vol0/29/original.jpg)
-* [`/_build/storyboards/psybok-vol0/3/original.jpg`](/_build/storyboards/psybok-vol0/3/original.jpg)
-* [`/_build/storyboards/psybok-vol0/30/original.jpg`](/_build/storyboards/psybok-vol0/30/original.jpg)
-* [`/_build/storyboards/psybok-vol0/31/original.jpg`](/_build/storyboards/psybok-vol0/31/original.jpg)
-* [`/_build/storyboards/psybok-vol0/32/original.jpg`](/_build/storyboards/psybok-vol0/32/original.jpg)
-* [`/_build/storyboards/psybok-vol0/33/original.jpg`](/_build/storyboards/psybok-vol0/33/original.jpg)
-* [`/_build/storyboards/psybok-vol0/34/original.jpg`](/_build/storyboards/psybok-vol0/34/original.jpg)
-* [`/_build/storyboards/psybok-vol0/35/original.jpg`](/_build/storyboards/psybok-vol0/35/original.jpg)
-* [`/_build/storyboards/psybok-vol0/36/original.jpg`](/_build/storyboards/psybok-vol0/36/original.jpg)
-* [`/_build/storyboards/psybok-vol0/37/original.jpg`](/_build/storyboards/psybok-vol0/37/original.jpg)
-* [`/_build/storyboards/psybok-vol0/38/original.jpg`](/_build/storyboards/psybok-vol0/38/original.jpg)
-* [`/_build/storyboards/psybok-vol0/39/original.jpg`](/_build/storyboards/psybok-vol0/39/original.jpg)
-* [`/_build/storyboards/psybok-vol0/4/original.jpg`](/_build/storyboards/psybok-vol0/4/original.jpg)
-* [`/_build/storyboards/psybok-vol0/40/original.jpg`](/_build/storyboards/psybok-vol0/40/original.jpg)
-* [`/_build/storyboards/psybok-vol0/41/original.jpg`](/_build/storyboards/psybok-vol0/41/original.jpg)
-* [`/_build/storyboards/psybok-vol0/42/original.jpg`](/_build/storyboards/psybok-vol0/42/original.jpg)
-* [`/_build/storyboards/psybok-vol0/43/original.jpg`](/_build/storyboards/psybok-vol0/43/original.jpg)
-* [`/_build/storyboards/psybok-vol0/44/original.jpg`](/_build/storyboards/psybok-vol0/44/original.jpg)
-* [`/_build/storyboards/psybok-vol0/45/original.jpg`](/_build/storyboards/psybok-vol0/45/original.jpg)
-* [`/_build/storyboards/psybok-vol0/46/original.jpg`](/_build/storyboards/psybok-vol0/46/original.jpg)
-* [`/_build/storyboards/psybok-vol0/47/original.jpg`](/_build/storyboards/psybok-vol0/47/original.jpg)
-* [`/_build/storyboards/psybok-vol0/48/original.jpg`](/_build/storyboards/psybok-vol0/48/original.jpg)
-* [`/_build/storyboards/psybok-vol0/49/original.jpg`](/_build/storyboards/psybok-vol0/49/original.jpg)
-* [`/_build/storyboards/psybok-vol0/5/original.jpg`](/_build/storyboards/psybok-vol0/5/original.jpg)
-* [`/_build/storyboards/psybok-vol0/50/original.jpg`](/_build/storyboards/psybok-vol0/50/original.jpg)
-* [`/_build/storyboards/psybok-vol0/51/original.jpg`](/_build/storyboards/psybok-vol0/51/original.jpg)
-* [`/_build/storyboards/psybok-vol0/52/original.jpg`](/_build/storyboards/psybok-vol0/52/original.jpg)
-* [`/_build/storyboards/psybok-vol0/53/original.jpg`](/_build/storyboards/psybok-vol0/53/original.jpg)
-* [`/_build/storyboards/psybok-vol0/54/original.jpg`](/_build/storyboards/psybok-vol0/54/original.jpg)
-* [`/_build/storyboards/psybok-vol0/55/original.jpg`](/_build/storyboards/psybok-vol0/55/original.jpg)
-* [`/_build/storyboards/psybok-vol0/56/original.jpg`](/_build/storyboards/psybok-vol0/56/original.jpg)
-* [`/_build/storyboards/psybok-vol0/57/original.jpg`](/_build/storyboards/psybok-vol0/57/original.jpg)
-* [`/_build/storyboards/psybok-vol0/58/original.jpg`](/_build/storyboards/psybok-vol0/58/original.jpg)
-* [`/_build/storyboards/psybok-vol0/6/original.jpg`](/_build/storyboards/psybok-vol0/6/original.jpg)
-* [`/_build/storyboards/psybok-vol0/7/original.jpg`](/_build/storyboards/psybok-vol0/7/original.jpg)
-* [`/_build/storyboards/psybok-vol0/8/original.jpg`](/_build/storyboards/psybok-vol0/8/original.jpg)
-* [`/_build/storyboards/psybok-vol0/9/original.jpg`](/_build/storyboards/psybok-vol0/9/original.jpg)
-* [`/_build/storyboards/psybok-vol1/1/original.jpg`](/_build/storyboards/psybok-vol1/1/original.jpg)
-* [`/_build/storyboards/psybok-vol1/10/original.jpg`](/_build/storyboards/psybok-vol1/10/original.jpg)
-* [`/_build/storyboards/psybok-vol1/11/original.jpg`](/_build/storyboards/psybok-vol1/11/original.jpg)
-* [`/_build/storyboards/psybok-vol1/12/original.jpg`](/_build/storyboards/psybok-vol1/12/original.jpg)
-* [`/_build/storyboards/psybok-vol1/13/original.jpg`](/_build/storyboards/psybok-vol1/13/original.jpg)
-* [`/_build/storyboards/psybok-vol1/14/original.jpg`](/_build/storyboards/psybok-vol1/14/original.jpg)
-* [`/_build/storyboards/psybok-vol1/15/original.jpg`](/_build/storyboards/psybok-vol1/15/original.jpg)
-* [`/_build/storyboards/psybok-vol1/16/original.jpg`](/_build/storyboards/psybok-vol1/16/original.jpg)
-* [`/_build/storyboards/psybok-vol1/17/original.jpg`](/_build/storyboards/psybok-vol1/17/original.jpg)
-* [`/_build/storyboards/psybok-vol1/18/original.jpg`](/_build/storyboards/psybok-vol1/18/original.jpg)
-* [`/_build/storyboards/psybok-vol1/19/original.jpg`](/_build/storyboards/psybok-vol1/19/original.jpg)
-* [`/_build/storyboards/psybok-vol1/2/original.jpg`](/_build/storyboards/psybok-vol1/2/original.jpg)
-* [`/_build/storyboards/psybok-vol1/20/original.jpg`](/_build/storyboards/psybok-vol1/20/original.jpg)
-* [`/_build/storyboards/psybok-vol1/21/original.jpg`](/_build/storyboards/psybok-vol1/21/original.jpg)
-* [`/_build/storyboards/psybok-vol1/22/original.jpg`](/_build/storyboards/psybok-vol1/22/original.jpg)
-* [`/_build/storyboards/psybok-vol1/23/original.jpg`](/_build/storyboards/psybok-vol1/23/original.jpg)
-* [`/_build/storyboards/psybok-vol1/24/original.jpg`](/_build/storyboards/psybok-vol1/24/original.jpg)
-* [`/_build/storyboards/psybok-vol1/25/original.jpg`](/_build/storyboards/psybok-vol1/25/original.jpg)
-* [`/_build/storyboards/psybok-vol1/26/original.jpg`](/_build/storyboards/psybok-vol1/26/original.jpg)
-* [`/_build/storyboards/psybok-vol1/27/original.jpg`](/_build/storyboards/psybok-vol1/27/original.jpg)
-* [`/_build/storyboards/psybok-vol1/28/original.jpg`](/_build/storyboards/psybok-vol1/28/original.jpg)
-* [`/_build/storyboards/psybok-vol1/29/original.jpg`](/_build/storyboards/psybok-vol1/29/original.jpg)
-* [`/_build/storyboards/psybok-vol1/3/original.jpg`](/_build/storyboards/psybok-vol1/3/original.jpg)
-* [`/_build/storyboards/psybok-vol1/30/original.jpg`](/_build/storyboards/psybok-vol1/30/original.jpg)
-* [`/_build/storyboards/psybok-vol1/31/original.jpg`](/_build/storyboards/psybok-vol1/31/original.jpg)
-* [`/_build/storyboards/psybok-vol1/32/original.jpg`](/_build/storyboards/psybok-vol1/32/original.jpg)
-* [`/_build/storyboards/psybok-vol1/33/original.jpg`](/_build/storyboards/psybok-vol1/33/original.jpg)
-* [`/_build/storyboards/psybok-vol1/34/original.jpg`](/_build/storyboards/psybok-vol1/34/original.jpg)
-* [`/_build/storyboards/psybok-vol1/35/original.jpg`](/_build/storyboards/psybok-vol1/35/original.jpg)
-* [`/_build/storyboards/psybok-vol1/36/original.jpg`](/_build/storyboards/psybok-vol1/36/original.jpg)
-* [`/_build/storyboards/psybok-vol1/37/original.jpg`](/_build/storyboards/psybok-vol1/37/original.jpg)
-* [`/_build/storyboards/psybok-vol1/38/original.jpg`](/_build/storyboards/psybok-vol1/38/original.jpg)
-* [`/_build/storyboards/psybok-vol1/39/original.jpg`](/_build/storyboards/psybok-vol1/39/original.jpg)
-* [`/_build/storyboards/psybok-vol1/4/original.jpg`](/_build/storyboards/psybok-vol1/4/original.jpg)
-* [`/_build/storyboards/psybok-vol1/40/original.jpg`](/_build/storyboards/psybok-vol1/40/original.jpg)
-* [`/_build/storyboards/psybok-vol1/41/original.jpg`](/_build/storyboards/psybok-vol1/41/original.jpg)
-* [`/_build/storyboards/psybok-vol1/42/original.jpg`](/_build/storyboards/psybok-vol1/42/original.jpg)
-* [`/_build/storyboards/psybok-vol1/43/original.jpg`](/_build/storyboards/psybok-vol1/43/original.jpg)
-* [`/_build/storyboards/psybok-vol1/44/original.jpg`](/_build/storyboards/psybok-vol1/44/original.jpg)
-* [`/_build/storyboards/psybok-vol1/45/original.jpg`](/_build/storyboards/psybok-vol1/45/original.jpg)
-* [`/_build/storyboards/psybok-vol1/46/original.jpg`](/_build/storyboards/psybok-vol1/46/original.jpg)
-* [`/_build/storyboards/psybok-vol1/47/original.jpg`](/_build/storyboards/psybok-vol1/47/original.jpg)
-* [`/_build/storyboards/psybok-vol1/48/original.jpg`](/_build/storyboards/psybok-vol1/48/original.jpg)
-* [`/_build/storyboards/psybok-vol1/49/original.jpg`](/_build/storyboards/psybok-vol1/49/original.jpg)
-* [`/_build/storyboards/psybok-vol1/5/original.jpg`](/_build/storyboards/psybok-vol1/5/original.jpg)
-* [`/_build/storyboards/psybok-vol1/50/original.jpg`](/_build/storyboards/psybok-vol1/50/original.jpg)
-* [`/_build/storyboards/psybok-vol1/51/original.jpg`](/_build/storyboards/psybok-vol1/51/original.jpg)
-* [`/_build/storyboards/psybok-vol1/52/original.jpg`](/_build/storyboards/psybok-vol1/52/original.jpg)
-* [`/_build/storyboards/psybok-vol1/53/original.jpg`](/_build/storyboards/psybok-vol1/53/original.jpg)
-* [`/_build/storyboards/psybok-vol1/54/original.jpg`](/_build/storyboards/psybok-vol1/54/original.jpg)
-* [`/_build/storyboards/psybok-vol1/55/original.jpg`](/_build/storyboards/psybok-vol1/55/original.jpg)
-* [`/_build/storyboards/psybok-vol1/56/original.jpg`](/_build/storyboards/psybok-vol1/56/original.jpg)
-* [`/_build/storyboards/psybok-vol1/57/original.jpg`](/_build/storyboards/psybok-vol1/57/original.jpg)
-* [`/_build/storyboards/psybok-vol1/58/original.jpg`](/_build/storyboards/psybok-vol1/58/original.jpg)
-* [`/_build/storyboards/psybok-vol1/59/original.jpg`](/_build/storyboards/psybok-vol1/59/original.jpg)
-* [`/_build/storyboards/psybok-vol1/6/original.jpg`](/_build/storyboards/psybok-vol1/6/original.jpg)
-* [`/_build/storyboards/psybok-vol1/60/original.jpg`](/_build/storyboards/psybok-vol1/60/original.jpg)
-* [`/_build/storyboards/psybok-vol1/61/original.jpg`](/_build/storyboards/psybok-vol1/61/original.jpg)
-* [`/_build/storyboards/psybok-vol1/62/original.jpg`](/_build/storyboards/psybok-vol1/62/original.jpg)
-* [`/_build/storyboards/psybok-vol1/63/original.jpg`](/_build/storyboards/psybok-vol1/63/original.jpg)
-* [`/_build/storyboards/psybok-vol1/64/original.jpg`](/_build/storyboards/psybok-vol1/64/original.jpg)
-* [`/_build/storyboards/psybok-vol1/65/original.jpg`](/_build/storyboards/psybok-vol1/65/original.jpg)
-* [`/_build/storyboards/psybok-vol1/66/original.jpg`](/_build/storyboards/psybok-vol1/66/original.jpg)
-* [`/_build/storyboards/psybok-vol1/67/original.jpg`](/_build/storyboards/psybok-vol1/67/original.jpg)
-* [`/_build/storyboards/psybok-vol1/68/original.jpg`](/_build/storyboards/psybok-vol1/68/original.jpg)
-* [`/_build/storyboards/psybok-vol1/69/original.jpg`](/_build/storyboards/psybok-vol1/69/original.jpg)
-* [`/_build/storyboards/psybok-vol1/7/original.jpg`](/_build/storyboards/psybok-vol1/7/original.jpg)
-* [`/_build/storyboards/psybok-vol1/70/original.jpg`](/_build/storyboards/psybok-vol1/70/original.jpg)
-* [`/_build/storyboards/psybok-vol1/71/original.jpg`](/_build/storyboards/psybok-vol1/71/original.jpg)
-* [`/_build/storyboards/psybok-vol1/72/original.jpg`](/_build/storyboards/psybok-vol1/72/original.jpg)
-* [`/_build/storyboards/psybok-vol1/73/original.jpg`](/_build/storyboards/psybok-vol1/73/original.jpg)
-* [`/_build/storyboards/psybok-vol1/74/original.jpg`](/_build/storyboards/psybok-vol1/74/original.jpg)
-* [`/_build/storyboards/psybok-vol1/75/original.jpg`](/_build/storyboards/psybok-vol1/75/original.jpg)
-* [`/_build/storyboards/psybok-vol1/76/original.jpg`](/_build/storyboards/psybok-vol1/76/original.jpg)
-* [`/_build/storyboards/psybok-vol1/77/original.jpg`](/_build/storyboards/psybok-vol1/77/original.jpg)
-* [`/_build/storyboards/psybok-vol1/78/original.jpg`](/_build/storyboards/psybok-vol1/78/original.jpg)
-* [`/_build/storyboards/psybok-vol1/79/original.jpg`](/_build/storyboards/psybok-vol1/79/original.jpg)
-* [`/_build/storyboards/psybok-vol1/8/original.jpg`](/_build/storyboards/psybok-vol1/8/original.jpg)
-* [`/_build/storyboards/psybok-vol1/80/original.jpg`](/_build/storyboards/psybok-vol1/80/original.jpg)
-* [`/_build/storyboards/psybok-vol1/81/original.jpg`](/_build/storyboards/psybok-vol1/81/original.jpg)
-* [`/_build/storyboards/psybok-vol1/82/original.jpg`](/_build/storyboards/psybok-vol1/82/original.jpg)
-* [`/_build/storyboards/psybok-vol1/83/original.jpg`](/_build/storyboards/psybok-vol1/83/original.jpg)
-* [`/_build/storyboards/psybok-vol1/84/original.jpg`](/_build/storyboards/psybok-vol1/84/original.jpg)
-* [`/_build/storyboards/psybok-vol1/85/original.jpg`](/_build/storyboards/psybok-vol1/85/original.jpg)
-* [`/_build/storyboards/psybok-vol1/9/original.jpg`](/_build/storyboards/psybok-vol1/9/original.jpg)
 * [`/_data/notebooks/pensees-1/_extracts/1/original.png`](/_data/notebooks/pensees-1/_extracts/1/original.png)
 * [`/_data/notebooks/pensees-1/_extracts/2/original.png`](/_data/notebooks/pensees-1/_extracts/2/original.png)
 * [`/_data/notebooks/pensees-12/_extracts/1/original.png`](/_data/notebooks/pensees-12/_extracts/1/original.png)
@@ -562,6 +334,19 @@ Matching regular expression :
 * [`/_data/storyboards/highbs-bok/_pages/7/original.jpg`](/_data/storyboards/highbs-bok/_pages/7/original.jpg)
 * [`/_data/storyboards/highbs-bok/_pages/8/original.jpg`](/_data/storyboards/highbs-bok/_pages/8/original.jpg)
 * [`/_data/storyboards/highbs-bok/_pages/9/original.jpg`](/_data/storyboards/highbs-bok/_pages/9/original.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/1/original_recto.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/1/original_recto.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/1/original_verso.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/1/original_verso.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/2/original.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/2/original.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/3/original_recto.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/3/original_recto.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/3/original_verso.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/3/original_verso.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/4/original_recto.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/4/original_recto.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/4/original_verso.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/4/original_verso.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/5/original_recto.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/5/original_recto.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/5/original_verso.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/5/original_verso.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/6/original_recto.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/6/original_recto.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/6/original_verso.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/6/original_verso.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/7/original_recto.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/7/original_recto.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/7/original_verso.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/7/original_verso.jpg)
 * [`/_data/storyboards/psybok-vol0/_pages/1/original.jpg`](/_data/storyboards/psybok-vol0/_pages/1/original.jpg)
 * [`/_data/storyboards/psybok-vol0/_pages/10/original.jpg`](/_data/storyboards/psybok-vol0/_pages/10/original.jpg)
 * [`/_data/storyboards/psybok-vol0/_pages/11/original.jpg`](/_data/storyboards/psybok-vol0/_pages/11/original.jpg)
@@ -728,16 +513,18 @@ and [EXTRACTS](#extracts).
 
 ### Properties
 
-**Count: 4.**
+**Count: 6.**
 
 * `id`
 * `names`
 * `description`
 * `regExp`
+* `get`
+* `provision`
 
 ### Occurences
 
-**Count : 225.**
+**Count : 232.**
 
 Matching regular expression :
 
@@ -825,6 +612,13 @@ Matching regular expression :
 * [`/_data/storyboards/highbs-bok/_pages/7/7.page.js`](/_data/storyboards/highbs-bok/_pages/7/7.page.js)
 * [`/_data/storyboards/highbs-bok/_pages/8/8.page.js`](/_data/storyboards/highbs-bok/_pages/8/8.page.js)
 * [`/_data/storyboards/highbs-bok/_pages/9/9.page.js`](/_data/storyboards/highbs-bok/_pages/9/9.page.js)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/1/1.page.js`](/_data/storyboards/hol-adin-des-zums-2020/_pages/1/1.page.js)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/2/2.page.js`](/_data/storyboards/hol-adin-des-zums-2020/_pages/2/2.page.js)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/3/3.page.js`](/_data/storyboards/hol-adin-des-zums-2020/_pages/3/3.page.js)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/4/4.page.js`](/_data/storyboards/hol-adin-des-zums-2020/_pages/4/4.page.js)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/5/5.page.js`](/_data/storyboards/hol-adin-des-zums-2020/_pages/5/5.page.js)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/6/6.page.js`](/_data/storyboards/hol-adin-des-zums-2020/_pages/6/6.page.js)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_pages/7/7.page.js`](/_data/storyboards/hol-adin-des-zums-2020/_pages/7/7.page.js)
 * [`/_data/storyboards/psybok-vol0/_pages/1/1.page.js`](/_data/storyboards/psybok-vol0/_pages/1/1.page.js)
 * [`/_data/storyboards/psybok-vol0/_pages/10/10.page.js`](/_data/storyboards/psybok-vol0/_pages/10/10.page.js)
 * [`/_data/storyboards/psybok-vol0/_pages/11/11.page.js`](/_data/storyboards/psybok-vol0/_pages/11/11.page.js)
@@ -1133,13 +927,15 @@ Folder is represented by :
 
 ### Properties
 
-**Count: 5.**
+**Count: 7.**
 
 * `id`
 * `names`
 * `description`
 * `create`
 * `copy`
+* `clear`
+* `_specs`
 
 
 ## `*-get`
@@ -1184,12 +980,13 @@ a regular expression is used for matching.
 
 ### Occurences
 
-**Count : 9.**
+**Count : 10.**
 
 Matching regular expression :
 
 `/(.*)\/_shrine\/(.*)\/_ways\/get\/get.way.js/`.
 
+* [`/kami.js/_shrine/book/_shrine/page/_ways/get/get.way.js`](/kami.js/_shrine/book/_shrine/page/_ways/get/get.way.js)
 * [`/kami.js/_shrine/book/_shrine/section/_ways/get/get.way.js`](/kami.js/_shrine/book/_shrine/section/_ways/get/get.way.js)
 * [`/kami.js/_shrine/book/_ways/get/get.way.js`](/kami.js/_shrine/book/_ways/get/get.way.js)
 * [`/kami.js/_shrine/file/_ways/get/get.way.js`](/kami.js/_shrine/file/_ways/get/get.way.js)
@@ -1259,7 +1056,7 @@ in a similar way classes and objects are.
 
 ### Properties
 
-**Count: 12.**
+**Count: 13.**
 
 * `id`
 * `names`
@@ -1272,6 +1069,7 @@ in a similar way classes and objects are.
 * `cli`
 * `test`
 * `specs`
+* `_specs`
 * `ave`
 
 ### Occurences
@@ -1618,13 +1416,14 @@ categories of specifications :
 
 ### Occurences
 
-**Count : 2.**
+**Count : 3.**
 
 Matching regular expression :
 
 `/(.*)\/(.*)\/_props\/(_specs|specs)\/(.*)\/(.*).spec.js/`.
 
 * [`/kami.js/_shrine/kami/_props/specs/props/props.spec.js`](/kami.js/_shrine/kami/_props/specs/props/props.spec.js)
+* [`/kami.js/_shrine/kami/_props/_specs/regExp/regExp.spec.js`](/kami.js/_shrine/kami/_props/_specs/regExp/regExp.spec.js)
 * [`/kami.js/_shrine/website/_props/_specs/regExp/regExp.spec.js`](/kami.js/_shrine/website/_props/_specs/regExp/regExp.spec.js)
 
 
@@ -1667,7 +1466,7 @@ like [NOTEBOOK](#notebook).
 
 ### Occurences
 
-**Count : 6.**
+**Count : 7.**
 
 Matching regular expression :
 
@@ -1677,6 +1476,7 @@ Matching regular expression :
 * [`/_data/storyboards/absutrats-jeu/absutrats-jeu.storyboard.js`](/_data/storyboards/absutrats-jeu/absutrats-jeu.storyboard.js)
 * [`/_data/storyboards/absutrats-vol1-v2/absutrats-vol1-v2.storyboard.js`](/_data/storyboards/absutrats-vol1-v2/absutrats-vol1-v2.storyboard.js)
 * [`/_data/storyboards/highbs-bok/highbs-bok.storyboard.js`](/_data/storyboards/highbs-bok/highbs-bok.storyboard.js)
+* [`/_data/storyboards/hol-adin-des-zums-2020/hol-adin-des-zums-2020.storyboard.js`](/_data/storyboards/hol-adin-des-zums-2020/hol-adin-des-zums-2020.storyboard.js)
 * [`/_data/storyboards/psybok-vol0/psybok-vol0.storyboard.js`](/_data/storyboards/psybok-vol0/psybok-vol0.storyboard.js)
 * [`/_data/storyboards/psybok-vol1/psybok-vol1.storyboard.js`](/_data/storyboards/psybok-vol1/psybok-vol1.storyboard.js)
 

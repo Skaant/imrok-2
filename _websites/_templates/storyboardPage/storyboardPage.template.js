@@ -49,7 +49,7 @@ export default data => {
               <a href="/storyboards/${ data.storyboard.id }">
                 ${ data.storyboard.title }</a></li>
             <li class="breadcrumb-item active" aria-current="page">
-              Page ${ data.page.index + 1 }.</li>
+              Page ${ data.page.index }.</li>
           </ol>
         </nav>
         <h1 class="main mb-5"
@@ -57,6 +57,22 @@ export default data => {
           ${ data.page.title
             || 'PAGE ' + data.page.index }
         </h1>
+        ${ 
+          (data.page.shaped
+            || data.page.transcript)
+            ? `
+        <ul>
+          ${ data.page.shaped 
+            ? '<li><a href="#shaped">Texte amélioré</a></li>'
+          
+            : '' }
+          ${ data.page.transcript
+            ? '<li><a href="#transcript">Transcription</a></li>'
+          
+            : '' }
+        </ul>`
+      
+            : '' }
         ${ prevNextRow }
         ${
           data.page.images
@@ -81,7 +97,7 @@ export default data => {
         ${ prevNextRow }
         ${
           data.page.shaped
-            ? `<h2>Texte amélioré</h2>
+            ? `<h2 id="shaped">Texte amélioré</h2>
           ${ 
             (new showdown.Converter({
               simpleLineBreaks: true
@@ -94,7 +110,7 @@ export default data => {
         }
         ${
           data.page.transcript
-            ? `<h2>Transcription</h2>
+            ? `<h2 id="transcript">Transcription</h2>
           ${ 
             (new showdown.Converter({
               simpleLineBreaks: true

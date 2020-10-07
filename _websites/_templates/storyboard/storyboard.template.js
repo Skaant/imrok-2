@@ -1,5 +1,4 @@
 import layoutFragment from "../_fragments/layout/layout.fragment.js";
-import showdown from 'showdown'
 
 export default data => layoutFragment(
   data,

@@ -1,5 +1,5 @@
 *[27 KAMIS](#kamis-glossary)
-on 10/7/2020, 4:59:48 AM*
+on 10/7/2020, 9:51:08 AM*
 
 # imrok-2
 
@@ -77,7 +77,7 @@ with optional tags and meta-data.
 
 ### Occurences
 
-**Count : 10.**
+**Count : 11.**
 
 Matching regular expression :
 
@@ -85,6 +85,7 @@ Matching regular expression :
 
 * [`/_data/articles/1/1.article.js`](/_data/articles/1/1.article.js)
 * [`/_data/articles/10/10.article.js`](/_data/articles/10/10.article.js)
+* [`/_data/articles/11/11.article.js`](/_data/articles/11/11.article.js)
 * [`/_data/articles/2/2.article.js`](/_data/articles/2/2.article.js)
 * [`/_data/articles/3/3.article.js`](/_data/articles/3/3.article.js)
 * [`/_data/articles/4/4.article.js`](/_data/articles/4/4.article.js)

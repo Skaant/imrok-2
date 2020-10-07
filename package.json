@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js --experimental-modules",
-    "test": "npm start -- test"
+    "test": "npm start -- test",
+    "readme": "npm start -- -k readme -force -log build"
   },
   "keywords": [
     "site",

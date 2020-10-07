@@ -1,7 +1,7 @@
 export default {
   id: '10',
   title: 'Recherches sur le site HIGHBS-BOK',
-  date: '07/10/2020',
+  date: '06/10/2020',
   tags: [ 'ux', 'patterns', 'dev', 'kami.js', 'highbs-bok.art' ],
   content: `
 Depuis quelques mois, je réfléchis à construire un framework implémentant

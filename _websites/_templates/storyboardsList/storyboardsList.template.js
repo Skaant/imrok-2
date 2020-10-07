@@ -27,7 +27,8 @@ export default data => layoutFragment(
         }
       </ul>
       <h3>
+        Retour
         <a href="/">
-          Retour HUB (accueil)</a>
+          HUB (accueil)</a>
       </h3>`
       })

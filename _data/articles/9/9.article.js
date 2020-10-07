@@ -1,4 +1,5 @@
 export default {
+  id: '9',
   title: 'Dérivation des motifs',
   date: '07/09/2020',
   tags: [ 'patterns', 'dev', 'abs' ],

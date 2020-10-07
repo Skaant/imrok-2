@@ -101,5 +101,9 @@ a {
 pre {
   overflow: scroll; }
 
+code {
+  color: #F6D03AE6 !important;
+}
+
 .text-golden {
   color: #F6D03A; }

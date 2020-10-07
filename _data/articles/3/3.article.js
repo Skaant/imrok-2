@@ -1,4 +1,5 @@
 export default {
+  id: '3',
   title: 'je mets à jour mon site',
   date: '07/04/2020',
   tags: [ 'edito', 'web', 'imrok.fr' ],

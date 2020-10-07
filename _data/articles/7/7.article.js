@@ -1,4 +1,5 @@
 export default {
+  id: '7',
   title: "L'exponentialité dans le développement informatique",
   date: '15/07/2020',
   tags: [ 'dev', 'abs' ],

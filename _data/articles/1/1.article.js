@@ -1,4 +1,5 @@
 export default {
+  id: '1',
   title: "j'ai mis des règles sur ce site",
   date: "07/12/2019",
   tags: [ 'edito', 'abs', 'imrok.fr' ],

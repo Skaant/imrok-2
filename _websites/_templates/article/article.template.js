@@ -18,11 +18,9 @@ export default data => layoutFragment(
       }
       <h3>
         Retour
-        <a href="/articles">
-          Retour ARTICLES</a>
+        <a href="/articles">ARTICLES</a>
         /
-        <a href="/">
-          Retour HUB (accueil)</a>
+        <a href="/">HUB (accueil)</a>
       </h3>
     </div>`
   })

@@ -37,7 +37,7 @@ export default data => layoutFragment(
           STORYBOARDS</a>
         /
         <a href="/">
-          Retour HUB (accueil)</a>
+          HUB (accueil)</a>
       </h3>
     </div>`
   })

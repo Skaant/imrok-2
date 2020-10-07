@@ -1,4 +1,5 @@
 export default {
+  id: '4',
   title: 'PERMA-DATA - Travailler avec différents types de sources',
   date: '04/05/2020',
   tags: [ 'archi', 'design', 'permadata.net' ],

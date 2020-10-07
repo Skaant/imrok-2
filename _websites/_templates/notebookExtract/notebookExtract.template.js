@@ -82,14 +82,15 @@ export default data => {
             : ''
         }
         <h3>
-          Retour <a href="/carnets/${ data.notebook.id }">
+          Retour
+          <a href="/carnets/${ data.notebook.id }">
             ${ data.notebook.title }</a>
           /
           <a href="/carnets">
             CARNETS</a>
           /
           <a href="/">
-            Retour HUB (accueil)</a>
+            HUB (accueil)</a>
         </h3>
     </body>
   </html>`

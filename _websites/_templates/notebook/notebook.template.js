@@ -25,10 +25,10 @@ export default data => layoutFragment(
       <h3
         Retour
         <a href="/carnets">
-          Retour CARNETS</a>
+          CARNETS</a>
         /
         <a href="/">
-          Retour HUB (accueil)</a>
+          HUB (accueil)</a>
       </h3>
   </body>
 </html>`

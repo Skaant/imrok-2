@@ -1,4 +1,5 @@
 export default {
+  id: '2',
   title: 'projet HOL',
   date: '17/02/2020',
   tags: [ 'tout-un', 'abs' ],

@@ -1,4 +1,5 @@
 export default {
+  id: '8',
   title: "Tout converge (le un)",
   date: '16/08/2020',
   tags: [ 'tout-un', 'abs' ],

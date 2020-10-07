@@ -1,4 +1,5 @@
 export default {
+  id: '5',
   title: 'POKÉ TEAM - UX design et release',
   date: '29/05/2020',
   tags: [ 'ux', 'design', 'poke-team.net' ],

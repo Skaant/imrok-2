@@ -1,5 +1,5 @@
 *[27 KAMIS](#kamis-glossary)
-on 9/26/2020, 4:30:30 AM*
+on 10/7/2020, 4:59:48 AM*
 
 # imrok-2
 
@@ -77,13 +77,14 @@ with optional tags and meta-data.
 
 ### Occurences
 
-**Count : 9.**
+**Count : 10.**
 
 Matching regular expression :
 
 `/_data\/articles\/(.*)\/(.*).article.js/`.
 
 * [`/_data/articles/1/1.article.js`](/_data/articles/1/1.article.js)
+* [`/_data/articles/10/10.article.js`](/_data/articles/10/10.article.js)
 * [`/_data/articles/2/2.article.js`](/_data/articles/2/2.article.js)
 * [`/_data/articles/3/3.article.js`](/_data/articles/3/3.article.js)
 * [`/_data/articles/4/4.article.js`](/_data/articles/4/4.article.js)
@@ -126,13 +127,24 @@ with just some specific meta-data.**
 
 ### Properties
 
-**Count: 5.**
+**Count: 6.**
 
 * `id`
 * `names`
 * `description`
+* `regExp`
 * `get`
 * `provision`
+
+### Occurences
+
+**Count : 0.**
+
+Matching regular expression :
+
+`/^\/_data(.*)\/([\w|\-]*)\/([\w|\-]*)\.book\.js/`.
+
+
 
 
 ## `*-book-extract`
@@ -974,12 +986,14 @@ It is known as :
 
 ### Properties
 
-**Count: 4.**
+**Count: 6.**
 
 * `id`
 * `names`
 * `description`
 * `regExp`
+* `get`
+* `provision`
 
 ### Occurences
 
@@ -1169,12 +1183,13 @@ a regular expression is used for matching.
 
 ### Occurences
 
-**Count : 8.**
+**Count : 9.**
 
 Matching regular expression :
 
 `/(.*)\/_shrine\/(.*)\/_ways\/get\/get.way.js/`.
 
+* [`/kami.js/_shrine/book/_shrine/section/_ways/get/get.way.js`](/kami.js/_shrine/book/_shrine/section/_ways/get/get.way.js)
 * [`/kami.js/_shrine/book/_ways/get/get.way.js`](/kami.js/_shrine/book/_ways/get/get.way.js)
 * [`/kami.js/_shrine/file/_ways/get/get.way.js`](/kami.js/_shrine/file/_ways/get/get.way.js)
 * [`/kami.js/_shrine/instance/_ways/get/get.way.js`](/kami.js/_shrine/instance/_ways/get/get.way.js)

@@ -14,10 +14,12 @@
       "program": "${workspaceFolder}\\index.js",
       "args": [
         "--",
-        "-log",
+        "-force",
         "-k",
-        "readme",
-        "build"
+        "website",
+        "build",
+        "",
+        "default"
       ]
     }
   ]

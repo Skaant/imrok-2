@@ -18,14 +18,18 @@ body {
 .navbar img {
   height: 42px; }
 
-p, li {
+p, li:not(.breadcrumb-item) {
   font-size: 1.4rem;
   letter-spacing: 0.15rem;
   line-height: 1.6rem; }
 
-li {
+li:not(.breadcrumb-item) {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+li.breadcrumb-item > a {
+  color: #222;
 }
 
 li .badge {

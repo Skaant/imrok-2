@@ -18,7 +18,6 @@
         "-k",
         "website",
         "build",
-        "",
         "default"
       ]
     }

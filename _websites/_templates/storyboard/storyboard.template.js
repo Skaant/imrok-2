@@ -10,6 +10,10 @@ export default data => layoutFragment(
     content: `<div class="container">
       <h1 class="main">
         ${ data.storyboard.title }</h1>
+      ${ data.storyboard.description
+        ? '<p>' + data.storyboard.description + '</p>'
+        
+        : '' }
       <ul class="list-unstyled">
         <li class="d-inline-block mt-2 mr-2">
           <a class="btn btn-warning rounded-pill px-4"

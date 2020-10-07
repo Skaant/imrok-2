@@ -28,29 +28,56 @@ export default data => {
   return layoutFragment(
     data,
     {
-      title: 'PAGE ' + data.page.index
-        + ' | ' + data.storyboard.title
+      title: (
+        data.page.title
+          ? data.page.title + ', '
+          
+          : '')
+        + 'PAGE ' + data.page.index
+        + ', ' + data.storyboard.title
         + ' | STORYBOARDS | '
         + data.title,
       content: `<div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="/">Accueil</a></li>
+            <li class="breadcrumb-item">
+              <a href="/storyboards">
+                STORYBOARDS</a></li>
+            <li class="breadcrumb-item">
+              <a href="/storyboards/${ data.storyboard.id }">
+                ${ data.storyboard.title }</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Page ${ data.page.index + 1 }.</li>
+          </ol>
+        </nav>
         <h1 class="main mb-5"
             style="text-align: center">
-          PAGE ${ data.page.index } |
-          <a href="/storyboards/${ data.storyboard.id }">
-            ${ data.storyboard.title }</a>
+          ${ data.page.title
+            || 'PAGE ' + data.page.index }
         </h1>
         ${ prevNextRow }
-        <div class="row justify-content-center">
-          ${
-            data.page.index < data.storyboard.pages.length
-              ? 
-`         <a href="/storyboards/${
-              data.storyboard.id }/${ data.page.index + 1 }">
-            <img src="./original.jpg"/></a>`
+        ${
+          data.page.images
+            ? ('<div class="row justify-content-center">'
+            
+              + data.page.images.map(image =>
+                
+                data.page.index < data.storyboard.pages.length
+                  ?
+    `         <a href="/storyboards/${
+                  data.storyboard.id }/${ data.page.index + 1 }">
+                <img src="./${ image.split('/').pop() }"></a>`
 
-              : '<img src="./original.jpg"/>'
-          }
-        </div>
+                  : `<img src="./${ image.split('/').pop() }"/>`)
+
+                .join('\n')
+
+              + '</div>')
+
+            : ''
+        }
         ${ prevNextRow }
         ${
           data.page.shaped

@@ -10,6 +10,7 @@ import FILE from '../../../../kami.js/_shrine/file/file.kami.js'
 import notebooksListTemplate from '../../../_templates/notebooksList/notebooksList.template.js'
 import notebookTemplate from '../../../_templates/notebook/notebook.template.js'
 import notebookExtractTemplate from '../../../_templates/notebookExtract/notebookExtract.template.js'
+import IMAGE from '../../../../kami.js/_shrine/book/_shrine/image/image.kami.js'
 
 export default (
   scope,
@@ -110,13 +111,14 @@ export default (
                     folderScope,
                     options
                   ),
-                  /** /storyboards/:id/:page/original.jpg */
-                  FILE.copy(
-                    '/_data/storyboards/'
-                      + storyboard.id + '/_pages/'
-                      + index + '/original.jpg',
-                    folderScope + '/original.jpg'
-                  )
+                  ...(page.images
+                    ? IMAGE.copy(
+                      page.images,
+                      folderScope,
+                      options
+                    )
+
+                    : [])
                 ]))
               })
           ])

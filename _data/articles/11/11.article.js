@@ -20,7 +20,7 @@ Le code-joyau est :
 
 * **Extrêment économe**.
   
-  Son fonctionnement est radicalement utilisé.
+  Son fonctionnement est radicalement optimisé.
   Il utilise le moins de ressources possibles.
 
   On le dit également **"beau"**.

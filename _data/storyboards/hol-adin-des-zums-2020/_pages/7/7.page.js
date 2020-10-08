@@ -9,5 +9,9 @@ export default {
 1. Système GRAND-ARBRE
 1. INFINI-ERA
 1. Cité de l'aube
-1. ANGK`
+1. ANGK
+
+(Idée pour la fin :
+au moment de la résorbtion,
+ré-engendrement de l'univers.)`
   }

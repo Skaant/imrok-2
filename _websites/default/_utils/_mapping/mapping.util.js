@@ -78,6 +78,7 @@ export default (
           folderScope,
           storyboard.id,
           folderScope => ([
+
             PAGE.create(
               storyboardTemplate,
               {
@@ -87,6 +88,15 @@ export default (
               folderScope,
               options
             ),
+            ...(storyboard.images
+              ? IMAGE.copy(
+                storyboard.images,
+                folderScope,
+                options
+              )
+              
+              : []),
+
             /** /storyboards/:id/:page */
             ...storyboard.pages.map(page => {
 

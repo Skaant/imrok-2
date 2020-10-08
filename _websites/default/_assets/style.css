@@ -111,3 +111,15 @@ code {
 
 .text-golden {
   color: #F6D03A; }
+
+.container > .storyboard-images > img {
+  height: max-content;
+  margin-bottom: 3rem;
+}
+
+div > p > img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  margin-bottom: 3rem;
+}

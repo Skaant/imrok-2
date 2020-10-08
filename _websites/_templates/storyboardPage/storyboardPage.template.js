@@ -76,7 +76,7 @@ export default data => {
         ${ prevNextRow }
         ${
           data.page.images
-            ? ('<div class="row justify-content-center">'
+            ? ('<div class="row storyboard-images justify-content-center">'
             
               + data.page.images.map(image =>
                 

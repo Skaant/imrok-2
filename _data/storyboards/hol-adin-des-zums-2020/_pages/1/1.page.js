@@ -12,7 +12,8 @@ qui commence par un grand vide,
 un champ de non-être :
 
 Ce qui existe sans pouvoir intéragir et
-être senti donc n'existe pas.
+être senti
+donc n'existe pas.
 
 Mais aujourd'hui,
 quelqu'un va le faire exister :

@@ -55,7 +55,7 @@ Cherche le compromis entre les deux :
 
 **En poussant jusqu'à obtenir le motif.**
 
-### À propos de l'HIGHBS-BOK
+## À propos de l'HIGHBS-BOK
 
 L'idée de proposer une histoire publiquement,
 sur internet,
@@ -88,7 +88,7 @@ l'accès aux commentaires écrits et vidéos,
 poser directement ses questions sur le site
 Et d'autres services à imaginer.
 
-### [Les storyboards](/storyboards), sur [imrok.fr](/)
+## [Les storyboards](/storyboards), sur [imrok.fr](/)
 
 La question est encore plus délicate pour
 les storyboards que j'essaie d'archiver sur le site.

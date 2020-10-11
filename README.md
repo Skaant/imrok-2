@@ -1,5 +1,5 @@
 *[27 KAMIS](#kamis-glossary)
-on 10/7/2020, 7:03:22 PM*
+on 10/11/2020, 11:04:51 PM*
 
 # imrok-2
 
@@ -77,7 +77,7 @@ with optional tags and meta-data.
 
 ### Occurences
 
-**Count : 11.**
+**Count : 12.**
 
 Matching regular expression :
 
@@ -86,6 +86,7 @@ Matching regular expression :
 * [`/_data/articles/1/1.article.js`](/_data/articles/1/1.article.js)
 * [`/_data/articles/10/10.article.js`](/_data/articles/10/10.article.js)
 * [`/_data/articles/11/11.article.js`](/_data/articles/11/11.article.js)
+* [`/_data/articles/12/12.article.js`](/_data/articles/12/12.article.js)
 * [`/_data/articles/2/2.article.js`](/_data/articles/2/2.article.js)
 * [`/_data/articles/3/3.article.js`](/_data/articles/3/3.article.js)
 * [`/_data/articles/4/4.article.js`](/_data/articles/4/4.article.js)
@@ -230,7 +231,7 @@ scoped BOOK-IMAGES are copied to the destination WEBSITE-PAGE folder.
 
 ### Occurences
 
-**Count : 255.**
+**Count : 256.**
 
 Matching regular expression :
 
@@ -334,6 +335,7 @@ Matching regular expression :
 * [`/_data/storyboards/highbs-bok/_pages/7/original.jpg`](/_data/storyboards/highbs-bok/_pages/7/original.jpg)
 * [`/_data/storyboards/highbs-bok/_pages/8/original.jpg`](/_data/storyboards/highbs-bok/_pages/8/original.jpg)
 * [`/_data/storyboards/highbs-bok/_pages/9/original.jpg`](/_data/storyboards/highbs-bok/_pages/9/original.jpg)
+* [`/_data/storyboards/hol-adin-des-zums-2020/_images/cover.png`](/_data/storyboards/hol-adin-des-zums-2020/_images/cover.png)
 * [`/_data/storyboards/hol-adin-des-zums-2020/_pages/1/original_recto.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/1/original_recto.jpg)
 * [`/_data/storyboards/hol-adin-des-zums-2020/_pages/1/original_verso.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/1/original_verso.jpg)
 * [`/_data/storyboards/hol-adin-des-zums-2020/_pages/2/original.jpg`](/_data/storyboards/hol-adin-des-zums-2020/_pages/2/original.jpg)

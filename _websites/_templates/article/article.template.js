@@ -8,7 +8,10 @@ export default data => layoutFragment(
       + ' | ARTICLE ' + data.article.index
       + ' | ' + data.title,
     description: data.article.description
-      || data.article.content.split('\n\n')[0],
+      || data.article.content
+        .split('\n\n')[0]
+        .replace(/"/g, '\"')
+        .slice(0, 150),
     content: `<div class="container">
       <h1 class="main">
         ${ data.article.title }</h1>

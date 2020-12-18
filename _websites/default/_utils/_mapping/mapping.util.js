@@ -11,6 +11,7 @@ import notebooksListTemplate from '../../../_templates/notebooksList/notebooksLi
 import notebookTemplate from '../../../_templates/notebook/notebook.template.js'
 import notebookExtractTemplate from '../../../_templates/notebookExtract/notebookExtract.template.js'
 import BOOK_IMAGE from '../../../../motifs-js/_motifs/book-image/book-image.motif.js'
+import legalsTemplate from '../../../_templates/legals/legals.template.js'
 
 export default (
   scope,
@@ -24,6 +25,18 @@ export default (
     scope,
     options
   ),
+  /** /mentions-legales */
+  FOLDER.create(
+    scope,
+    'mentions-legales',
+    folderScope => ([
+      WEBSITE_PAGE.create(
+        legalsTemplate,
+        data,
+        folderScope,
+        options
+      )
+    ])),
   /** /articles */
   FOLDER.create(
     scope,

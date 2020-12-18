@@ -1,6 +1,6 @@
-import ARTICLE from "../../../../_shrine/article/article.kami.js";
-import STORYBOARD from "../../../../_shrine/storyboard/storyboard.kami.js";
-import NOTEBOOK from "../../../../_shrine/notebook/notebook.kami.js";
+import ARTICLE from "../../../../_motifs/article/article.motif.js";
+import STORYBOARD from "../../../../_motifs/storyboard/storyboard.motif.js";
+import NOTEBOOK from "../../../../_motifs/notebook/notebook.motif.js";
 
 export default () =>
 

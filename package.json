@@ -1,7 +1,7 @@
 {
   "name": "imrok-2",
   "version": "0.1.0",
-  "description": "IMROK's source code (built on kami.js)",
+  "description": "IMROK website's source code (built on `motifs-js` framework)",
   "main": "index.js",
   "type": "module",
   "scripts": {

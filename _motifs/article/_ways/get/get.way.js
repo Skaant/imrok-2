@@ -1,6 +1,6 @@
-import INSTANCE from "../../../../kami.js/_shrine/instance/instance.kami.js";
-import ARTICLE from '../../article.kami.js'
-import formatEnum from "../../../../kami.js/_shrine/get/_enums/format/format.enum.js";
+import INSTANCE from "../../../../motifs-js/_motifs/instance/instance.motif.js";
+import ARTICLE from '../../article.motif.js'
+import formatEnum from "../../../../motifs-js/_motifs/get/_enums/format/format.enum.js";
 
 /** Order the results by decreasing
  *  post date. */

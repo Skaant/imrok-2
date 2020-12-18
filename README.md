@@ -1,114 +1,93 @@
-*[27 KAMIS](#kamis-glossary)
-on 10/11/2020, 11:04:51 PM*
+*[36 KAMIS](#kamis-glossary)
+on 12/18/2020, 5:55:01 PM*
 
 # imrok-2
 
 > My CREATIVE HUB's sources.
 
-![kami.js project pictogram](/_websites/default/_assets/star-logo.svg)
+![HOL-project pictogram](/_websites/default/_assets/star-logo.svg)
 
 ### Table of content
 
-* [KAMIS glossary](#kamis-glossary)
+* [MOTIFS glossary](#motifs-glossary)
 
-## KAMIS' glossary
+## MOTIFS' glossary
     
-* [ARTICLE](#article) : Article
-* [*-BOOK](#-book) : Book
+* [`= assertion`](#-assertion) : Assertion
+* [`▥ book`](#-book) : Book
+* [`book-extract`](#book-extract) : Extract, Fragment, Atom
+* [`book-image`](#book-image) : Image, Picture, Illustration, Scan
+* [`book-page`](#book-page) : Page
+* [`book-section`](#book-section) : Section, Chapter, Part
+* [`⌿ command`](#-command) : Command
+* [`▼ description`](#-description) : Description
+* [`⎊ doc`](#-doc) : Documentation
+* [`▤ file`](#-file) : File
+* [`◰ folder`](#-folder) : Folder
+* [`folder-scope`](#folder-scope) : Scope, Perimeter
+* [`⤶ get`](#-get) : Accesser, Obtain, Hydrater
+* [`⯎ global`](#-global) : Identifier, instance name
+* [`# id`](#-id) : Identifier, instance name
+* [`⧇ instance`](#-instance) : Instance
+* [`ἀ lang`](#-lang) : Language
+* [`⚇ motif`](#-motif) : Concept, Idea, Word, Pattern, Spirit, God, Angel, Deva
+* [`ʯ occurence`](#-occurence) : Occurence
+* [`⛩ pantheon`](#-pantheon) : Pantheon, Primordial shrine, Valhalla, Mount Olympus, Acropolis, Heaven
+* [`Ω project`](#-project) : Project
+* [`⁖ prop`](#-prop) : Property, Characteristics, Attribute
+* [`⬙ readme`](#-readme) : README
+* [`⬥ readme-section`](#-readme-section) : Section
+* [`shrine`](#shrine) : Shrine
+* [`Ѭ spec`](#-spec) : Specification
+* [`Ѫ spec-section`](#-spec-section) : Specification section
+* [`⬫ util`](#-util) : Utility
+* [`way`](#way) : Method, Action, Operation, Function
+* [`webapp`](#webapp) : Web application
+* [`Ʋ website`](#-website) : Website
+* [`website-page`](#website-page) : Page, Website page
+* [`wiki`](#wiki) : Wiki
+* [`article`](#article) : Article
+* [`notebook`](#notebook) : Notebook
+* [`storyboard`](#storyboard) : Storyboard
 
-  * [*-BOOK-EXTRACT](#-book-extract) : Extract, Fragment, Atom
+# `= assertion`
 
-  * [*-BOOK-IMAGE](#-book-image) : Image, Picture, Illustration, Scan
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-  * [*-BOOK-PAGE](#-book-page) : Page
+**ASSERTION** is also known as :
 
-  * [*-BOOK-SECTION](#-book-section) : Section, Chapter, Part
-* [*-COMMAND](#-command) : Command
-* [*-DOC](#-doc) : Documentation
-* [*-FILE](#-file) : File
-* [*-FOLDER](#-folder) : Folder
-* [*-GET](#-get) : Accesser, Obtain, Hydrater
-* [*-INSTANCE](#-instance) : Instance
-* [*-KAMI](#-kami) : Concept, Idea, Word, Pattern, Spirit, God, Angel, Deva
-* [*-LANG](#-lang) : Language
-* [NOTEBOOK](#notebook) : Notebook
-* [*-PANTHEON](#-pantheon) : Pantheon, Primordial shrine, Valhalla, Mount Olympus, Acropolis, Heaven
-* [*-PROP](#-prop) : Property, Characteristics, Attribute
-* [*-README](#-readme) : README
+* [en] Assertion,
+* [fr] Assertion.
 
-  * [*-README-SECTION](#-readme-section) : Section
-* [*-ШRᛏGHN](#-shrine) : Shrine
-* [*-SPEC](#-spec) : Specification
-* [STORYBOARD](#storyboard) : Storyboard
-* [*-UTIL](#-util) : Utility
-* [*-WAY](#-way) : Method, Action, Operation, Function
-* [*-WEBSITE](#-website) : Website
+SPEC unit
 
-  * [*-WEBSITE-PAGE](#-website-page) : Page, Website page
-* [*-WIKI](#-wiki) : Wiki
+```javascript
+{
+  label: 'string',
+  test: 'Promise'
+}
+```
 
-## `article`
+## Properties
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
-
-**ARTICLE** is a project specific KAMI.
-
-It is known as :
-
-* [en] Article,
-* [fr] Article.
-
-### Description
-
-**WEBSITE ARTICLE**
-
-An article is a titled and dated content,
-with optional tags and meta-data.
-
-### Properties
-
-**Count: 5.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/assertion/assertion.motif.js
+* `id` : assertion
+* `scope` : /motifs-js
+* `folder` : assertion
+* `filePath` : /motifs-js/_motifs/assertion/assertion.motif.js
+* `symbol` : =
 * `names`
-* `description`
-* `regExp`
-* `get`
-
-### Occurences
-
-**Count : 12.**
-
-Matching regular expression :
-
-`/_data\/articles\/(.*)\/(.*).article.js/`.
-
-* [`/_data/articles/1/1.article.js`](/_data/articles/1/1.article.js)
-* [`/_data/articles/10/10.article.js`](/_data/articles/10/10.article.js)
-* [`/_data/articles/11/11.article.js`](/_data/articles/11/11.article.js)
-* [`/_data/articles/12/12.article.js`](/_data/articles/12/12.article.js)
-* [`/_data/articles/2/2.article.js`](/_data/articles/2/2.article.js)
-* [`/_data/articles/3/3.article.js`](/_data/articles/3/3.article.js)
-* [`/_data/articles/4/4.article.js`](/_data/articles/4/4.article.js)
-* [`/_data/articles/5/5.article.js`](/_data/articles/5/5.article.js)
-* [`/_data/articles/6/6.article.js`](/_data/articles/6/6.article.js)
-* [`/_data/articles/7/7.article.js`](/_data/articles/7/7.article.js)
-* [`/_data/articles/8/8.article.js`](/_data/articles/8/8.article.js)
-* [`/_data/articles/9/9.article.js`](/_data/articles/9/9.article.js)
 
 
-## `*-book`
+# `▥ book`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-BOOK** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**BOOK** is also known as :
 
 * [en] Book,
 * [fr] Livre.
-
-### Description
 
 **ORDERED COLLECTION OF WRITINGS**
 
@@ -127,64 +106,69 @@ A BOOK content is made of smaller [KAMIS](#kami)/bricks :
 **Note that BOOK is a top-level section
 with just some specific meta-data.**
 
-### Properties
+## Properties
 
-**Count: 6.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/book/book.motif.js
+* `id` : book
+* `scope` : /motifs-js
+* `folder` : book
+* `filePath` : /motifs-js/_motifs/book/book.motif.js
+* `symbol` : ▥
 * `names`
-* `description`
-* `regExp`
+* `occurences`
 * `get`
 * `provision`
 
-### Occurences
+## Instances
 
 **Count : 0.**
 
-Matching regular expression :
+### Matching mechanims
 
-`/^\/_data(.*)\/([\w|\-]*)\/([\w|\-]*)\.book\.js/`.
+* `/^\/_data(.*)\/([\w|\-]*)\/([\w|\-]*)\.book\.js/`.
+
+### Instances list
 
 
 
 
-## `*-book-extract`
+# `book-extract`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-BOOK-EXTRACT** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**BOOK-EXTRACT** is also known as :
 
 * [en] Extract, Fragment, Atom,
 * [fr] Extrait, Fragment, Atome.
 
-### Description
-
-**BOOK EXTRACT**
+A small piece of BOOK
 
 A FRAGMENT is the smallest unit of [BOOK](#book) content.
 
 It can be included inside a [SECTION](#section),
 a [PAGE](#page) or directly on the BOOK root.
 
-### Properties
+## Properties
 
-**Count: 4.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/book-extract/book-extract.motif.js
+* `id` : book-extract
+* `scope` : /motifs-js
+* `folder` : book-extract
+* `filePath` : /motifs-js/_motifs/book-extract/book-extract.motif.js
 * `names`
-* `description`
-* `regExp`
+* `occurences`
 
-### Occurences
+## Instances
 
 **Count : 9.**
 
-Matching regular expression :
+### Matching mechanims
 
-`/\/_extracts\/(.*)\/(.*)\.extract\.js/`.
+* `/(.*)\/_extracts\/([\w|\-]*)\/([\w|\-]*)\.extract\.js/`.
+
+### Instances list
 
 * [`/_data/notebooks/pensees-1/_extracts/1/1.extract.js`](/_data/notebooks/pensees-1/_extracts/1/1.extract.js)
 * [`/_data/notebooks/pensees-1/_extracts/2/2.extract.js`](/_data/notebooks/pensees-1/_extracts/2/2.extract.js)
@@ -197,18 +181,14 @@ Matching regular expression :
 * [`/_data/notebooks/pensees-9/_extracts/1/1.extract.js`](/_data/notebooks/pensees-9/_extracts/1/1.extract.js)
 
 
-## `*-book-image`
+# `book-image`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-BOOK-IMAGE** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**IMAGE** is also known as :
 
 * [en] Image, Picture, Illustration, Scan,
 * [fr] Image, Illustration, Numérisation.
-
-### Description
 
 **BOOK VISUAL CONTENT**
 
@@ -219,31 +199,28 @@ a [BOOK-EXTRACT](#book-extract) or in a [BOOK-PAGE](#book-page).
 When the BOOK-PAGE, BOOK-EXTRACT or BOOK-SECTION is retrieved,
 scoped BOOK-IMAGES are copied to the destination WEBSITE-PAGE folder.
 
-### Properties
+## Properties
 
-**Count: 5.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/book-image/book-image.motif.js
+* `id` : book-image
+* `scope` : /motifs-js
+* `folder` : book-image
+* `filePath` : /motifs-js/_motifs/book-image/book-image.motif.js
 * `names`
-* `description`
-* `regExp`
+* `occurences`
 * `copy`
 
-### Occurences
+## Instances
 
-**Count : 256.**
+**Count : 248.**
 
-Matching regular expression :
+### Matching mechanims
 
-`/\.(png|jpg|svg)$/`.
+* `/\/_data\/(.*)\/([\w|\-]*)\.(png|jpg|svg)$/`.
 
-* [`/kami.js/logo.svg`](/kami.js/logo.svg)
-* [`/kami.js/_shrine/kami/kami.picto.svg`](/kami.js/_shrine/kami/kami.picto.svg)
-* [`/kami.js/_shrine/lang/lang.picto.svg`](/kami.js/_shrine/lang/lang.picto.svg)
-* [`/kami.js/_shrine/prop/prop.picto.svg`](/kami.js/_shrine/prop/prop.picto.svg)
-* [`/kami.js/_shrine/readme/readme.picto.svg`](/kami.js/_shrine/readme/readme.picto.svg)
-* [`/kami.js/_shrine/shrine/shrine.picto.svg`](/kami.js/_shrine/shrine/shrine.picto.svg)
-* [`/kami.js/_shrine/util/util.picto.svg`](/kami.js/_shrine/util/util.picto.svg)
+### Instances list
+
 * [`/_data/notebooks/pensees-1/_extracts/1/original.png`](/_data/notebooks/pensees-1/_extracts/1/original.png)
 * [`/_data/notebooks/pensees-1/_extracts/2/original.png`](/_data/notebooks/pensees-1/_extracts/2/original.png)
 * [`/_data/notebooks/pensees-12/_extracts/1/original.png`](/_data/notebooks/pensees-12/_extracts/1/original.png)
@@ -492,45 +469,44 @@ Matching regular expression :
 * [`/_data/storyboards/psybok-vol1/_pages/84/original.jpg`](/_data/storyboards/psybok-vol1/_pages/84/original.jpg)
 * [`/_data/storyboards/psybok-vol1/_pages/85/original.jpg`](/_data/storyboards/psybok-vol1/_pages/85/original.jpg)
 * [`/_data/storyboards/psybok-vol1/_pages/9/original.jpg`](/_data/storyboards/psybok-vol1/_pages/9/original.jpg)
-* [`/_websites/default/_assets/star-logo.svg`](/_websites/default/_assets/star-logo.svg)
 
 
-## `*-book-page`
+# `book-page`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-BOOK-PAGE** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**PAGE** is also known as :
 
 * [en] Page,
 * [fr] Page.
-
-### Description
 
 **PHYSICAL CONTENT FRAGMENT**
 
 PAGE can hold [SECTIONS](#section)
 and [EXTRACTS](#extracts).
 
-### Properties
+## Properties
 
-**Count: 6.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/book-page/book-page.motif.js
+* `id` : book-page
+* `scope` : /motifs-js
+* `folder` : book-page
+* `filePath` : /motifs-js/_motifs/book-page/book-page.motif.js
 * `names`
-* `description`
-* `regExp`
+* `occurences`
 * `get`
 * `provision`
 
-### Occurences
+## Instances
 
 **Count : 232.**
 
-Matching regular expression :
+### Matching mechanims
 
-`/\/_pages\/(.*)\/(.*)\.page\.js/`.
+* `/(.*)\/_pages\/([\w|\-]*)\/([\w|\-]*)\.page\.js/`.
+
+### Instances list
 
 * [`/_data/storyboards/absutrats-6-18/_pages/1/1.page.js`](/_data/storyboards/absutrats-6-18/_pages/1/1.page.js)
 * [`/_data/storyboards/absutrats-6-18/_pages/10/10.page.js`](/_data/storyboards/absutrats-6-18/_pages/10/10.page.js)
@@ -766,157 +742,233 @@ Matching regular expression :
 * [`/_data/storyboards/psybok-vol1/_pages/9/9.page.js`](/_data/storyboards/psybok-vol1/_pages/9/9.page.js)
 
 
-## `*-book-section`
+# `book-section`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-BOOK-SECTION** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**SECTION** is also known as :
 
 * [en] Section, Chapter, Part,
 * [fr] Section, Chapitre, Partie.
 
-### Description
-
 **BOOK SUB-DIVISION**
 
-### Properties
+## Properties
 
-**Count: 6.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/book-section/book-section.motif.js
+* `id` : book-section
+* `scope` : /motifs-js
+* `folder` : book-section
+* `filePath` : /motifs-js/_motifs/book-section/book-section.motif.js
 * `names`
-* `description`
-* `regExp`
+* `occurences`
 * `get`
 * `provision`
 
-### Occurences
+## Instances
 
 **Count : 0.**
 
-Matching regular expression :
+### Matching mechanims
 
-`/^\/_data\/(.*)\/_sections\/(.*)\/(.*)\.section\.js/`.
+.
+
+### Instances list
 
 
 
 
-## `*-command`
+# `⌿ command`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-COMMAND** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**COMMAND** is also known as :
 
 * [en] Command,
 * [fr] Commande.
 
-### Description
+MOTIF CLI interface action
 
-**KAMI WAYS CLI INTERFACE**
+Basically, a command **binds a method to match a MOTIF [entrypoint syntax](#entrypoint-syntax)**.
 
-Basically, a command bind a [`way`](#way) method
-to match [`KAMI`](#kami) CLI entrypoint syntax.
+At the moment, CLI is only accessible as a single line command prompt;
+but we'd like to present it as a interactive, staying alive, dialog.
 
-### Properties
+### Entrypoint syntax
 
-**Count: 4.**
+In the `./dev-start` file you can find the following call :
 
-* `id`
+```javascript
+KAMI.cli(
+  process.argv.slice(3),
+  {
+    log: true
+  })
+```
+
+**From the CLI side**, when you write a command, note that **the three first words are ignored**.
+Use the following syntax to call a COMMAND.
+
+```bash
+node dev-start.js -- <args>
+npm start -- <args>
+```
+
+**In the code side**, the signature for a COMMAND function is
+quite similar to the top-level `KAMI.cli()` method :
+
+```javascript
+export default (args: [], options: {}) =>
+```
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/command/command.motif.js
+* `id` : command
+* `scope` : /motifs-js
+* `folder` : command
+* `filePath` : /motifs-js/_motifs/command/command.motif.js
+* `symbol` : ⌿
 * `names`
-* `description`
-* `regExp`
+* `occurences`
 
-### Occurences
+## Instances
 
-**Count : 4.**
+**Count : 0.**
 
-Matching regular expression :
+### Matching mechanims
 
-`/(.*)\/_shrine\/(.*)\/_props\/_commands\/(.*)\/(.*).command.js/`.
+* `/(.*)\/_shrine\/(.*)\/_props\/_commands\/(.*)\/(.*).command.js/`.
 
-* [`/kami.js/_shrine/kami/_props/_commands/create/create.command.js`](/kami.js/_shrine/kami/_props/_commands/create/create.command.js)
-* [`/kami.js/_shrine/kami/_props/_commands/test/test.command.js`](/kami.js/_shrine/kami/_props/_commands/test/test.command.js)
-* [`/kami.js/_shrine/readme/_props/_commands/build/build.command.js`](/kami.js/_shrine/readme/_props/_commands/build/build.command.js)
-* [`/kami.js/_shrine/website/_props/_commands/build/build.command.js`](/kami.js/_shrine/website/_props/_commands/build/build.command.js)
+### Instances list
 
 
-## `*-doc`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
 
-**PANTHEON-DOC** belongs to the PANTHEON of KAMIS.
+# `▼ description`
 
-It is known as :
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**DESCRIPTION** is also known as :
+
+* [en] Description,
+* [fr] Description.
+
+Textual data
+
+Should treat LANG dimension.
+
+Experimental :
+```bash
+<motifId>
++-- description
+|   +-- en.description.js
+|   +-- fr.description.js
++-- <motifId>.motif.js
+```
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/description/description.motif.js
+* `id` : description
+* `scope` : /motifs-js
+* `folder` : description
+* `filePath` : /motifs-js/_motifs/description/description.motif.js
+* `symbol` : ▼
+* `names`
+* `occurences`
+
+## Instances
+
+**Count : 9.**
+
+### Matching mechanims
+
+* `/(.*)\/([\w|\-]*)\/description\/description\.md$/`.
+
+### Instances list
+
+* [`undefined`](undefined)
+* [`undefined`](undefined)
+* [`undefined`](undefined)
+* [`undefined`](undefined)
+* [`undefined`](undefined)
+* [`undefined`](undefined)
+* [`undefined`](undefined)
+* [`undefined`](undefined)
+* [`undefined`](undefined)
+
+
+# `⎊ doc`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**DOC** is also known as :
 
 * [en] Documentation,
 * [fr] Documentation.
 
-### Description
+General documentation ressources
 
-**TOP-LEVEL DOCUMENTATION KAMI**
-
-DOC is composed of few sub-KAMIS :
+DOC is composed of few sub-[MOTIFS](#motif) :
 * [README](#readme),
 * [WIKI](#wiki),
 * [WEBSITE](#website).
 
-### Properties
+## Properties
 
-**Count: 3.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/doc/doc.motif.js
+* `id` : doc
+* `scope` : /motifs-js
+* `folder` : doc
+* `filePath` : /motifs-js/_motifs/doc/doc.motif.js
+* `symbol` : ⎊
 * `names`
-* `description`
 
 
-## `*-file`
+# `▤ file`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-FILE** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**FILE** is also known as :
 
 * [en] File,
 * [fr] Fichier.
 
-### Description
-
-**File meta-data**
+File meta-data
 
 *Pattern should later be extended depending on
 the file extension.*
 
-### Properties
+## Properties
 
-**Count: 6.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/file/file.motif.js
+* `id` : file
+* `scope` : /motifs-js
+* `folder` : file
+* `filePath` : /motifs-js/_motifs/file/file.motif.js
+* `symbol` : ▤
 * `names`
-* `description`
 * `create`
 * `get`
 * `copy`
 
 
-## `*-folder`
+# `◰ folder`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-FOLDER** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**FOLDER** is also known as :
 
 * [en] Folder,
 * [fr] Dossier.
 
-### Description
-
-**Folder meta-data**
+File explorer node
 
 Folder is represented by :
 * Its `scope`, the path between project root
@@ -927,33 +979,57 @@ Folder is represented by :
   (a complex concept to define).
 
 
-### Properties
+## Properties
 
-**Count: 7.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/folder/folder.motif.js
+* `id` : folder
+* `scope` : /motifs-js
+* `folder` : folder
+* `filePath` : /motifs-js/_motifs/folder/folder.motif.js
+* `symbol` : ◰
 * `names`
-* `description`
 * `create`
 * `copy`
 * `clear`
 * `_specs`
 
 
-## `*-get`
+# `folder-scope`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-GET** belongs to the PANTHEON of KAMIS.
+**FOLDER-SCOPE** is also known as :
 
-It is known as :
+* [en] Scope, Perimeter,
+* [fr] Portée, Périmètre.
+
+SUB-FOLDER TREE
+
+In a FS representation, the scope
+is the root folder, or a sub-folder.
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/folder-scope/folder-scope.motif.js
+* `id` : folder-scope
+* `scope` : /motifs-js
+* `folder` : folder-scope
+* `filePath` : /motifs-js/_motifs/folder-scope/folder-scope.motif.js
+* `names`
+
+
+# `⤶ get`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**GET** is also known as :
 
 * [en] Accesser, Obtain, Hydrater,
 * [fr] Accesseur, Obtenir, Hydrateur.
 
-### Description
-
-**INSTANCE ACCESSERS**
+The MOTIF'S INSTANCES accessers
 
 GET is currently an abstract pattern
 which may be implemented on sufficent
@@ -970,147 +1046,272 @@ represent the actual occurence.
 In the case of folders and files,
 a regular expression is used for matching.
 
+### GET ONE and GET ALL
 
-### Properties
+get(:id) and get()
+`
 
-**Count: 4.**
+## Properties
 
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/get/get.motif.js
+* `id` : get
+* `scope` : /motifs-js
+* `folder` : get
+* `filePath` : /motifs-js/_motifs/get/get.motif.js
+* `symbol` : ⤶
 * `names`
-* `description`
 * `regExp`
 
-### Occurences
 
-**Count : 10.**
+# `⯎ global`
 
-Matching regular expression :
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-`/(.*)\/_shrine\/(.*)\/_ways\/get\/get.way.js/`.
+**ID** is also known as :
 
-* [`/kami.js/_shrine/book/_shrine/page/_ways/get/get.way.js`](/kami.js/_shrine/book/_shrine/page/_ways/get/get.way.js)
-* [`/kami.js/_shrine/book/_shrine/section/_ways/get/get.way.js`](/kami.js/_shrine/book/_shrine/section/_ways/get/get.way.js)
-* [`/kami.js/_shrine/book/_ways/get/get.way.js`](/kami.js/_shrine/book/_ways/get/get.way.js)
-* [`/kami.js/_shrine/file/_ways/get/get.way.js`](/kami.js/_shrine/file/_ways/get/get.way.js)
-* [`/kami.js/_shrine/instance/_ways/get/get.way.js`](/kami.js/_shrine/instance/_ways/get/get.way.js)
-* [`/kami.js/_shrine/kami/_ways/get/get.way.js`](/kami.js/_shrine/kami/_ways/get/get.way.js)
-* [`/kami.js/_shrine/readme/_ways/get/get.way.js`](/kami.js/_shrine/readme/_ways/get/get.way.js)
-* [`/_shrine/article/_ways/get/get.way.js`](/_shrine/article/_ways/get/get.way.js)
-* [`/_shrine/notebook/_ways/get/get.way.js`](/_shrine/notebook/_ways/get/get.way.js)
-* [`/_shrine/storyboard/_ways/get/get.way.js`](/_shrine/storyboard/_ways/get/get.way.js)
+* [en] Identifier, instance name,
+* [fr] Identifieur, nom d'instance.
+
+Global variables to be accessed application-wide
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/global/global.motif.js
+* `id` : global
+* `scope` : /motifs-js
+* `folder` : global
+* `filePath` : /motifs-js/_motifs/global/global.motif.js
+* `symbol` : ⯎
+* `names`
 
 
-## `*-instance`
+# `# id`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-INSTANCE** belongs to the PANTHEON of KAMIS.
+**ID** is also known as :
 
-It is known as :
+* [en] Identifier, instance name,
+* [fr] Identifieur, nom d'instance.
+
+INSTANCE NAME
+
+For a given MOTIF and given SCOPE,
+the ID is the unique name of an instance.
+
+It is usually a PROP.
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/id/id.motif.js
+* `id` : id
+* `scope` : /motifs-js
+* `folder` : id
+* `filePath` : /motifs-js/_motifs/id/id.motif.js
+* `symbol` : #
+* `names`
+
+
+# `⧇ instance`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**INSTANCE** is also known as :
 
 * [en] Instance,
 * [fr] Instance.
 
-### Description
+INDIVIDUAL OF ONE OR MULTIPLE MOTIFS
 
-**INDIVIDUAL OF ONE OR MULTIPLE KAMIS**
+Instances are occurence of a [MOTIF](#motif).
 
-Instances are occurence of a [KAMI](#kami) (pattern).
+They should conform to the following specifications :
 
-They usually :
-* Can be retrieved through [`<kami>.get`] way,
-* Can be created through [`<kami>.create`] way,
-* Can be tested through [`<kami>.test`] way,
+* Can be retrieved through [`<motif>.get`] way,
+* Can be created through [`<motif>.create`] way,
+* Can be tested through [`<motif>.test`] way,
 * *(Not implemented) Can get updated and deleted*.
 
-[KAMIS](#kami) (`<...>.kami.js`) are instances of KAMI-KAMI.
+[MOTIF](#motif) (`<...>.motif.js`) are instances of the MOTIF MOTIF.
 
-**KAMI-KAMI is an instance of itself !**
+Note that **MOTIF MOTIF is an instance of itself !**
 
-### Properties
+## Properties
 
-**Count: 4.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/instance/instance.motif.js
+* `id` : instance
+* `scope` : /motifs-js
+* `folder` : instance
+* `filePath` : /motifs-js/_motifs/instance/instance.motif.js
+* `symbol` : ⧇
 * `names`
-* `description`
 * `get`
 
 
-## `*-kami`
+# `ἀ lang`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-KAMI** belongs to the PANTHEON of KAMIS.
+**LANG** is also known as :
 
-It is known as :
+* [en] Language,
+* [fr] Langage.
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/lang/lang.motif.js
+* `id` : lang
+* `scope` : /motifs-js
+* `folder` : lang
+* `filePath` : /motifs-js/_motifs/lang/lang.motif.js
+* `symbol` : ἀ
+* `names`
+
+
+# `⚇ motif`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**MOTIF** is also known as :
 
 * [en] Concept, Idea, Word, Pattern, Spirit, God, Angel, Deva,
 * [fr] Concept, Idée, Mot, Motif, Esprit, Dieu, Ange, Deva.
 
-### Description
+MOTIF of all MOTIFS
 
-**The KAMI of KAMIS.**
+### What is a MOTIF ?
 
-Kami are "enlived" patterns, making them
-not only **generative** but also **evolutive**
-in a similar way classes and objects are.
+Motif, also known as *pattern*,
+is the generic concept that **bind instances together under the same name**.
+In programmation, patterns / motifs aim to
+solve recurring problems with generic / abstract answers.
 
-### Properties
+As stated in the book [*A Pattern Language*](https://en.wikipedia.org/wiki/A_Pattern_Language),
+**motifs also has the property to act as words**, forming sentences (and more) under certains rules.
+But, as now stated in the publication [*Generative Design Patterns*](https://www.researchgate.net/publication/3981737_Generative_design_patterns),
+*design patterns* in computer science also has the counterpart of being too abstract.
+They do not provide implemention and cannot be used straight as operational code.
 
-**Count: 13.**
+To address this void, MOTIFS provides both a library of numerous inedite and differently scaling motifs
+and an implementation that **makes these motifs not only descriptive, but also generative**.
 
-* `id`
+### About naming files
+
+MOTIF starts living in a `<motifId>` folder,
+just right with its `<motifId>.motif.js` file.
+
+Every MOTIFS has its own rules for naming.
+
+Naming basically bind a **whose ?** (an `<id>.*`, or a [folder scope](/folder-scope))
+and a **what ?** (the `*.<motif>.*` it implements).
+
+It remains simple while there is only one *whose* and only one *what*.
+
+But since the are some transversal MOTIFS,
+their INSTANCES will potentialy have multiple :
+
+* **whose** : `[ id* ].`,
+* **what** : `.[ motif* ].`.
+
+
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/motif/motif.motif.js
+* `id` : motif
+* `scope` : /motifs-js
+* `folder` : motif
+* `filePath` : /motifs-js/_motifs/motif/motif.motif.js
+* `symbol` : ⚇
 * `names`
-* `description`
-* `regExp`
-* `flavour`
+* `occurences`
+* `init`
+* `flavour` : At the very beginning,
+KAMI-KAMI **said itself**, to be
+brought to existence.
+
+Soon after, it started to speak out other KAMIS,
+which were instantly brought to existence too, following
+a pure nodal self-organization.
+
+For the generation to proceed, KAMI-KAMI first had to
+split itself in two : the KAMI concept and the
+KAMI individual. The class and the instance.
+
+It was also about genericity and specificity.
+And, at the end, dualism.
+
+KAMI-KAMI had to become a KAMI like the others KAMIS.
+It needed to be processed the same way to ensure
+genericity.
+
+But its specifity, the secrets of its generative powers, remained
+absent of other KAMIS. This was the key of peace.
+
+By doing so, KAMI-KAMI shared the same common nature,
+**the pattern**, to all of its creations [the kamis],
+letting them freely **extend and implement** its
+highly abstract powers.
 * `_commands`
 * `create`
 * `get`
 * `cli`
 * `test`
-* `specs`
-* `_specs`
-* `ave`
 
-### Occurences
+## Instances
 
-**Count : 27.**
+**Count : 36.**
 
-Matching regular expression :
+### Matching mechanims
 
-`/(.*)\/_shrine\/(.*)\/(.*).kami.js/`.
+* `/(.*)\/_motifs\/(.*)\/(.*).motif.js/`.
 
-* [`/kami.js/_shrine/book/book.kami.js`](/kami.js/_shrine/book/book.kami.js)
-* [`/kami.js/_shrine/book/_shrine/extract/extract.kami.js`](/kami.js/_shrine/book/_shrine/extract/extract.kami.js)
-* [`/kami.js/_shrine/book/_shrine/image/image.kami.js`](/kami.js/_shrine/book/_shrine/image/image.kami.js)
-* [`/kami.js/_shrine/book/_shrine/page/page.kami.js`](/kami.js/_shrine/book/_shrine/page/page.kami.js)
-* [`/kami.js/_shrine/book/_shrine/section/section.kami.js`](/kami.js/_shrine/book/_shrine/section/section.kami.js)
-* [`/kami.js/_shrine/command/command.kami.js`](/kami.js/_shrine/command/command.kami.js)
-* [`/kami.js/_shrine/doc/doc.kami.js`](/kami.js/_shrine/doc/doc.kami.js)
-* [`/kami.js/_shrine/file/file.kami.js`](/kami.js/_shrine/file/file.kami.js)
-* [`/kami.js/_shrine/folder/folder.kami.js`](/kami.js/_shrine/folder/folder.kami.js)
-* [`/kami.js/_shrine/get/get.kami.js`](/kami.js/_shrine/get/get.kami.js)
-* [`/kami.js/_shrine/instance/instance.kami.js`](/kami.js/_shrine/instance/instance.kami.js)
-* [`/kami.js/_shrine/kami/kami.kami.js`](/kami.js/_shrine/kami/kami.kami.js)
-* [`/kami.js/_shrine/lang/lang.kami.js`](/kami.js/_shrine/lang/lang.kami.js)
-* [`/kami.js/_shrine/pantheon/pantheon.kami.js`](/kami.js/_shrine/pantheon/pantheon.kami.js)
-* [`/kami.js/_shrine/prop/prop.kami.js`](/kami.js/_shrine/prop/prop.kami.js)
-* [`/kami.js/_shrine/readme/readme.kami.js`](/kami.js/_shrine/readme/readme.kami.js)
-* [`/kami.js/_shrine/readme/_shrine/section/section.kami.js`](/kami.js/_shrine/readme/_shrine/section/section.kami.js)
-* [`/kami.js/_shrine/shrine/shrine.kami.js`](/kami.js/_shrine/shrine/shrine.kami.js)
-* [`/kami.js/_shrine/spec/spec.kami.js`](/kami.js/_shrine/spec/spec.kami.js)
-* [`/kami.js/_shrine/util/util.kami.js`](/kami.js/_shrine/util/util.kami.js)
-* [`/kami.js/_shrine/way/way.kami.js`](/kami.js/_shrine/way/way.kami.js)
-* [`/kami.js/_shrine/website/website.kami.js`](/kami.js/_shrine/website/website.kami.js)
-* [`/kami.js/_shrine/website/_shrine/page/page.kami.js`](/kami.js/_shrine/website/_shrine/page/page.kami.js)
-* [`/kami.js/_shrine/wiki/wiki.kami.js`](/kami.js/_shrine/wiki/wiki.kami.js)
-* [`/_shrine/article/article.kami.js`](/_shrine/article/article.kami.js)
-* [`/_shrine/notebook/notebook.kami.js`](/_shrine/notebook/notebook.kami.js)
-* [`/_shrine/storyboard/storyboard.kami.js`](/_shrine/storyboard/storyboard.kami.js)
+### Instances list
 
-### Flavour
+* [`/motifs-js/_motifs/assertion/assertion.motif.js`](/motifs-js/_motifs/assertion/assertion.motif.js)
+* [`/motifs-js/_motifs/book/book.motif.js`](/motifs-js/_motifs/book/book.motif.js)
+* [`/motifs-js/_motifs/book-extract/book-extract.motif.js`](/motifs-js/_motifs/book-extract/book-extract.motif.js)
+* [`/motifs-js/_motifs/book-image/book-image.motif.js`](/motifs-js/_motifs/book-image/book-image.motif.js)
+* [`/motifs-js/_motifs/book-page/book-page.motif.js`](/motifs-js/_motifs/book-page/book-page.motif.js)
+* [`/motifs-js/_motifs/book-section/book-section.motif.js`](/motifs-js/_motifs/book-section/book-section.motif.js)
+* [`/motifs-js/_motifs/command/command.motif.js`](/motifs-js/_motifs/command/command.motif.js)
+* [`/motifs-js/_motifs/description/description.motif.js`](/motifs-js/_motifs/description/description.motif.js)
+* [`/motifs-js/_motifs/doc/doc.motif.js`](/motifs-js/_motifs/doc/doc.motif.js)
+* [`/motifs-js/_motifs/file/file.motif.js`](/motifs-js/_motifs/file/file.motif.js)
+* [`/motifs-js/_motifs/folder/folder.motif.js`](/motifs-js/_motifs/folder/folder.motif.js)
+* [`/motifs-js/_motifs/folder-scope/folder-scope.motif.js`](/motifs-js/_motifs/folder-scope/folder-scope.motif.js)
+* [`/motifs-js/_motifs/get/get.motif.js`](/motifs-js/_motifs/get/get.motif.js)
+* [`/motifs-js/_motifs/global/global.motif.js`](/motifs-js/_motifs/global/global.motif.js)
+* [`/motifs-js/_motifs/id/id.motif.js`](/motifs-js/_motifs/id/id.motif.js)
+* [`/motifs-js/_motifs/instance/instance.motif.js`](/motifs-js/_motifs/instance/instance.motif.js)
+* [`/motifs-js/_motifs/lang/lang.motif.js`](/motifs-js/_motifs/lang/lang.motif.js)
+* [`/motifs-js/_motifs/motif/motif.motif.js`](/motifs-js/_motifs/motif/motif.motif.js)
+* [`/motifs-js/_motifs/occurence/occurence.motif.js`](/motifs-js/_motifs/occurence/occurence.motif.js)
+* [`/motifs-js/_motifs/pantheon/pantheon.motif.js`](/motifs-js/_motifs/pantheon/pantheon.motif.js)
+* [`/motifs-js/_motifs/project/project.motif.js`](/motifs-js/_motifs/project/project.motif.js)
+* [`/motifs-js/_motifs/prop/prop.motif.js`](/motifs-js/_motifs/prop/prop.motif.js)
+* [`/motifs-js/_motifs/readme/readme.motif.js`](/motifs-js/_motifs/readme/readme.motif.js)
+* [`/motifs-js/_motifs/readme-section/readme-section.motif.js`](/motifs-js/_motifs/readme-section/readme-section.motif.js)
+* [`/motifs-js/_motifs/shrine/shrine.motif.js`](/motifs-js/_motifs/shrine/shrine.motif.js)
+* [`/motifs-js/_motifs/spec/spec.motif.js`](/motifs-js/_motifs/spec/spec.motif.js)
+* [`/motifs-js/_motifs/spec-section/spec-section.motif.js`](/motifs-js/_motifs/spec-section/spec-section.motif.js)
+* [`/motifs-js/_motifs/util/util.motif.js`](/motifs-js/_motifs/util/util.motif.js)
+* [`/motifs-js/_motifs/way/way.motif.js`](/motifs-js/_motifs/way/way.motif.js)
+* [`/motifs-js/_motifs/webapp/webapp.motif.js`](/motifs-js/_motifs/webapp/webapp.motif.js)
+* [`/motifs-js/_motifs/website/website.motif.js`](/motifs-js/_motifs/website/website.motif.js)
+* [`/motifs-js/_motifs/website-page/website-page.motif.js`](/motifs-js/_motifs/website-page/website-page.motif.js)
+* [`/motifs-js/_motifs/wiki/wiki.motif.js`](/motifs-js/_motifs/wiki/wiki.motif.js)
+* [`/_motifs/article/article.motif.js`](/_motifs/article/article.motif.js)
+* [`/_motifs/notebook/notebook.motif.js`](/_motifs/notebook/notebook.motif.js)
+* [`/_motifs/storyboard/storyboard.motif.js`](/_motifs/storyboard/storyboard.motif.js)
+
+## Flavour
 
 At the very beginning,
 KAMI-KAMI **said itself**, to be
@@ -1140,146 +1341,157 @@ letting them freely **extend and implement** its
 highly abstract powers.
 
 
-## `*-lang`
+# `ʯ occurence`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-LANG** belongs to the PANTHEON of KAMIS.
+**OCCURENCE** is also known as :
 
-It is known as :
+* [en] Occurence,
+* [fr] Occurence.
 
-* [en] Language,
-* [fr] Langage.
+WHERE INSTANCES HAPPEN
 
-### Properties
+OCCURENCE is made of two aspects :
 
-**Count: 2.**
+1. The **matching rule(s)** define(s) the lexical conditions
+   required for a MOTIF'S INSTANCE to appear,
 
-* `id`
+2. The **transformations**, returned by applying the
+   `transform` method to every rules matching results.
+
+Experimental :
+```javascript
+occurences: [
+  {
+    level: //,
+    regExp: /(.*)\/_motifs\/(.*)\/(.*).motif.js/,
+    folderMatch: //,
+    fileMatch: //,
+    propMatch: //,
+    transform: ([ scope, folderName, fileName ]) => ({
+      scope,
+      folderName,
+      fileName
+    })
+  }
+]
+```
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/occurence/occurence.motif.js
+* `id` : occurence
+* `scope` : /motifs-js
+* `folder` : occurence
+* `filePath` : /motifs-js/_motifs/occurence/occurence.motif.js
+* `symbol` : ʯ
 * `names`
-
-
-## `notebook`
-
-[*Return to KAMIS' glossary.*](#kamis-glossary)
-
-**NOTEBOOK** is a project specific KAMI.
-
-It is known as :
-
-* [en] Notebook,
-* [fr] Carnet.
-
-### Description
-
-**A COLLECTION OF
-THOUGHTS AND SKETCHES**
-
-It is usually driven by [BOOK-EXTRACTS](#book-extract),
-eventually [BOOK-SECTIONS](#book-section),
-instead of [BOOK-PAGES](#book-pages)
-like [STORYBOARD](#storyboard).
-
-### Properties
-
-**Count: 5.**
-
-* `id`
-* `names`
-* `description`
-* `regExp`
 * `get`
 
-### Occurences
 
-**Count : 5.**
+# `⛩ pantheon`
 
-Matching regular expression :
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-`/_data\/notebooks\/(.*)\/(.*).notebook.js/`.
-
-* [`/_data/notebooks/pensees-1/pensees-1.notebook.js`](/_data/notebooks/pensees-1/pensees-1.notebook.js)
-* [`/_data/notebooks/pensees-12/pensees-12.notebook.js`](/_data/notebooks/pensees-12/pensees-12.notebook.js)
-* [`/_data/notebooks/pensees-2/pensees-2.notebook.js`](/_data/notebooks/pensees-2/pensees-2.notebook.js)
-* [`/_data/notebooks/pensees-7/pensees-7.notebook.js`](/_data/notebooks/pensees-7/pensees-7.notebook.js)
-* [`/_data/notebooks/pensees-9/pensees-9.notebook.js`](/_data/notebooks/pensees-9/pensees-9.notebook.js)
-
-
-## `*-pantheon`
-
-[*Return to KAMIS' glossary.*](#kamis-glossary)
-
-**PANTHEON-PANTHEON** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**PANTHEON** is also known as :
 
 * [en] Pantheon, Primordial shrine, Valhalla, Mount Olympus, Acropolis, Heaven,
 * [fr] Panthéon, Sanctuaire primordial, Valhalla, Mont Olympe, Acropole, Paradis.
 
-### Description
+Primordial MOTIFS' package
 
-**SHRINE OF PRIMORDIAL KAMIS**
+This is a *legendary* concept.
 
-There lies the most abstract and/or transverse [KAMIS](#kami),
+There lies the most abstract and/or transverse [MOTIFS](#motif),
 the angels and last steps upon the One.
 
-### Properties
+## Properties
 
-**Count: 4.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/pantheon/pantheon.motif.js
+* `id` : pantheon
+* `scope` : /motifs-js
+* `folder` : pantheon
+* `filePath` : /motifs-js/_motifs/pantheon/pantheon.motif.js
+* `symbol` : ⛩
 * `names`
-* `description`
 * `regExp`
 
-### Occurences
 
-**Count : 1.**
+# `Ω project`
 
-Matching regular expression :
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-`/kami.js\/_shrine$/`.
+**PROJECT** is also known as :
 
-* [`/kami.js/_shrine`](/kami.js/_shrine)
+* [en] Project,
+* [fr] Projet.
+
+Hold whole's meta-data and config
+
+PROJECT agregates different concepts and files related to 
+the codebase considered as a whole.
+
+A non-exhaustive list of its components :
+
+* Global DESCRIPTION,
+* ENVIRONMENT variables,
+* The set of project-related files :
+  * `package.json`,
+  * `.gitignore`;
+* And by extension, all folder and files contained in it.
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/project/project.motif.js
+* `id` : project
+* `scope` : /motifs-js
+* `folder` : project
+* `filePath` : /motifs-js/_motifs/project/project.motif.js
+* `symbol` : Ω
+* `names`
 
 
-## `*-prop`
+# `⁖ prop`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-PROP** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**PROP** is also known as :
 
 * [en] Property, Characteristics, Attribute,
 * [fr] Propriété, Caractéristque, Attribut.
 
-### Description
+Properties of an instance
 
-`_props` folders contains
-[kami](#kami)'s properties content.
+PROPS can be hard-bounded in `.motif.js` file
+or dynamically bound in `MOTIF.get()` method.
 
-### Properties
+*(historical) `_props` folders contains
+[kami](#kami)'s properties content.*
 
-**Count: 3.**
+## Properties
 
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/prop/prop.motif.js
+* `id` : prop
+* `scope` : /motifs-js
+* `folder` : prop
+* `filePath` : /motifs-js/_motifs/prop/prop.motif.js
+* `symbol` : ⁖
 * `names`
-* `description`
 
 
-## `*-readme`
+# `⬙ readme`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-README** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**README** is also known as :
 
 * [en] README,
 * [fr] README.
-
-### Description
 
 **GITHUB README**
 
@@ -1292,30 +1504,29 @@ genercis are located in `/kami.js/_shrine/readme/_sections`.
 
 README is a component of [DOC](#-doc).
 
-### Properties
+## Properties
 
-**Count: 6.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/readme/readme.motif.js
+* `id` : readme
+* `scope` : /motifs-js
+* `folder` : readme
+* `filePath` : /motifs-js/_motifs/readme/readme.motif.js
+* `symbol` : ⬙
 * `names`
-* `description`
 * `get`
 * `build`
 * `_commands`
 
 
-## `*-readme-section`
+# `⬥ readme-section`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON-README-SECTION** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**SECTION** is also known as :
 
 * [en] Section,
 * [fr] Section.
-
-### Description
 
 **README SECTION**
 
@@ -1325,122 +1536,412 @@ SECTIONS are made of :
 
 In fact, README is the top-level SECTION.
 
-### Properties
+## Properties
 
-**Count: 5.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/readme-section/readme-section.motif.js
+* `id` : readme-section
+* `scope` : /motifs-js
+* `folder` : readme-section
+* `filePath` : /motifs-js/_motifs/readme-section/readme-section.motif.js
+* `symbol` : ⬥
 * `names`
-* `description`
 * `regExp`
 * `create`
 
-### Occurences
 
-**Count : 3.**
+# `shrine`
 
-Matching regular expression :
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-* `/^\/_readme\/_sections\/(.*)\/(.*)\.section.js/`,
-* `/\/_shrine\/readme\/_sections\/(.*)\/(.*)\.section.js/`.
-
-* [`/kami.js/_shrine/readme/_sections/kami/kami.section.js`](/kami.js/_shrine/readme/_sections/kami/kami.section.js)
-* [`/kami.js/_shrine/readme/_sections/kamis_glossary/kamis_glossary.section.js`](/kami.js/_shrine/readme/_sections/kamis_glossary/kamis_glossary.section.js)
-* [`/_readme/_sections/1_intro/intro.section.js`](/_readme/_sections/1_intro/intro.section.js)
-
-
-## `*-shrine`
-
-[*Return to KAMIS' glossary.*](#kamis-glossary)
-
-**PANTHEON-ШRᛏGHN** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**ШRᛏGHN** is also known as :
 
 * [en] Shrine,
 * [fr] Sanctuaire.
 
-### Properties
+(historical) A MOTIFS' node
 
-**Count: 4.**
+## Properties
 
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/shrine/shrine.motif.js
+* `id` : shrine
+* `scope` : /motifs-js
+* `folder` : shrine
+* `filePath` : /motifs-js/_motifs/shrine/shrine.motif.js
 * `names`
-* `create`
 * `regExp`
 
-### Occurences
 
-**Count : 5.**
+# `Ѭ spec`
 
-Matching regular expression :
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-`/(.*)\/_shrine$/`.
-
-* [`/kami.js/_shrine`](/kami.js/_shrine)
-* [`/kami.js/_shrine/book/_shrine`](/kami.js/_shrine/book/_shrine)
-* [`/kami.js/_shrine/readme/_shrine`](/kami.js/_shrine/readme/_shrine)
-* [`/kami.js/_shrine/website/_shrine`](/kami.js/_shrine/website/_shrine)
-* [`/_shrine`](/_shrine)
-
-
-## `*-spec`
-
-[*Return to KAMIS' glossary.*](#kamis-glossary)
-
-**PANTHEON-SPEC** belongs to the PANTHEON of KAMIS.
-
-It is known as :
+**SPEC** is also known as :
 
 * [en] Specification,
 * [fr] Spécification.
 
-### Description
+MOTIFS' TEST MATERIAL
 
-**KAMIS' TEST MATERIAL**
-
-In `kami.js` we currently distinguish two
+In `motifs` we currently distinguish two
 categories of specifications :
 
 * **Instances SPECS**, which target every
-  instances of a KAMI (hold by the KAMI),
+  instances of a MOTIF (hold by the MOTIF),
 * **Specific SPECS**, which target a single
-  instance of a KAMI (hold by the instance).
+  instance of a MOTIF (hold by the instance).`
 
-### Properties
+## Properties
 
-**Count: 4.**
-
-* `id`
+* `motif` : motif
+* `path` : /motifs-js/_motifs/spec/spec.motif.js
+* `id` : spec
+* `scope` : /motifs-js
+* `folder` : spec
+* `filePath` : /motifs-js/_motifs/spec/spec.motif.js
+* `symbol` : Ѭ
 * `names`
-* `description`
-* `regExp`
+* `runOne`
+* `runAll`
+* `occurences`
 
-### Occurences
+## Instances
 
-**Count : 3.**
+**Count : 7.**
 
-Matching regular expression :
+### Matching mechanims
 
-`/(.*)\/(.*)\/_props\/(_specs|specs)\/(.*)\/(.*).spec.js/`.
+* `/(^|.*\/)([\w|\-]*\.spec.js)/`,
+* `/(.*)\/_motifs\/([\w|\-]*)\/_specis\/([\w|\-]*)\.speci.js/`.
 
-* [`/kami.js/_shrine/kami/_props/specs/props/props.spec.js`](/kami.js/_shrine/kami/_props/specs/props/props.spec.js)
-* [`/kami.js/_shrine/kami/_props/_specs/regExp/regExp.spec.js`](/kami.js/_shrine/kami/_props/_specs/regExp/regExp.spec.js)
-* [`/kami.js/_shrine/website/_props/_specs/regExp/regExp.spec.js`](/kami.js/_shrine/website/_props/_specs/regExp/regExp.spec.js)
+### Instances list
+
+* [`/motifs-js/index.spec.js`](/motifs-js/index.spec.js)
+* [`/motifs-js/_motifs/motif/init/init.spec.js`](/motifs-js/_motifs/motif/init/init.spec.js)
+* [`/motifs-js/_motifs/occurence/get/get.spec.js`](/motifs-js/_motifs/occurence/get/get.spec.js)
+* [`/motifs-js/_motifs/occurence/get/_utils/folderMatchFixRegExpEnd/folderMatchFixRegExpEnd.spec.js`](/motifs-js/_motifs/occurence/get/_utils/folderMatchFixRegExpEnd/folderMatchFixRegExpEnd.spec.js)
+* [`/motifs-js/_motifs/spec/runAll/_utils/specSectionResultCounter/specSectionResultCounter.spec.js`](/motifs-js/_motifs/spec/runAll/_utils/specSectionResultCounter/specSectionResultCounter.spec.js)
+* [`/motifs-js/_motifs/motif/_specis/motif.speci.js`](/motifs-js/_motifs/motif/_specis/motif.speci.js)
+* [`/motifs-js/_motifs/spec/_specis/spec.speci.js`](/motifs-js/_motifs/spec/_specis/spec.speci.js)
 
 
-## `storyboard`
+# `Ѫ spec-section`
 
-[*Return to KAMIS' glossary.*](#kamis-glossary)
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**STORYBOARD** is a project specific KAMI.
+**SPEC-SECTION** is also known as :
 
-It is known as :
+* [en] Specification section,
+* [fr] Section de specification.
+
+ASSERTION nodes in SPEC files
+
+```javascript
+{
+  label: 'string',
+  group: [ 'spec-section' | 'assertion' ]
+}
+```
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/spec-section/spec-section.motif.js
+* `id` : spec-section
+* `scope` : /motifs-js
+* `folder` : spec-section
+* `filePath` : /motifs-js/_motifs/spec-section/spec-section.motif.js
+* `symbol` : Ѫ
+* `names`
+
+
+# `⬫ util`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**UTIL** is also known as :
+
+* [en] Utility,
+* [fr] Utilitaire.
+
+The place to put things
+
+`_utils` folders are nothing more than
+the place very specific snippets of code are put.
+
+Utilities are usually consumed by same scope or 
+lower levels modules.
+
+You should avoid repetitions in `_utils` as
+everywhere else in the code.
+
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/util/util.motif.js
+* `id` : util
+* `scope` : /motifs-js
+* `folder` : util
+* `filePath` : /motifs-js/_motifs/util/util.motif.js
+* `symbol` : ⬫
+* `names`
+
+
+# `way`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**WAY** is also known as :
+
+* [en] Method, Action, Operation, Function,
+* [fr] Méthode, Action, Opération, Fonction.
+
+(historical) MOTIFS' METHOD
+
+Ways are KAMI's methods
+(... actions, functions, operations).
+
+It differs with [prop](#prop) in its type,
+which is necessarely `function`.
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/way/way.motif.js
+* `id` : way
+* `scope` : /motifs-js
+* `folder` : way
+* `filePath` : /motifs-js/_motifs/way/way.motif.js
+* `names`
+
+
+# `webapp`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**WEBAPP** is also known as :
+
+* [en] Web application,
+* [fr] Application web.
+
+The dynamic WEBSITE backend
+
+A webapp exposes MOTIFS and their operations
+(customs and generics) as endpoints.
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/webapp/webapp.motif.js
+* `id` : webapp
+* `scope` : /motifs-js
+* `folder` : webapp
+* `filePath` : /motifs-js/_motifs/webapp/webapp.motif.js
+* `names`
+
+
+# `Ʋ website`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**WEBSITE** is also known as :
+
+* [en] Website,
+* [fr] Site internet.
+
+**KAMI.JS DOCUMENTATION WEBSITE**
+
+WEBSITE is a [DOC](#doc) component.
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/website/website.motif.js
+* `id` : website
+* `scope` : /motifs-js
+* `folder` : website
+* `filePath` : /motifs-js/_motifs/website/website.motif.js
+* `symbol` : Ʋ
+* `names`
+* `occurences`
+* `build`
+* `_commands`
+
+## Instances
+
+**Count : 1.**
+
+### Matching mechanims
+
+* `/^\/_websites\/(.*)\/(.*).website.js/`.
+
+### Instances list
+
+* [`/_websites/default/default.website.js`](/_websites/default/default.website.js)
+
+
+# `website-page`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**PAGE** is also known as :
+
+* [en] Page, Website page,
+* [fr] Page, Page de site internet.
+
+TEMPLATE x DATA x URL
+
+A page binds the following three elements :
+* A template which render conditionnaly
+  on specific data,
+* Data to be consumed by the template,
+* An path to be render
+  (which will in time be used as its url).
+
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/website-page/website-page.motif.js
+* `id` : website-page
+* `scope` : /motifs-js
+* `folder` : website-page
+* `filePath` : /motifs-js/_motifs/website-page/website-page.motif.js
+* `names`
+* `create`
+
+
+# `wiki`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**WIKI** is also known as :
+
+* [en] Wiki,
+* [fr] Wiki.
+
+Wiki documentation
+
+WIKI is a component of [DOC](#doc).
+
+## Properties
+
+* `motif` : motif
+* `path` : /motifs-js/_motifs/wiki/wiki.motif.js
+* `id` : wiki
+* `scope` : /motifs-js
+* `folder` : wiki
+* `filePath` : /motifs-js/_motifs/wiki/wiki.motif.js
+* `names`
+
+
+# `article`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**ARTICLE** is also known as :
+
+* [en] Article,
+* [fr] Article.
+
+**WEBSITE ARTICLE**
+
+An article is a titled and dated content,
+with optional tags and meta-data.
+
+## Properties
+
+* `motif` : motif
+* `path` : /_motifs/article/article.motif.js
+* `id` : article
+* `scope` : 
+* `folder` : article
+* `filePath` : /_motifs/article/article.motif.js
+* `names`
+* `occurences`
+* `get`
+
+## Instances
+
+**Count : 13.**
+
+### Matching mechanims
+
+* `/_data\/articles\/(.*)\/(.*).article.js/`.
+
+### Instances list
+
+* [`_data/articles/1/1.article.js`](_data/articles/1/1.article.js)
+* [`_data/articles/10/10.article.js`](_data/articles/10/10.article.js)
+* [`_data/articles/11/11.article.js`](_data/articles/11/11.article.js)
+* [`_data/articles/12/12.article.js`](_data/articles/12/12.article.js)
+* [`_data/articles/13/13.article.js`](_data/articles/13/13.article.js)
+* [`_data/articles/2/2.article.js`](_data/articles/2/2.article.js)
+* [`_data/articles/3/3.article.js`](_data/articles/3/3.article.js)
+* [`_data/articles/4/4.article.js`](_data/articles/4/4.article.js)
+* [`_data/articles/5/5.article.js`](_data/articles/5/5.article.js)
+* [`_data/articles/6/6.article.js`](_data/articles/6/6.article.js)
+* [`_data/articles/7/7.article.js`](_data/articles/7/7.article.js)
+* [`_data/articles/8/8.article.js`](_data/articles/8/8.article.js)
+* [`_data/articles/9/9.article.js`](_data/articles/9/9.article.js)
+
+
+# `notebook`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**NOTEBOOK** is also known as :
+
+* [en] Notebook,
+* [fr] Carnet.
+
+**A COLLECTION OF
+THOUGHTS AND SKETCHES**
+
+It is usually driven by [BOOK-EXTRACTS](#book-extract),
+eventually [BOOK-SECTIONS](#book-section),
+instead of [BOOK-PAGES](#book-pages)
+like [STORYBOARD](#storyboard).
+
+## Properties
+
+* `motif` : motif
+* `path` : /_motifs/notebook/notebook.motif.js
+* `id` : notebook
+* `scope` : 
+* `folder` : notebook
+* `filePath` : /_motifs/notebook/notebook.motif.js
+* `names`
+* `occurences`
+* `get`
+
+## Instances
+
+**Count : 5.**
+
+### Matching mechanims
+
+* `/_data\/notebooks\/(.*)\/(.*).notebook.js/`.
+
+### Instances list
+
+* [`_data/notebooks/pensees-1/pensees-1.notebook.js`](_data/notebooks/pensees-1/pensees-1.notebook.js)
+* [`_data/notebooks/pensees-12/pensees-12.notebook.js`](_data/notebooks/pensees-12/pensees-12.notebook.js)
+* [`_data/notebooks/pensees-2/pensees-2.notebook.js`](_data/notebooks/pensees-2/pensees-2.notebook.js)
+* [`_data/notebooks/pensees-7/pensees-7.notebook.js`](_data/notebooks/pensees-7/pensees-7.notebook.js)
+* [`_data/notebooks/pensees-9/pensees-9.notebook.js`](_data/notebooks/pensees-9/pensees-9.notebook.js)
+
+
+# `storyboard`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**STORYBOARD** is also known as :
 
 * [en] Storyboard,
 * [fr] Storyboard.
-
-### Description
 
 **A BOOK STORY DRAFT**
 
@@ -1456,185 +1957,32 @@ and [BOOK-PAGES](#book-page),
 instead of directly [BOOK-EXTRACTS](#book-extract)
 like [NOTEBOOK](#notebook).
 
-### Properties
+## Properties
 
-**Count: 5.**
-
-* `id`
+* `motif` : motif
+* `path` : /_motifs/storyboard/storyboard.motif.js
+* `id` : storyboard
+* `scope` : 
+* `folder` : storyboard
+* `filePath` : /_motifs/storyboard/storyboard.motif.js
 * `names`
-* `description`
-* `regExp`
+* `occurences`
 * `get`
 
-### Occurences
+## Instances
 
 **Count : 7.**
 
-Matching regular expression :
-
-`/_data\/storyboards\/(.*)\/(.*).storyboard.js/`.
-
-* [`/_data/storyboards/absutrats-6-18/absutrats-6-18.storyboard.js`](/_data/storyboards/absutrats-6-18/absutrats-6-18.storyboard.js)
-* [`/_data/storyboards/absutrats-jeu/absutrats-jeu.storyboard.js`](/_data/storyboards/absutrats-jeu/absutrats-jeu.storyboard.js)
-* [`/_data/storyboards/absutrats-vol1-v2/absutrats-vol1-v2.storyboard.js`](/_data/storyboards/absutrats-vol1-v2/absutrats-vol1-v2.storyboard.js)
-* [`/_data/storyboards/highbs-bok/highbs-bok.storyboard.js`](/_data/storyboards/highbs-bok/highbs-bok.storyboard.js)
-* [`/_data/storyboards/hol-adin-des-zums-2020/hol-adin-des-zums-2020.storyboard.js`](/_data/storyboards/hol-adin-des-zums-2020/hol-adin-des-zums-2020.storyboard.js)
-* [`/_data/storyboards/psybok-vol0/psybok-vol0.storyboard.js`](/_data/storyboards/psybok-vol0/psybok-vol0.storyboard.js)
-* [`/_data/storyboards/psybok-vol1/psybok-vol1.storyboard.js`](/_data/storyboards/psybok-vol1/psybok-vol1.storyboard.js)
-
-
-## `*-util`
-
-[*Return to KAMIS' glossary.*](#kamis-glossary)
-
-**PANTHEON-UTIL** belongs to the PANTHEON of KAMIS.
-
-It is known as :
-
-* [en] Utility,
-* [fr] Utilitaire.
-
-### Description
-
-`_utils` folders are nothing more than
-the place very specific snippets of code are put.
-
-Utility are usually consumed by same scope-level modules.
-
-### Properties
-
-**Count: 3.**
-
-* `id`
-* `names`
-* `description`
-
-
-## `*-way`
-
-[*Return to KAMIS' glossary.*](#kamis-glossary)
-
-**PANTHEON-WAY** belongs to the PANTHEON of KAMIS.
-
-It is known as :
-
-* [en] Method, Action, Operation, Function,
-* [fr] Méthode, Action, Opération, Fonction.
-
-### Description
-
-**KAMI POWERS**
-
-Ways are KAMI's methods
-(... actions, functions, operations).
-
-It differs with [prop](#prop) in its type,
-which is necessarely `function`.
-
-### Properties
-
-**Count: 3.**
-
-* `id`
-* `names`
-* `description`
-
-
-## `*-website`
-
-[*Return to KAMIS' glossary.*](#kamis-glossary)
-
-**PANTHEON-WEBSITE** belongs to the PANTHEON of KAMIS.
-
-It is known as :
-
-* [en] Website,
-* [fr] Site internet.
-
-### Description
-
-**KAMI.JS DOCUMENTATION WEBSITE**
-
-WEBSITE is a [DOC](#doc) component.
-
-### Properties
-
-**Count: 8.**
-
-* `id`
-* `names`
-* `regExp`
-* `regExpMapping`
-* `description`
-* `build`
-* `_commands`
-* `_specs`
-
-### Occurences
-
-**Count : 1.**
-
-Matching regular expression :
-
-`/^\/_websites\/(.*)\/(.*).website.js/`.
-
-* [`/_websites/default/default.website.js`](/_websites/default/default.website.js)
-
-
-## `*-website-page`
-
-[*Return to KAMIS' glossary.*](#kamis-glossary)
-
-**PANTHEON-WEBSITE-PAGE** belongs to the PANTHEON of KAMIS.
-
-It is known as :
-
-* [en] Page, Website page,
-* [fr] Page, Page de site internet.
-
-### Description
-
-TEMPLATE x DATA x URL
-
-A page binds the following three elements :
-* A template which render conditionnaly
-  on specific data,
-* Data to be consumed by the template,
-* An path to be render
-  (which will in time be used as its url).
-
-
-### Properties
-
-**Count: 4.**
-
-* `id`
-* `names`
-* `description`
-* `create`
-
-
-## `*-wiki`
-
-[*Return to KAMIS' glossary.*](#kamis-glossary)
-
-**PANTHEON-WIKI** belongs to the PANTHEON of KAMIS.
-
-It is known as :
-
-* [en] Wiki,
-* [fr] Wiki.
-
-### Description
-
-**KAMI.JS' GITHUB WIKI**
-
-WIKI is a component of [DOC](#doc).
-
-### Properties
-
-**Count: 3.**
-
-* `id`
-* `names`
-* `description`
+### Matching mechanims
+
+* `/_data\/storyboards\/(.*)\/(.*).storyboard.js/`.
+
+### Instances list
+
+* [`_data/storyboards/absutrats-6-18/absutrats-6-18.storyboard.js`](_data/storyboards/absutrats-6-18/absutrats-6-18.storyboard.js)
+* [`_data/storyboards/absutrats-jeu/absutrats-jeu.storyboard.js`](_data/storyboards/absutrats-jeu/absutrats-jeu.storyboard.js)
+* [`_data/storyboards/absutrats-vol1-v2/absutrats-vol1-v2.storyboard.js`](_data/storyboards/absutrats-vol1-v2/absutrats-vol1-v2.storyboard.js)
+* [`_data/storyboards/highbs-bok/highbs-bok.storyboard.js`](_data/storyboards/highbs-bok/highbs-bok.storyboard.js)
+* [`_data/storyboards/hol-adin-des-zums-2020/hol-adin-des-zums-2020.storyboard.js`](_data/storyboards/hol-adin-des-zums-2020/hol-adin-des-zums-2020.storyboard.js)
+* [`_data/storyboards/psybok-vol0/psybok-vol0.storyboard.js`](_data/storyboards/psybok-vol0/psybok-vol0.storyboard.js)
+* [`_data/storyboards/psybok-vol1/psybok-vol1.storyboard.js`](_data/storyboards/psybok-vol1/psybok-vol1.storyboard.js)

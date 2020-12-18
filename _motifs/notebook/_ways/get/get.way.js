@@ -1,5 +1,5 @@
-import NOTEBOOK from '../../notebook.kami.js'
-import BOOK from "../../../../kami.js/_shrine/book/book.kami.js";
+import NOTEBOOK from '../../notebook.motif.js'
+import BOOK from "../../../../motifs-js/_motifs/book/book.motif.js";
 
 export default options =>
 

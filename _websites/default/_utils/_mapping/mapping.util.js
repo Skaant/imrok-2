@@ -1,16 +1,16 @@
-import PAGE from '../../../../kami.js/_shrine/website/_shrine/page/page.kami.js'
-import FOLDER from '../../../../kami.js/_shrine/folder/folder.kami.js'
+import WEBSITE_PAGE from '../../../../motifs-js/_motifs/website-page/website-page.motif.js'
+import FOLDER from '../../../../motifs-js/_motifs/folder/folder.motif.js'
 import homeTemplate from "../../../_templates/home/home.template.js"
 import articlesListTemplate from '../../../_templates/articlesList/articlesList.template.js'
 import articleTemplate from '../../../_templates/article/article.template.js'
 import storyboardsListTemplate from '../../../_templates/storyboardsList/storyboardsList.template.js'
 import storyboardTemplate from '../../../_templates/storyboard/storyboard.template.js'
 import storyboardPageTemplate from '../../../_templates/storyboardPage/storyboardPage.template.js'
-import FILE from '../../../../kami.js/_shrine/file/file.kami.js'
+import FILE from '../../../../motifs-js/_motifs/file/file.motif.js'
 import notebooksListTemplate from '../../../_templates/notebooksList/notebooksList.template.js'
 import notebookTemplate from '../../../_templates/notebook/notebook.template.js'
 import notebookExtractTemplate from '../../../_templates/notebookExtract/notebookExtract.template.js'
-import IMAGE from '../../../../kami.js/_shrine/book/_shrine/image/image.kami.js'
+import BOOK_IMAGE from '../../../../motifs-js/_motifs/book-image/book-image.motif.js'
 
 export default (
   scope,
@@ -18,7 +18,7 @@ export default (
   options
 ) => ([
   /** / */
-  PAGE.create(
+  WEBSITE_PAGE.create(
     homeTemplate,
     data,
     scope,
@@ -30,7 +30,7 @@ export default (
     'articles',
     folderScope => ([
       /** /articles/ */
-      PAGE.create(
+      WEBSITE_PAGE.create(
         articlesListTemplate,
         data,
         folderScope,
@@ -43,7 +43,7 @@ export default (
           folderScope,
           index + 1,
           folderScope => ([
-            PAGE.create(
+            WEBSITE_PAGE.create(
               articleTemplate,
               {
                 ...data,
@@ -65,7 +65,7 @@ export default (
     'storyboards',
     folderScope => ([
       /** /storyboards/ */
-      PAGE.create(
+      WEBSITE_PAGE.create(
         storyboardsListTemplate,
         data,
         folderScope,
@@ -79,7 +79,7 @@ export default (
           storyboard.id,
           folderScope => ([
 
-            PAGE.create(
+            WEBSITE_PAGE.create(
               storyboardTemplate,
               {
                 ...data,
@@ -89,7 +89,7 @@ export default (
               options
             ),
             ...(storyboard.images
-              ? IMAGE.copy(
+              ? BOOK_IMAGE.copy(
                 storyboard.images,
                 folderScope,
                 options
@@ -108,7 +108,7 @@ export default (
                 folderScope,
                 index,
                 folderScope => ([
-                  PAGE.create(
+                  WEBSITE_PAGE.create(
                     storyboardPageTemplate,
                     {
                       ...data,
@@ -122,7 +122,7 @@ export default (
                     options
                   ),
                   ...(page.images
-                    ? IMAGE.copy(
+                    ? BOOK_IMAGE.copy(
                       page.images,
                       folderScope,
                       options
@@ -141,7 +141,7 @@ export default (
     'carnets',
     folderScope => ([
       /** /carnets/ */
-      PAGE.create(
+      WEBSITE_PAGE.create(
         notebooksListTemplate,
         data,
         folderScope,
@@ -154,7 +154,7 @@ export default (
           folderScope,
           notebook.id,
           folderScope => ([
-            PAGE.create(
+            WEBSITE_PAGE.create(
               notebookTemplate,
               {
                 ...data,
@@ -170,7 +170,7 @@ export default (
                 folderScope,
                 extract.id,
                 folderScope => ([
-                  PAGE.create(
+                  WEBSITE_PAGE.create(
                     notebookExtractTemplate,
                     {
                       ...data,

@@ -56,8 +56,8 @@ export default data => layoutFragment(
         <li>
           <a href="https://highbs-bok.art"><b>HIGHBS-BOK</b></a>
           <span> : Le livre absolu des motifs, un site-livre philosophique, spirituel et ésotérique qui s'expose comme une parabole avec l'histoire des ZUMS, ces singes futuristes parti à la conquête des bords de l'univers.</span></li>
-        <li><a href="https://github.com/Skaant/kami.js">
-          [GitHub] <b>KAMI.JS</b></a><span> : Un framework Javascript pour créer et gérer des concepts générateurs de code (generative patterns).</span></li>
+        <li><a href="https://github.com/Skaant/motifs-js">
+          [GitHub] <b>motifs-js</b></a><span> : Un framework Javascript pour créer et gérer des concepts générateurs de code (generative patterns).</span></li>
         <li>
           <a href="https://poke-team.net"><b>POKÉ TEAM</b></a><span> : Choisissez votre version et composez votre équipe pour identifier ses forces et ses faiblesses.</span></li>
         <li><a href="https://permadata.net" disabled><b>PERMA-DATA</b></a><span> : Base-de-données ludique sur les plantes (désactivé pour rework éco).</span></li>

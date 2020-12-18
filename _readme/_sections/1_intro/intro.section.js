@@ -7,8 +7,8 @@ on ${ (new Date()).toLocaleString('en') }*
 
 > My CREATIVE HUB's sources.
 
-![kami.js project pictogram](/_websites/default/_assets/star-logo.svg)
+![HOL-project pictogram](/_websites/default/_assets/star-logo.svg)
 
 ### Table of content
 
-* [KAMIS glossary](#kamis-glossary)`
+* [MOTIFS glossary](#motifs-glossary)`

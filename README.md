@@ -1,5 +1,5 @@
 *[36 KAMIS](#kamis-glossary)
-on 12/18/2020, 6:30:08 PM*
+on 12/18/2020, 6:57:00 PM*
 
 # imrok-2
 
@@ -1865,7 +1865,7 @@ with optional tags and meta-data.
 
 ## Instances
 
-**Count : 13.**
+**Count : 14.**
 
 ### Matching mechanims
 
@@ -1878,6 +1878,7 @@ with optional tags and meta-data.
 * [`_data/articles/11/11.article.js`](_data/articles/11/11.article.js)
 * [`_data/articles/12/12.article.js`](_data/articles/12/12.article.js)
 * [`_data/articles/13/13.article.js`](_data/articles/13/13.article.js)
+* [`_data/articles/14/14.article.js`](_data/articles/14/14.article.js)
 * [`_data/articles/2/2.article.js`](_data/articles/2/2.article.js)
 * [`_data/articles/3/3.article.js`](_data/articles/3/3.article.js)
 * [`_data/articles/4/4.article.js`](_data/articles/4/4.article.js)

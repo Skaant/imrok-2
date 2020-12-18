@@ -24,5 +24,6 @@ export default (
       </a>
     </nav>
     ${ content }
+    <script src='/assets/nalytimk.js'></script>
   </body>
 </html>`

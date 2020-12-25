@@ -29,7 +29,7 @@ requête sous forme brute.
 
 Pour l'instant, même si je n'ai pas ajouté le motif
 YOUTUBE_VIDEO, les commentaires seront stockés sous le
-chemin : \`/data/youtube-videos/<id>_old.data.js\`.
+chemin : \`/data/youtube-videos/<id>.data.js\`.
 
 ## Parser la réponse
 

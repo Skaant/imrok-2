@@ -1,3 +1,4 @@
+import fileMotif from "../../../motifs-js/_motifs/file/file.motif.js";
 import formatEnum from "../../../motifs-js/_motifs/get/_enums/format/format.enum.js";
 import INSTANCE from "../../../motifs-js/_motifs/instance/instance.motif.js";
 import YOUTUBE_COMMENT from "../../youtube-comment/youtube-comment.motif.js";
@@ -8,13 +9,20 @@ export default () => new Promise(resolve =>
     YOUTUBE_VIDEO,
     { format: formatEnum.TRANSFORM }
   )
-    .then(videos =>
-      Promise.all(videos.map(video =>
-        YOUTUBE_COMMENT.extract(video.path)))
+    .then(videoIs =>
+      Promise.all(videoIs.map(videoI =>
+        Promise.all([
+          fileMotif.get(
+            videoI.path + '/' + videoI.id + '.video.js',
+            { format: formatEnum.ESM }
+          ),
+          YOUTUBE_COMMENT.extract(videoI.path)
+        ])
         
-        .then(comments => resolve(videos.map((video, index) =>
+        .then(([ video, comments ]) => resolve(videoIs.map((videoI, index) =>
           ({
             ...video,
+            ...videoI,
             comments: comments[index]
-          })))))
+          })))))))
 )

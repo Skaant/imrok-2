@@ -1,5 +1,5 @@
-*[36 KAMIS](#kamis-glossary)
-on 12/18/2020, 6:57:00 PM*
+*[38 KAMIS](#kamis-glossary)
+on 12/26/2020, 10:29:35 AM*
 
 # imrok-2
 
@@ -13,48 +13,50 @@ on 12/18/2020, 6:57:00 PM*
 
 ## MOTIFS' glossary
     
-* [`= assertion`](#-assertion) : Assertion
-* [`▥ book`](#-book) : Book
+* = [`assertion`](#assertion) : Assertion
+* ▥ [`book`](#book) : Book
 * [`book-extract`](#book-extract) : Extract, Fragment, Atom
 * [`book-image`](#book-image) : Image, Picture, Illustration, Scan
 * [`book-page`](#book-page) : Page
 * [`book-section`](#book-section) : Section, Chapter, Part
-* [`⌿ command`](#-command) : Command
-* [`▼ description`](#-description) : Description
-* [`⎊ doc`](#-doc) : Documentation
-* [`▤ file`](#-file) : File
-* [`◰ folder`](#-folder) : Folder
+* ⌿ [`command`](#command) : Command
+* ▼ [`description`](#description) : Description
+* ⎊ [`doc`](#doc) : Documentation
+* ▤ [`file`](#file) : File
+* ◰ [`folder`](#folder) : Folder
 * [`folder-scope`](#folder-scope) : Scope, Perimeter
-* [`⤶ get`](#-get) : Accesser, Obtain, Hydrater
-* [`⯎ global`](#-global) : Identifier, instance name
-* [`# id`](#-id) : Identifier, instance name
-* [`⧇ instance`](#-instance) : Instance
-* [`ἀ lang`](#-lang) : Language
-* [`⚇ motif`](#-motif) : Concept, Idea, Word, Pattern, Spirit, God, Angel, Deva
-* [`ʯ occurence`](#-occurence) : Occurence
-* [`⛩ pantheon`](#-pantheon) : Pantheon, Primordial shrine, Valhalla, Mount Olympus, Acropolis, Heaven
-* [`Ω project`](#-project) : Project
-* [`⁖ prop`](#-prop) : Property, Characteristics, Attribute
-* [`⬙ readme`](#-readme) : README
-* [`⬥ readme-section`](#-readme-section) : Section
+* ⤶ [`get`](#get) : Accesser, Obtain, Hydrater
+* ⯎ [`global`](#global) : Identifier, instance name
+* ⚲ [`id`](#id) : Identifier, instance name
+* ⧇ [`instance`](#instance) : Instance
+* ἀ [`lang`](#lang) : Language
+* ⚇ [`motif`](#motif) : Concept, Idea, Word, Pattern, Spirit, God, Angel, Deva
+* ʯ [`occurence`](#occurence) : Occurence
+* [`pantheon`](#pantheon) : Pantheon, Primordial shrine, Valhalla, Mount Olympus, Acropolis, Heaven
+* Ω [`project`](#project) : Project
+* ⁖ [`prop`](#prop) : Property, Characteristics, Attribute
+* ⬙ [`readme`](#readme) : README
+* ⬥ [`readme-section`](#readme-section) : Section
 * [`shrine`](#shrine) : Shrine
-* [`Ѭ spec`](#-spec) : Specification
-* [`Ѫ spec-section`](#-spec-section) : Specification section
-* [`⬫ util`](#-util) : Utility
+* Ѭ [`spec`](#spec) : Specification
+* Ѫ [`spec-section`](#spec-section) : Specification section
+* ⬫ [`util`](#util) : Utility
 * [`way`](#way) : Method, Action, Operation, Function
 * [`webapp`](#webapp) : Web application
-* [`Ʋ website`](#-website) : Website
+* Ʋ [`website`](#website) : Website
 * [`website-page`](#website-page) : Page, Website page
 * [`wiki`](#wiki) : Wiki
 * [`article`](#article) : Article
 * [`notebook`](#notebook) : Notebook
 * [`storyboard`](#storyboard) : Storyboard
+* [`youtube-comment`](#youtube-comment) : YouTube comment
+* [`youtube-video`](#youtube-video) : YouTube video
 
-# `= assertion`
+# `assertion`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**ASSERTION** is also known as :
+**= [id] assertion**, also known as :
 
 * [en] Assertion,
 * [fr] Assertion.
@@ -80,11 +82,11 @@ SPEC unit
 * `names`
 
 
-# `▥ book`
+# `book`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**BOOK** is also known as :
+**▥ [id] book**, also known as :
 
 * [en] Book,
 * [fr] Livre.
@@ -137,7 +139,7 @@ with just some specific meta-data.**
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**BOOK-EXTRACT** is also known as :
+**[id] book-extract**, also known as :
 
 * [en] Extract, Fragment, Atom,
 * [fr] Extrait, Fragment, Atome.
@@ -185,7 +187,7 @@ a [PAGE](#page) or directly on the BOOK root.
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**IMAGE** is also known as :
+**[id] book-image**, also known as :
 
 * [en] Image, Picture, Illustration, Scan,
 * [fr] Image, Illustration, Numérisation.
@@ -475,7 +477,7 @@ scoped BOOK-IMAGES are copied to the destination WEBSITE-PAGE folder.
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PAGE** is also known as :
+**[id] book-page**, also known as :
 
 * [en] Page,
 * [fr] Page.
@@ -746,7 +748,7 @@ and [EXTRACTS](#extracts).
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**SECTION** is also known as :
+**[id] book-section**, also known as :
 
 * [en] Section, Chapter, Part,
 * [fr] Section, Chapitre, Partie.
@@ -779,11 +781,11 @@ and [EXTRACTS](#extracts).
 
 
 
-# `⌿ command`
+# `command`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**COMMAND** is also known as :
+**⌿ [id] command**, also known as :
 
 * [en] Command,
 * [fr] Commande.
@@ -847,11 +849,11 @@ export default (args: [], options: {}) =>
 
 
 
-# `▼ description`
+# `description`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**DESCRIPTION** is also known as :
+**▼ [id] description**, also known as :
 
 * [en] Description,
 * [fr] Description.
@@ -883,7 +885,7 @@ Experimental :
 
 ## Instances
 
-**Count : 9.**
+**Count : 11.**
 
 ### Matching mechanims
 
@@ -900,13 +902,15 @@ Experimental :
 * [`undefined`](undefined)
 * [`undefined`](undefined)
 * [`undefined`](undefined)
+* [`undefined`](undefined)
+* [`undefined`](undefined)
 
 
-# `⎊ doc`
+# `doc`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**DOC** is also known as :
+**⎊ [id] doc**, also known as :
 
 * [en] Documentation,
 * [fr] Documentation.
@@ -930,11 +934,11 @@ DOC is composed of few sub-[MOTIFS](#motif) :
 * `names`
 
 
-# `▤ file`
+# `file`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**FILE** is also known as :
+**▤ [id] file**, also known as :
 
 * [en] File,
 * [fr] Fichier.
@@ -959,11 +963,11 @@ the file extension.*
 * `copy`
 
 
-# `◰ folder`
+# `folder`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**FOLDER** is also known as :
+**◰ [id] folder**, also known as :
 
 * [en] Folder,
 * [fr] Dossier.
@@ -999,7 +1003,7 @@ Folder is represented by :
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**FOLDER-SCOPE** is also known as :
+**[id] folder-scope**, also known as :
 
 * [en] Scope, Perimeter,
 * [fr] Portée, Périmètre.
@@ -1020,11 +1024,11 @@ is the root folder, or a sub-folder.
 * `names`
 
 
-# `⤶ get`
+# `get`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**GET** is also known as :
+**⤶ [id] get**, also known as :
 
 * [en] Accesser, Obtain, Hydrater,
 * [fr] Accesseur, Obtenir, Hydrateur.
@@ -1064,11 +1068,11 @@ get(:id) and get()
 * `regExp`
 
 
-# `⯎ global`
+# `global`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**ID** is also known as :
+**⯎ [id] global**, also known as :
 
 * [en] Identifier, instance name,
 * [fr] Identifieur, nom d'instance.
@@ -1087,11 +1091,11 @@ Global variables to be accessed application-wide
 * `names`
 
 
-# `# id`
+# `id`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**ID** is also known as :
+**⚲ [id] id**, also known as :
 
 * [en] Identifier, instance name,
 * [fr] Identifieur, nom d'instance.
@@ -1111,15 +1115,15 @@ It is usually a PROP.
 * `scope` : /motifs-js
 * `folder` : id
 * `filePath` : /motifs-js/_motifs/id/id.motif.js
-* `symbol` : #
+* `symbol` : ⚲
 * `names`
 
 
-# `⧇ instance`
+# `instance`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**INSTANCE** is also known as :
+**⧇ [id] instance**, also known as :
 
 * [en] Instance,
 * [fr] Instance.
@@ -1152,11 +1156,11 @@ Note that **MOTIF MOTIF is an instance of itself !**
 * `get`
 
 
-# `ἀ lang`
+# `lang`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**LANG** is also known as :
+**ἀ [id] lang**, also known as :
 
 * [en] Language,
 * [fr] Langage.
@@ -1173,11 +1177,11 @@ Note that **MOTIF MOTIF is an instance of itself !**
 * `names`
 
 
-# `⚇ motif`
+# `motif`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**MOTIF** is also known as :
+**⚇ [id] motif**, also known as :
 
 * [en] Concept, Idea, Word, Pattern, Spirit, God, Angel, Deva,
 * [fr] Concept, Idée, Mot, Motif, Esprit, Dieu, Ange, Deva.
@@ -1266,7 +1270,7 @@ highly abstract powers.
 
 ## Instances
 
-**Count : 36.**
+**Count : 38.**
 
 ### Matching mechanims
 
@@ -1310,6 +1314,8 @@ highly abstract powers.
 * [`/_motifs/article/article.motif.js`](/_motifs/article/article.motif.js)
 * [`/_motifs/notebook/notebook.motif.js`](/_motifs/notebook/notebook.motif.js)
 * [`/_motifs/storyboard/storyboard.motif.js`](/_motifs/storyboard/storyboard.motif.js)
+* [`/_motifs/youtube-comment/youtube-comment.motif.js`](/_motifs/youtube-comment/youtube-comment.motif.js)
+* [`/_motifs/youtube-video/youtube-video.motif.js`](/_motifs/youtube-video/youtube-video.motif.js)
 
 ## Flavour
 
@@ -1341,11 +1347,11 @@ letting them freely **extend and implement** its
 highly abstract powers.
 
 
-# `ʯ occurence`
+# `occurence`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**OCCURENCE** is also known as :
+**ʯ [id] occurence**, also known as :
 
 * [en] Occurence,
 * [fr] Occurence.
@@ -1391,11 +1397,11 @@ occurences: [
 * `get`
 
 
-# `⛩ pantheon`
+# `pantheon`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PANTHEON** is also known as :
+**[id] pantheon**, also known as :
 
 * [en] Pantheon, Primordial shrine, Valhalla, Mount Olympus, Acropolis, Heaven,
 * [fr] Panthéon, Sanctuaire primordial, Valhalla, Mont Olympe, Acropole, Paradis.
@@ -1415,16 +1421,15 @@ the angels and last steps upon the One.
 * `scope` : /motifs-js
 * `folder` : pantheon
 * `filePath` : /motifs-js/_motifs/pantheon/pantheon.motif.js
-* `symbol` : ⛩
 * `names`
 * `regExp`
 
 
-# `Ω project`
+# `project`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PROJECT** is also known as :
+**Ω [id] project**, also known as :
 
 * [en] Project,
 * [fr] Projet.
@@ -1455,11 +1460,11 @@ A non-exhaustive list of its components :
 * `names`
 
 
-# `⁖ prop`
+# `prop`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PROP** is also known as :
+**⁖ [id] prop**, also known as :
 
 * [en] Property, Characteristics, Attribute,
 * [fr] Propriété, Caractéristque, Attribut.
@@ -1484,11 +1489,11 @@ or dynamically bound in `MOTIF.get()` method.
 * `names`
 
 
-# `⬙ readme`
+# `readme`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**README** is also known as :
+**⬙ [id] readme**, also known as :
 
 * [en] README,
 * [fr] README.
@@ -1519,11 +1524,11 @@ README is a component of [DOC](#-doc).
 * `_commands`
 
 
-# `⬥ readme-section`
+# `readme-section`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**SECTION** is also known as :
+**⬥ [id] readme-section**, also known as :
 
 * [en] Section,
 * [fr] Section.
@@ -1554,7 +1559,7 @@ In fact, README is the top-level SECTION.
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**ШRᛏGHN** is also known as :
+**[id] shrine**, also known as :
 
 * [en] Shrine,
 * [fr] Sanctuaire.
@@ -1573,11 +1578,11 @@ In fact, README is the top-level SECTION.
 * `regExp`
 
 
-# `Ѭ spec`
+# `spec`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**SPEC** is also known as :
+**Ѭ [id] spec**, also known as :
 
 * [en] Specification,
 * [fr] Spécification.
@@ -1608,7 +1613,7 @@ categories of specifications :
 
 ## Instances
 
-**Count : 7.**
+**Count : 8.**
 
 ### Matching mechanims
 
@@ -1620,17 +1625,18 @@ categories of specifications :
 * [`/motifs-js/index.spec.js`](/motifs-js/index.spec.js)
 * [`/motifs-js/_motifs/motif/init/init.spec.js`](/motifs-js/_motifs/motif/init/init.spec.js)
 * [`/motifs-js/_motifs/occurence/get/get.spec.js`](/motifs-js/_motifs/occurence/get/get.spec.js)
+* [`/motifs-js/_motifs/occurence/get/_utils/fixSlashFirst/fixSlashFirst.spec.js`](/motifs-js/_motifs/occurence/get/_utils/fixSlashFirst/fixSlashFirst.spec.js)
 * [`/motifs-js/_motifs/occurence/get/_utils/folderMatchFixRegExpEnd/folderMatchFixRegExpEnd.spec.js`](/motifs-js/_motifs/occurence/get/_utils/folderMatchFixRegExpEnd/folderMatchFixRegExpEnd.spec.js)
 * [`/motifs-js/_motifs/spec/runAll/_utils/specSectionResultCounter/specSectionResultCounter.spec.js`](/motifs-js/_motifs/spec/runAll/_utils/specSectionResultCounter/specSectionResultCounter.spec.js)
 * [`/motifs-js/_motifs/motif/_specis/motif.speci.js`](/motifs-js/_motifs/motif/_specis/motif.speci.js)
 * [`/motifs-js/_motifs/spec/_specis/spec.speci.js`](/motifs-js/_motifs/spec/_specis/spec.speci.js)
 
 
-# `Ѫ spec-section`
+# `spec-section`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**SPEC-SECTION** is also known as :
+**Ѫ [id] spec-section**, also known as :
 
 * [en] Specification section,
 * [fr] Section de specification.
@@ -1656,11 +1662,11 @@ ASSERTION nodes in SPEC files
 * `names`
 
 
-# `⬫ util`
+# `util`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**UTIL** is also known as :
+**⬫ [id] util**, also known as :
 
 * [en] Utility,
 * [fr] Utilitaire.
@@ -1693,7 +1699,7 @@ everywhere else in the code.
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**WAY** is also known as :
+**[id] way**, also known as :
 
 * [en] Method, Action, Operation, Function,
 * [fr] Méthode, Action, Opération, Fonction.
@@ -1721,7 +1727,7 @@ which is necessarely `function`.
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**WEBAPP** is also known as :
+**[id] webapp**, also known as :
 
 * [en] Web application,
 * [fr] Application web.
@@ -1742,11 +1748,11 @@ A webapp exposes MOTIFS and their operations
 * `names`
 
 
-# `Ʋ website`
+# `website`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**WEBSITE** is also known as :
+**Ʋ [id] website**, also known as :
 
 * [en] Website,
 * [fr] Site internet.
@@ -1786,7 +1792,7 @@ WEBSITE is a [DOC](#doc) component.
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**PAGE** is also known as :
+**[id] website-page**, also known as :
 
 * [en] Page, Website page,
 * [fr] Page, Page de site internet.
@@ -1817,7 +1823,7 @@ A page binds the following three elements :
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**WIKI** is also known as :
+**[id] wiki**, also known as :
 
 * [en] Wiki,
 * [fr] Wiki.
@@ -1841,7 +1847,7 @@ WIKI is a component of [DOC](#doc).
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**ARTICLE** is also known as :
+**[id] article**, also known as :
 
 * [en] Article,
 * [fr] Article.
@@ -1865,7 +1871,7 @@ with optional tags and meta-data.
 
 ## Instances
 
-**Count : 14.**
+**Count : 15.**
 
 ### Matching mechanims
 
@@ -1879,6 +1885,7 @@ with optional tags and meta-data.
 * [`_data/articles/12/12.article.js`](_data/articles/12/12.article.js)
 * [`_data/articles/13/13.article.js`](_data/articles/13/13.article.js)
 * [`_data/articles/14/14.article.js`](_data/articles/14/14.article.js)
+* [`_data/articles/15/15.article.js`](_data/articles/15/15.article.js)
 * [`_data/articles/2/2.article.js`](_data/articles/2/2.article.js)
 * [`_data/articles/3/3.article.js`](_data/articles/3/3.article.js)
 * [`_data/articles/4/4.article.js`](_data/articles/4/4.article.js)
@@ -1893,7 +1900,7 @@ with optional tags and meta-data.
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**NOTEBOOK** is also known as :
+**[id] notebook**, also known as :
 
 * [en] Notebook,
 * [fr] Carnet.
@@ -1939,7 +1946,7 @@ like [STORYBOARD](#storyboard).
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
 
-**STORYBOARD** is also known as :
+**[id] storyboard**, also known as :
 
 * [en] Storyboard,
 * [fr] Storyboard.
@@ -1987,3 +1994,103 @@ like [NOTEBOOK](#notebook).
 * [`_data/storyboards/hol-adin-des-zums-2020/hol-adin-des-zums-2020.storyboard.js`](_data/storyboards/hol-adin-des-zums-2020/hol-adin-des-zums-2020.storyboard.js)
 * [`_data/storyboards/psybok-vol0/psybok-vol0.storyboard.js`](_data/storyboards/psybok-vol0/psybok-vol0.storyboard.js)
 * [`_data/storyboards/psybok-vol1/psybok-vol1.storyboard.js`](_data/storyboards/psybok-vol1/psybok-vol1.storyboard.js)
+
+
+# `youtube-comment`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**[id] youtube-comment**, also known as :
+
+* [en] YouTube comment,
+* [fr] Commentaire YouTube.
+
+YOUTUBE-COMMENTS are retrieved from the
+`/comment_service_ajax` request on YouTube
+video page.
+
+This route returns a complex object that
+we will decode by developing a script to
+programmaticaly treat the response.
+
+## Data we'd like to store
+
+* A [comment] list
+* Each [comment] can have a [reply] list
+* [Comment] : 
+  * Author,
+  * Author "endpoint", its channel's URL,
+  * Text,
+  * Publication date
+
+There is some more information we'd like to
+extract in the future :
+* Like counts,
+* Dislike counts,
+* Did I liked it,
+* Did I loved it
+
+## Properties
+
+* `motif` : motif
+* `path` : /_motifs/youtube-comment/youtube-comment.motif.js
+* `id` : youtube-comment
+* `scope` : 
+* `folder` : youtube-comment
+* `filePath` : /_motifs/youtube-comment/youtube-comment.motif.js
+* `names`
+* `occurences`
+* `extract`
+
+## Instances
+
+**Count : 1.**
+
+### Matching mechanims
+
+* `/\/_data\/youtube-videos\/([\w|\-]*)\/([\w|\-]*).comments.js/`.
+
+### Instances list
+
+* [`/_data/youtube-videos/comment-faire-des-choses/comment-faire-des-choses-2.comments.js`](/_data/youtube-videos/comment-faire-des-choses/comment-faire-des-choses-2.comments.js)
+
+
+# `youtube-video`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**[id] youtube-video**, also known as :
+
+* [en] YouTube video,
+* [fr] Vidéo YouTube.
+
+A reference to a video from
+[my YouTube channel](https://www.youtube.com/channel/UCOLV7nm8pSSDWEzPRFogyTw/)
+
+The main goal right now it to agregates
+deleted videos comments to their remasterized
+version (RETRO project).
+
+## Properties
+
+* `motif` : motif
+* `path` : /_motifs/youtube-video/youtube-video.motif.js
+* `id` : youtube-video
+* `scope` : 
+* `folder` : youtube-video
+* `filePath` : /_motifs/youtube-video/youtube-video.motif.js
+* `names`
+* `occurences`
+* `get`
+
+## Instances
+
+**Count : 1.**
+
+### Matching mechanims
+
+* `/\/_data\/youtube-videos\/([\w|\-]*)/`.
+
+### Instances list
+
+* [`/_data/youtube-videos/comment-faire-des-choses`](/_data/youtube-videos/comment-faire-des-choses)

@@ -2,6 +2,7 @@ import layoutFragment from "../_fragments/layout/layout.fragment.js";
 import articlesListItemFragment from "../_fragments/articlesListItem/articlesListItem.fragment.js";
 import storyboardsListItemFragment from "../_fragments/storyboardsListItem/storyboardsListItem.fragment.js";
 import notebooksListItemFragment from "../_fragments/notebooksListItem/notebooksListItem.fragment.js";
+import videosListItemFragment from "../_fragments/videosListItem/videosListItem.fragment.js";
 
 export default data => layoutFragment(
   data,
@@ -61,6 +62,22 @@ export default data => layoutFragment(
         <li>
           <a href="https://poke-team.net"><b>POKÉ TEAM</b></a><span> : Choisissez votre version et composez votre équipe pour identifier ses forces et ses faiblesses.</span></li>
         <li><a href="https://permadata.net" disabled><b>PERMA-DATA</b></a><span> : Base-de-données ludique sur les plantes (désactivé pour rework éco).</span></li>
+      </ul>
+
+      <h2 class="mb-3">
+        <a href="/videos">
+          Vidéos</a>
+      </h2>
+      <ul class="list-unstyled">
+        ${
+          data.videos
+            .sort((a, b) => 
+            
+              new Date(b.date) - new Date(a.date))
+            .map(video =>
+              
+              videosListItemFragment({ video }))
+        }
       </ul>
 
       <h2 class="mb-3">

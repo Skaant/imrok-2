@@ -1,12 +1,12 @@
 {
   "name": "imrok-2",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "IMROK website's source code (built on `motifs-js` framework)",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js --experimental-modules",
-    "test": "npm start -- test",
+    "test": "npm start -- -log test",
     "readme": "npm start -- -k readme -force -log build",
     "website": "npm start -- -k website -force -log build default"
   },

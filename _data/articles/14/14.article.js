@@ -1,6 +1,6 @@
 export default {
   id: '14',
-  title: "Actus | motifs : le rework de kami.js en V1, YouTube RETRO et HIGHBS-BOK",
+  title: "Actus | motifs-js : le rework de kami.js en V1, YouTube RETRO et HIGHBS-BOK",
   date: "18/12/2020",
   tags: [ 'actus', 'dev', 'kamis.js', 'motifs-js', 'refactoring', 'patterns',
     'tests', 'highbs-bok.art' ],

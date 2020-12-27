@@ -1,5 +1,5 @@
 *[38 KAMIS](#kamis-glossary)
-on 12/26/2020, 10:29:35 AM*
+on 12/26/2020, 10:39:42 AM*
 
 # imrok-2
 
@@ -13,6 +13,7 @@ on 12/26/2020, 10:29:35 AM*
 
 ## MOTIFS' glossary
     
+* [`article`](#article) : Article
 * = [`assertion`](#assertion) : Assertion
 * ▥ [`book`](#book) : Book
 * [`book-extract`](#book-extract) : Extract, Fragment, Atom
@@ -31,6 +32,7 @@ on 12/26/2020, 10:29:35 AM*
 * ⧇ [`instance`](#instance) : Instance
 * ἀ [`lang`](#lang) : Language
 * ⚇ [`motif`](#motif) : Concept, Idea, Word, Pattern, Spirit, God, Angel, Deva
+* [`notebook`](#notebook) : Notebook
 * ʯ [`occurence`](#occurence) : Occurence
 * [`pantheon`](#pantheon) : Pantheon, Primordial shrine, Valhalla, Mount Olympus, Acropolis, Heaven
 * Ω [`project`](#project) : Project
@@ -40,17 +42,68 @@ on 12/26/2020, 10:29:35 AM*
 * [`shrine`](#shrine) : Shrine
 * Ѭ [`spec`](#spec) : Specification
 * Ѫ [`spec-section`](#spec-section) : Specification section
+* [`storyboard`](#storyboard) : Storyboard
 * ⬫ [`util`](#util) : Utility
 * [`way`](#way) : Method, Action, Operation, Function
 * [`webapp`](#webapp) : Web application
 * Ʋ [`website`](#website) : Website
 * [`website-page`](#website-page) : Page, Website page
 * [`wiki`](#wiki) : Wiki
-* [`article`](#article) : Article
-* [`notebook`](#notebook) : Notebook
-* [`storyboard`](#storyboard) : Storyboard
 * [`youtube-comment`](#youtube-comment) : YouTube comment
 * [`youtube-video`](#youtube-video) : YouTube video
+
+# `article`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**[id] article**, also known as :
+
+* [en] Article,
+* [fr] Article.
+
+**WEBSITE ARTICLE**
+
+An article is a titled and dated content,
+with optional tags and meta-data.
+
+## Properties
+
+* `motif` : motif
+* `path` : /_motifs/article/article.motif.js
+* `id` : article
+* `scope` : 
+* `folder` : article
+* `filePath` : /_motifs/article/article.motif.js
+* `names`
+* `occurences`
+* `get`
+
+## Instances
+
+**Count : 15.**
+
+### Matching mechanims
+
+* `/_data\/articles\/(.*)\/(.*).article.js/`.
+
+### Instances list
+
+* [`_data/articles/1/1.article.js`](_data/articles/1/1.article.js)
+* [`_data/articles/10/10.article.js`](_data/articles/10/10.article.js)
+* [`_data/articles/11/11.article.js`](_data/articles/11/11.article.js)
+* [`_data/articles/12/12.article.js`](_data/articles/12/12.article.js)
+* [`_data/articles/13/13.article.js`](_data/articles/13/13.article.js)
+* [`_data/articles/14/14.article.js`](_data/articles/14/14.article.js)
+* [`_data/articles/15/15.article.js`](_data/articles/15/15.article.js)
+* [`_data/articles/2/2.article.js`](_data/articles/2/2.article.js)
+* [`_data/articles/3/3.article.js`](_data/articles/3/3.article.js)
+* [`_data/articles/4/4.article.js`](_data/articles/4/4.article.js)
+* [`_data/articles/5/5.article.js`](_data/articles/5/5.article.js)
+* [`_data/articles/6/6.article.js`](_data/articles/6/6.article.js)
+* [`_data/articles/7/7.article.js`](_data/articles/7/7.article.js)
+* [`_data/articles/8/8.article.js`](_data/articles/8/8.article.js)
+* [`_data/articles/9/9.article.js`](_data/articles/9/9.article.js)
+
 
 # `assertion`
 
@@ -1347,6 +1400,52 @@ letting them freely **extend and implement** its
 highly abstract powers.
 
 
+# `notebook`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**[id] notebook**, also known as :
+
+* [en] Notebook,
+* [fr] Carnet.
+
+**A COLLECTION OF
+THOUGHTS AND SKETCHES**
+
+It is usually driven by [BOOK-EXTRACTS](#book-extract),
+eventually [BOOK-SECTIONS](#book-section),
+instead of [BOOK-PAGES](#book-pages)
+like [STORYBOARD](#storyboard).
+
+## Properties
+
+* `motif` : motif
+* `path` : /_motifs/notebook/notebook.motif.js
+* `id` : notebook
+* `scope` : 
+* `folder` : notebook
+* `filePath` : /_motifs/notebook/notebook.motif.js
+* `names`
+* `occurences`
+* `get`
+
+## Instances
+
+**Count : 5.**
+
+### Matching mechanims
+
+* `/_data\/notebooks\/(.*)\/(.*).notebook.js/`.
+
+### Instances list
+
+* [`_data/notebooks/pensees-1/pensees-1.notebook.js`](_data/notebooks/pensees-1/pensees-1.notebook.js)
+* [`_data/notebooks/pensees-12/pensees-12.notebook.js`](_data/notebooks/pensees-12/pensees-12.notebook.js)
+* [`_data/notebooks/pensees-2/pensees-2.notebook.js`](_data/notebooks/pensees-2/pensees-2.notebook.js)
+* [`_data/notebooks/pensees-7/pensees-7.notebook.js`](_data/notebooks/pensees-7/pensees-7.notebook.js)
+* [`_data/notebooks/pensees-9/pensees-9.notebook.js`](_data/notebooks/pensees-9/pensees-9.notebook.js)
+
+
 # `occurence`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
@@ -1662,6 +1761,60 @@ ASSERTION nodes in SPEC files
 * `names`
 
 
+# `storyboard`
+
+[*Return to MOTIFS' glossary.*](#motifs-glossary)
+
+**[id] storyboard**, also known as :
+
+* [en] Storyboard,
+* [fr] Storyboard.
+
+**A BOOK STORY DRAFT**
+
+It's a kind of preparatory work
+for book writing.
+
+It features a story
+or a composed set of poems,
+so it naturally implements [BOOK](#book).
+
+It is usually driven by [BOOK-SECTIONS](#book-section)
+and [BOOK-PAGES](#book-page),
+instead of directly [BOOK-EXTRACTS](#book-extract)
+like [NOTEBOOK](#notebook).
+
+## Properties
+
+* `motif` : motif
+* `path` : /_motifs/storyboard/storyboard.motif.js
+* `id` : storyboard
+* `scope` : 
+* `folder` : storyboard
+* `filePath` : /_motifs/storyboard/storyboard.motif.js
+* `names`
+* `occurences`
+* `get`
+
+## Instances
+
+**Count : 7.**
+
+### Matching mechanims
+
+* `/_data\/storyboards\/(.*)\/(.*).storyboard.js/`.
+
+### Instances list
+
+* [`_data/storyboards/absutrats-6-18/absutrats-6-18.storyboard.js`](_data/storyboards/absutrats-6-18/absutrats-6-18.storyboard.js)
+* [`_data/storyboards/absutrats-jeu/absutrats-jeu.storyboard.js`](_data/storyboards/absutrats-jeu/absutrats-jeu.storyboard.js)
+* [`_data/storyboards/absutrats-vol1-v2/absutrats-vol1-v2.storyboard.js`](_data/storyboards/absutrats-vol1-v2/absutrats-vol1-v2.storyboard.js)
+* [`_data/storyboards/highbs-bok/highbs-bok.storyboard.js`](_data/storyboards/highbs-bok/highbs-bok.storyboard.js)
+* [`_data/storyboards/hol-adin-des-zums-2020/hol-adin-des-zums-2020.storyboard.js`](_data/storyboards/hol-adin-des-zums-2020/hol-adin-des-zums-2020.storyboard.js)
+* [`_data/storyboards/psybok-vol0/psybok-vol0.storyboard.js`](_data/storyboards/psybok-vol0/psybok-vol0.storyboard.js)
+* [`_data/storyboards/psybok-vol1/psybok-vol1.storyboard.js`](_data/storyboards/psybok-vol1/psybok-vol1.storyboard.js)
+
+
 # `util`
 
 [*Return to MOTIFS' glossary.*](#motifs-glossary)
@@ -1841,159 +1994,6 @@ WIKI is a component of [DOC](#doc).
 * `folder` : wiki
 * `filePath` : /motifs-js/_motifs/wiki/wiki.motif.js
 * `names`
-
-
-# `article`
-
-[*Return to MOTIFS' glossary.*](#motifs-glossary)
-
-**[id] article**, also known as :
-
-* [en] Article,
-* [fr] Article.
-
-**WEBSITE ARTICLE**
-
-An article is a titled and dated content,
-with optional tags and meta-data.
-
-## Properties
-
-* `motif` : motif
-* `path` : /_motifs/article/article.motif.js
-* `id` : article
-* `scope` : 
-* `folder` : article
-* `filePath` : /_motifs/article/article.motif.js
-* `names`
-* `occurences`
-* `get`
-
-## Instances
-
-**Count : 15.**
-
-### Matching mechanims
-
-* `/_data\/articles\/(.*)\/(.*).article.js/`.
-
-### Instances list
-
-* [`_data/articles/1/1.article.js`](_data/articles/1/1.article.js)
-* [`_data/articles/10/10.article.js`](_data/articles/10/10.article.js)
-* [`_data/articles/11/11.article.js`](_data/articles/11/11.article.js)
-* [`_data/articles/12/12.article.js`](_data/articles/12/12.article.js)
-* [`_data/articles/13/13.article.js`](_data/articles/13/13.article.js)
-* [`_data/articles/14/14.article.js`](_data/articles/14/14.article.js)
-* [`_data/articles/15/15.article.js`](_data/articles/15/15.article.js)
-* [`_data/articles/2/2.article.js`](_data/articles/2/2.article.js)
-* [`_data/articles/3/3.article.js`](_data/articles/3/3.article.js)
-* [`_data/articles/4/4.article.js`](_data/articles/4/4.article.js)
-* [`_data/articles/5/5.article.js`](_data/articles/5/5.article.js)
-* [`_data/articles/6/6.article.js`](_data/articles/6/6.article.js)
-* [`_data/articles/7/7.article.js`](_data/articles/7/7.article.js)
-* [`_data/articles/8/8.article.js`](_data/articles/8/8.article.js)
-* [`_data/articles/9/9.article.js`](_data/articles/9/9.article.js)
-
-
-# `notebook`
-
-[*Return to MOTIFS' glossary.*](#motifs-glossary)
-
-**[id] notebook**, also known as :
-
-* [en] Notebook,
-* [fr] Carnet.
-
-**A COLLECTION OF
-THOUGHTS AND SKETCHES**
-
-It is usually driven by [BOOK-EXTRACTS](#book-extract),
-eventually [BOOK-SECTIONS](#book-section),
-instead of [BOOK-PAGES](#book-pages)
-like [STORYBOARD](#storyboard).
-
-## Properties
-
-* `motif` : motif
-* `path` : /_motifs/notebook/notebook.motif.js
-* `id` : notebook
-* `scope` : 
-* `folder` : notebook
-* `filePath` : /_motifs/notebook/notebook.motif.js
-* `names`
-* `occurences`
-* `get`
-
-## Instances
-
-**Count : 5.**
-
-### Matching mechanims
-
-* `/_data\/notebooks\/(.*)\/(.*).notebook.js/`.
-
-### Instances list
-
-* [`_data/notebooks/pensees-1/pensees-1.notebook.js`](_data/notebooks/pensees-1/pensees-1.notebook.js)
-* [`_data/notebooks/pensees-12/pensees-12.notebook.js`](_data/notebooks/pensees-12/pensees-12.notebook.js)
-* [`_data/notebooks/pensees-2/pensees-2.notebook.js`](_data/notebooks/pensees-2/pensees-2.notebook.js)
-* [`_data/notebooks/pensees-7/pensees-7.notebook.js`](_data/notebooks/pensees-7/pensees-7.notebook.js)
-* [`_data/notebooks/pensees-9/pensees-9.notebook.js`](_data/notebooks/pensees-9/pensees-9.notebook.js)
-
-
-# `storyboard`
-
-[*Return to MOTIFS' glossary.*](#motifs-glossary)
-
-**[id] storyboard**, also known as :
-
-* [en] Storyboard,
-* [fr] Storyboard.
-
-**A BOOK STORY DRAFT**
-
-It's a kind of preparatory work
-for book writing.
-
-It features a story
-or a composed set of poems,
-so it naturally implements [BOOK](#book).
-
-It is usually driven by [BOOK-SECTIONS](#book-section)
-and [BOOK-PAGES](#book-page),
-instead of directly [BOOK-EXTRACTS](#book-extract)
-like [NOTEBOOK](#notebook).
-
-## Properties
-
-* `motif` : motif
-* `path` : /_motifs/storyboard/storyboard.motif.js
-* `id` : storyboard
-* `scope` : 
-* `folder` : storyboard
-* `filePath` : /_motifs/storyboard/storyboard.motif.js
-* `names`
-* `occurences`
-* `get`
-
-## Instances
-
-**Count : 7.**
-
-### Matching mechanims
-
-* `/_data\/storyboards\/(.*)\/(.*).storyboard.js/`.
-
-### Instances list
-
-* [`_data/storyboards/absutrats-6-18/absutrats-6-18.storyboard.js`](_data/storyboards/absutrats-6-18/absutrats-6-18.storyboard.js)
-* [`_data/storyboards/absutrats-jeu/absutrats-jeu.storyboard.js`](_data/storyboards/absutrats-jeu/absutrats-jeu.storyboard.js)
-* [`_data/storyboards/absutrats-vol1-v2/absutrats-vol1-v2.storyboard.js`](_data/storyboards/absutrats-vol1-v2/absutrats-vol1-v2.storyboard.js)
-* [`_data/storyboards/highbs-bok/highbs-bok.storyboard.js`](_data/storyboards/highbs-bok/highbs-bok.storyboard.js)
-* [`_data/storyboards/hol-adin-des-zums-2020/hol-adin-des-zums-2020.storyboard.js`](_data/storyboards/hol-adin-des-zums-2020/hol-adin-des-zums-2020.storyboard.js)
-* [`_data/storyboards/psybok-vol0/psybok-vol0.storyboard.js`](_data/storyboards/psybok-vol0/psybok-vol0.storyboard.js)
-* [`_data/storyboards/psybok-vol1/psybok-vol1.storyboard.js`](_data/storyboards/psybok-vol1/psybok-vol1.storyboard.js)
 
 
 # `youtube-comment`

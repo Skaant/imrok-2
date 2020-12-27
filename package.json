@@ -8,7 +8,8 @@
     "start": "node index.js --experimental-modules",
     "test": "npm start -- -log test",
     "readme": "npm start -- -k readme -force -log build",
-    "website": "npm start -- -k website -force -log build default"
+    "website": "npm start -- -k website -force -log build default",
+    "serve": "npm start -- -k website -log serve default"
   },
   "keywords": [
     "site",

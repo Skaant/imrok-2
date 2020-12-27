@@ -16,6 +16,23 @@ export default data => layoutFragment(
         data.video.comments
           && data.video.comments.length
           && `
+      <h2>Données historisées*</h2>
+      <dl class="row">
+        <div class="col-12 col-md-4">
+          <dt>Nombre de vues</dt>
+          <dd>${ data.video.inherited.views }</dd>
+        </div>
+        <div class="col-12 col-md-4">
+          <dt>J'aime / j'aime pas</dt>
+          <dd>
+            ${ data.video.inherited.likes }
+            / ${ data.video.inherited.dislikes }</dd>
+        </div>
+        <div class="col-12 col-md-4">
+          <dt>Date de publication</dt>
+          <dd>${ data.video.inherited.date }</dd>
+        </div>
+      </dl>
       <h2>Commentaires historisés*</h2>
       <ul>
         ${
@@ -43,7 +60,7 @@ export default data => layoutFragment(
             .join('\n')
         }
       </ul>
-      <p class="mt-5"><i>* Commentaires issus de la version
+      <p class="mt-5"><i>* Données et commentaires issus de la version
         précédente de la vidéo</i></p>
 `
       }

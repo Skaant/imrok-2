@@ -1,4 +1,4 @@
-import ARTICLE from "../../../../_motifs/article/article.motif.js";
+import ARTICLE from "../../../../motifs-js/_motifs/article/article.motif.js";
 import STORYBOARD from "../../../../_motifs/storyboard/storyboard.motif.js";
 import NOTEBOOK from "../../../../_motifs/notebook/notebook.motif.js";
 import YOUTUBE_VIDEO from "../../../../_motifs/youtube-video/youtube-video.motif.js";

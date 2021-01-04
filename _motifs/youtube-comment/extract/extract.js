@@ -1,5 +1,5 @@
-import formatEnum from '../../../motifs-js/_motifs/get/_enums/format/format.enum.js'
-import instanceMotif from '../../../motifs-js/_motifs/instance/instance.motif.js'
+import formatEnum from 'motifs-js/_motifs/get/_enums/format/format.enum.js'
+import instanceMotif from 'motifs-js/_motifs/instance/instance.motif.js'
 import youtubeCommentMotif from '../youtube-comment.motif.js'
 import { EXTRACT_ERROR_NO_SCOPE } from './extract.errors.js'
 import commentRFormatterUtil from './_utils/commentRFormatter/commentRFormatter.util.js'

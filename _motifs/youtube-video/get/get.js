@@ -1,6 +1,6 @@
-import fileMotif from "../../../motifs-js/_motifs/file/file.motif.js";
-import formatEnum from "../../../motifs-js/_motifs/get/_enums/format/format.enum.js";
-import INSTANCE from "../../../motifs-js/_motifs/instance/instance.motif.js";
+import fileMotif from "motifs-js/_motifs/file/file.motif.js";
+import formatEnum from "motifs-js/_motifs/get/_enums/format/format.enum.js";
+import INSTANCE from "motifs-js/_motifs/instance/instance.motif.js";
 import YOUTUBE_COMMENT from "../../youtube-comment/youtube-comment.motif.js";
 import YOUTUBE_VIDEO from "../youtube-video.motif.js";
 

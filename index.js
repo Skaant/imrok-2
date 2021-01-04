@@ -1,4 +1,4 @@
-import motifJs from './motifs-js/index.js'
+import motifJs from 'motifs-js'
 
 const MOTIF = motifJs(import.meta.url, { log: true })
 

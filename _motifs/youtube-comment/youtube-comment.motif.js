@@ -1,4 +1,4 @@
-import occurenceLevelEnum from '../../motifs-js/_motifs/occurence/_enums/level/occurence.level.enum.js'
+import occurenceLevelEnum from 'motifs-js/_motifs/occurence/_enums/level/occurence.level.enum.js'
 import extract from './extract/extract.js'
 import namesProp from './_props/names/names.prop.js'
 

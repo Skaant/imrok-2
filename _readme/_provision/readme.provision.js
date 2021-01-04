@@ -1,4 +1,4 @@
-import MOTIF from '../../motifs-js/_motifs/motif/motif.motif.js'
+import MOTIF from 'motifs-js/_motifs/motif/motif.motif.js'
 
 export default () =>
 

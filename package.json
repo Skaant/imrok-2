@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "motifs-js": "^0.3.0"
+    "motifs-js": "^0.3.2"
   }
 }

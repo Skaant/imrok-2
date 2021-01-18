@@ -9,7 +9,6 @@ import storyboardPageTemplate from '../../../_templates/storyboardPage/storyboar
 import notebooksListTemplate from '../../../_templates/notebooksList/notebooksList.template.js'
 import notebookTemplate from '../../../_templates/notebook/notebook.template.js'
 import notebookExtractTemplate from '../../../_templates/notebookExtract/notebookExtract.template.js'
-import BOOK_IMAGE from 'motifs-js/_motifs/book-image/book-image.motif.js'
 import legalsTemplate from '../../../_templates/legals/legals.template.js'
 import videosListTemplate from '../../../_templates/videosList/videosList.template.js'
 import videoTemplate from '../../../_templates/video/video.template.js'

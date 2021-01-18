@@ -5,7 +5,7 @@ export default (
     description,
     content
   }) => `<!DOCTYPE html>
-<html lang=${ data.lang }>
+<html lang=${ data.lang.toLowerCase() }>
   <head>
     <meta charset="utf-8">
     <meta name="description" content="${ description }">

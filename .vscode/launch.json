@@ -14,8 +14,11 @@
       "program": "${workspaceFolder}\\index.js",
       "args": [
         "--",
+        "-k",
+        "website",
         "-log",
-        "test"
+        "build",
+        "default"
       ]
     }
   ]

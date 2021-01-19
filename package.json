@@ -26,11 +26,11 @@
   "license": "ISC",
   "devDependencies": {
     "jsontoxml": "^1.0.1",
+    "motifs-js": "^0.4.1",
     "pug": "^3.0.0",
     "showdown": "^1.9.1"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "motifs-js": "^0.4.0"
+    "express": "^4.17.1"
   }
 }

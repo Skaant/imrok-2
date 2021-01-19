@@ -73,7 +73,8 @@ export default (
                   page: {
                     ..._page,
                     index: index + 1
-                  }
+                  },
+                  images: _page.images
                 },
               )
             }),
@@ -111,7 +112,8 @@ export default (
                   extract: {
                     ...extract,
                     index
-                  }
+                  },
+                  images: extract.images
                 }
               )
             }),

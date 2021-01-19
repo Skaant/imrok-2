@@ -35,7 +35,8 @@ export default data => layoutFragment(
             data.articles.length - 5,
             data.articles.length
           )
-            .reverse()
+            .sort((a, b) =>
+              parseInt(b.id) - parseInt(a.id))
             .map((article, index) =>
             
               articlesListItemFragment({

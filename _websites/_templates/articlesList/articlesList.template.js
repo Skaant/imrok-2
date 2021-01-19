@@ -18,8 +18,9 @@ export default data => layoutFragment(
         D'un site, d'un projet, d'une idée.</p>
         <ul class="list-unstyled">
         ${
-          data.articles.slice()
-            .reverse()
+          data.articles
+            .sort((a, b) =>
+              parseInt(b.id) - parseInt(a.id))
             .map((article, index) =>
             
               articlesListItemFragment({

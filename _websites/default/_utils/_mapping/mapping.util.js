@@ -31,16 +31,17 @@ export default (
       data
     ),
     ...data.articles.reduce(
-      (acc, article, index) => ({
+      (acc, article) => ({
         ...acc,
-        [index + 1]: page.shape(
+        [article.id]: page.shape(
           articleTemplate,
           {
             ...data,
             article: {
-              index: index + 1,
+              index: parseInt(article.id),
               ...article
-            }
+            },
+            images: article.images
           }
         )
       }),

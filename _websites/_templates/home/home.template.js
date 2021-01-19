@@ -31,11 +31,10 @@ export default data => layoutFragment(
       </h2>
       <ul class="list-unstyled">
         ${
-          data.articles.slice(
-            data.articles.length - 5,
-            data.articles.length
-          )
-            .reverse()
+          data.articles
+            .sort((a, b) =>
+              parseInt(b.id) - parseInt(a.id))
+            .slice(0, 5)
             .map((article, index) =>
             
               articlesListItemFragment({

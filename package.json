@@ -7,9 +7,9 @@
   "scripts": {
     "start": "node index.js --experimental-modules",
     "test": "npm start -- -log test",
-    "readme": "npm start -- -k readme -force -log build",
-    "website": "npm start -- -k website -force -log build default",
-    "serve": "npm start -- -k website -log serve default"
+    "readme": "npm start -- -m readme -force -log build",
+    "website": "npm start -- -m website -force -log build default",
+    "serve": "npm start -- -m website -log serve default"
   },
   "keywords": [
     "site",
@@ -25,10 +25,12 @@
   "author": "imrok",
   "license": "ISC",
   "devDependencies": {
+    "jsontoxml": "^1.0.1",
+    "motifs-js": "^0.4.1",
+    "pug": "^3.0.0",
     "showdown": "^1.9.1"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "motifs-js": "^0.3.0"
+    "express": "^4.17.1"
   }
 }

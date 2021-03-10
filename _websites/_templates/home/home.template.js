@@ -22,7 +22,9 @@ export default data => layoutFragment(
         Je m'appelle Romaric Ruga, vous êtes sur mon site créatif.</p>
       <p class="mt-4">
         <i>Pour le freelance dévelopement web, rendez-vous sur
-          <a href="https://www.malt.fr/profile/romaricruga">
+          mon site <a href="https://rimarok.com">
+            Rimarok, ingénierie web et éco-conception</a>
+          ou sur <a href="https://www.malt.fr/profile/romaricruga">
             ma page Malt !</a></i></p>
       
       <h2 class="mb-3">

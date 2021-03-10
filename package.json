@@ -26,8 +26,8 @@
   "license": "ISC",
   "devDependencies": {
     "jsontoxml": "^1.0.1",
-    "motifs-js": "^0.4.1",
-    "pug": "^3.0.0",
+    "motifs-js": "^0.4.5",
+    "pug": "^3.0.2",
     "showdown": "^1.9.1"
   },
   "dependencies": {
